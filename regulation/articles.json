@@ -1,0 +1,5130 @@
+[
+ {
+  "article": 1,
+  "label": "MADDE 1",
+  "title": "Amaç",
+  "page": 1,
+  "section": "BİRİNCİ BÖLÜM - Amaç, Kapsam, Dayanak ve Tanımlar",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bu Yönetmeliğin amacı; Kayseri Büyükşehir Belediyesi sınırları içerisinde plan, fen, sağlık ve sürdürülebilir çevre şartlarına uygun yapı ve yapılaşma ile projelendirmeye ve denetime ilişkin usul ve esasları belirlemektir.",
+    "page": 1,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Kayseri Büyükşehir"
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "type": "added",
+    "text": "Kayseri Büyükşehir"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 2,
+  "label": "MADDE 2",
+  "title": "Kapsam",
+  "page": 1,
+  "section": "BİRİNCİ BÖLÜM - Amaç, Kapsam, Dayanak ve Tanımlar",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bu Yönetmelik, uygulama imar planı bulunan alanları kapsar.",
+    "page": 1,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 3,
+  "label": "MADDE 3",
+  "title": "Dayanak",
+  "page": 1,
+  "section": "BİRİNCİ BÖLÜM - Amaç, Kapsam, Dayanak ve Tanımlar",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bu Yönetmelik, 3/5/1985 tarihli ve 3194 sayılı İmar Kanunu, 10.07.2018 tarihli ve 30474 sayılı Resmi Gazete’de yayımlanan 1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesinin Altıncı Kısım Dördüncü Bölüm hükümleri ile 3/7/2017 tarihli ve 30113 sayılı Resmi Gazete’de yayımlanan Planlı Alanlar İmar Yönetmeliği’nin 69 uncu maddesindeki hükümlerine dayanılarak hazırlanmıştır.",
+    "page": 1,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 4,
+  "label": "MADDE 4",
+  "title": "Tanımlar",
+  "page": 1,
+  "section": "BİRİNCİ BÖLÜM - Amaç, Kapsam, Dayanak ve Tanımlar",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Planlı Alanlar İmar Yönetmeliğinin 4 üncü maddesinin birinci fıkrasında yer alan tanımların yanı sıra bu Yönetmelikte geçen;",
+    "tail": "ifade eder.",
+    "page": 1,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Asansör tescil belgesi: İlgili idare tarafından yapı kullanma izin belgesi öncesi düzenlenen ve asansörün kayıt altına alındığını gösteren belgeyi,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Asansör tescil belgesi: İlgili idare tarafından yapı kullanma izin belgesi öncesi düzenlenen ve asansörün kayıt altına alındığını gösteren belgeyi,"
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Bağ ve Sayfiye Evi Alanları: Seyrek yoğunluklu alanlarda, müstakil tek bağımsız bölümlerden oluşan, en çok iki katlı ve yapılaşma şartları imar planı ve plan notunda belirlenmiş konut bölgelerini,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Bağ ve Sayfiye Evi Alanları: Seyrek yoğunluklu alanlarda, müstakil tek bağımsız bölümlerden oluşan, en çok iki katlı ve yapılaşma şartları imar planı ve plan notunda belirlenmiş konut bölgelerini,"
+       }
+      ]
+     },
+     {
+      "key": "c",
+      "text": "Bahçe Duvarı: Parsel sınırlarında, kendi sınırı içerisinde veya ortak duvar olarak korunma ve gizleme amacı ile yapılan bahçe sınırlayıcılarını,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Bahçe Duvarı: Parsel sınırlarında, kendi sınırı içerisinde veya ortak duvar olarak korunma ve gizleme amacı ile yapılan bahçe sınırlayıcılarını,"
+       }
+      ]
+     },
+     {
+      "key": "ç",
+      "text": "Büyükşehir Belediyesi: Kayseri Büyükşehir Belediyesini,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Büyükşehir Belediyesi: Kayseri Büyükşehir Belediyesini,"
+       }
+      ]
+     },
+     {
+      "key": "d",
+      "text": "Depolama alanları: İmar planlarında her türlü açık ve kapalı depolama alanları, yükleme-boşaltma-nakliye tesisleri ile depolama tesislerine ayrılmış alanları,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Depolama alanları: İmar planlarında her türlü açık ve kapalı depolama alanları, yükleme-boşaltma-nakliye tesisleri ile depolama tesislerine ayrılmış alanları,"
+       }
+      ]
+     },
+     {
+      "key": "e",
+      "text": "İskele izin belgesi: İskele kurmayı gerektiren basit tamir ve tadilatlarda ilgili idareden alınması zorunlu izin belgesini,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "İskele izin belgesi: İskele kurmayı gerektiren basit tamir ve tadilatlarda ilgili idareden alınması zorunlu izin belgesini,"
+       }
+      ]
+     },
+     {
+      "key": "f",
+      "text": "İstinat duvarı: Yol ve bitişik arsa kotlarını da göz önünde bulundurarak, vaziyet planına işlenen, zemin çivili, ankrajlı, kazıklı, keson (derin) kuyulu ve kademeli ve benzeri şeklinde uygulamaları olan, farklı düzeydeki zeminlerde oluşan zemin etkilerini güvenlikle karşılamada, zemini tabii şev açısından daha dik tutmak amacı ile inşa edilen, düşey veya düşeye yakın duvarı,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "İstinat duvarı: Yol ve bitişik arsa kotlarını da göz önünde bulundurarak, vaziyet planına işlenen, zemin çivili, ankrajlı, kazıklı, keson (derin) kuyulu ve kademeli ve benzeri şeklinde uygulamaları olan, farklı düzeydeki zeminlerde oluşan zemin etkilerini güvenlikle karşılamada, zemini tabii şev açısından daha dik tutmak amacı ile inşa edilen, düşey veya düşeye yakın duvarı,"
+       }
+      ]
+     },
+     {
+      "key": "g",
+      "text": "Kanal kotu tutanağı Pis su ve temiz su tesisatının şehir şebeke suyu ve kanalizasyon ile bağlantısının nasıl kurulacağını belirten, KASKİ tarafından onaylanmış proje veya raporu,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Kanal kotu tutanağı Pis su ve temiz su tesisatının şehir şebeke suyu ve kanalizasyon ile bağlantısının nasıl kurulacağını belirten, KASKİ tarafından onaylanmış proje veya raporu,"
+       }
+      ]
+     },
+     {
+      "key": "ğ",
+      "text": "Kentsel servis alanları: 1/10/2017 tarihinden önceki mevcut İmar planlarında kentin tanımlanmış yön ve bölgelerinde, bölgesel ihtiyacı karşılamak üzere belirlenmiş, büro, iş hanı, lokanta, çarşı, çok katlı mağaza, banka, otel, sinema, tiyatro gibi sosyal kültürel tesisler, yönetimle ilgili tesisler, ilgili kurumlardan uygun görüş alınmak kaydıyla özel/resmi eğitim, sağlık ve benzeri tesislerin yapılabildiği alanları,",
+      "page": 1,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Kentsel servis alanları: 1/10/2017 tarihinden önceki mevcut İmar planlarında kentin tanımlanmış yön ve bölgelerinde, bölgesel ihtiyacı karşılamak üzere belirlenmiş, büro, iş hanı, lokanta, çarşı, çok katlı mağaza, banka, otel, sinema, tiyatro gibi sosyal kültürel tesisler, yönetimle ilgili tesisler, ilgili kurumlardan uygun görüş alınmak kaydıyla özel/resmi eğitim, sağlık ve benzeri tesislerin yapılabildiği alanları,"
+       }
+      ]
+     },
+     {
+      "key": "h",
+      "text": "Oto Yıkama Yerleri Akaryakıt ve/veya servis istasyonları ile fiilen sadece ticaret olarak kullanılan alanlarda, kentsel servis alanlarında, konut dışı kentsel çalışma alanlarında, sanayi ve küçük sanayi alanlarında KASKİ Genel Müdürlüğü’nden görüş alınarak yapılan oto yıkama yerlerini,",
+      "page": 2,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Oto Yıkama Yerleri Akaryakıt ve/veya servis istasyonları ile fiilen sadece ticaret olarak kullanılan alanlarda, kentsel servis alanlarında, konut dışı kentsel çalışma alanlarında, sanayi ve küçük sanayi alanlarında KASKİ Genel Müdürlüğü’nden görüş alınarak yapılan oto yıkama yerlerini,"
+       }
+      ]
+     },
+     {
+      "key": "ı",
+      "text": "Sosyal ve kültürel tesisler alanı: Toplumun kültürel faaliyetlerine yönelik hizmet vermek üzere kütüphane, halk eğitim merkezi, sergi salonu, sanat galerisi, müze, konser, konferans, kongre salonları, sinema, tiyatro ve opera gibi fonksiyonlar ile sosyal yaşamın niteliğini ve düzeyini artırmak amacı ile toplumun faydalanacağı kreş, kurs, yurt, çocuk yuvası, yetiştirme yurdu, yaşlı ve engelli bakımevi, rehabilitasyon merkezi, toplum merkezi, şefkat evleri gibi fonksiyonlarda hizmet vermek üzere ayrılan kamu veya özel mülkiyetteki alanlarını,",
+      "page": 2,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Sosyal ve kültürel tesisler alanı: Toplumun kültürel faaliyetlerine yönelik hizmet vermek üzere kütüphane, halk eğitim merkezi, sergi salonu, sanat galerisi, müze, konser, konferans, kongre salonları, sinema, tiyatro ve opera gibi fonksiyonlar ile sosyal yaşamın niteliğini ve düzeyini artırmak amacı ile toplumun faydalanacağı kreş, kurs, yurt, çocuk yuvası, yetiştirme yurdu, yaşlı ve engelli bakımevi, rehabilitasyon merkezi, toplum merkezi, şefkat evleri gibi fonksiyonlarda hizmet vermek üzere ayrılan kamu veya özel mülkiyetteki alanlarını,"
+       }
+      ]
+     },
+     {
+      "key": "i",
+      "text": "Süs havuzu: Derinliği 0.50 metreyi geçmeyen ve peyzaj öğesi olarak kullanılan havuzları,",
+      "page": 2,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Süs havuzu: Derinliği 0.50 metreyi geçmeyen ve peyzaj öğesi olarak kullanılan havuzları,"
+       }
+      ]
+     },
+     {
+      "key": "j",
+      "text": "Yeşil çatı: Binanın enerji performansını, hava kalitesini ve kent ekolojisini iyileştiren, yağmur suyunun yarattığı problemlere yenilikçi çözümler getiren, çim serilip, çiçeklerle yeşillendirilebilen, küçük bitkilerle donatılabilen çatıları,",
+      "page": 2,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Yeşil çatı: Binanın enerji performansını, hava kalitesini ve kent ekolojisini iyileştiren, yağmur suyunun yarattığı problemlere yenilikçi çözümler getiren, çim serilip, çiçeklerle yeşillendirilebilen, küçük bitkilerle donatılabilen çatıları,"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "item": "a",
+    "type": "added",
+    "text": "Asansör tescil belgesi: İlgili idare tarafından yapı kullanma izin belgesi öncesi düzenlenen ve asansörün kayıt altına alındığını gösteren belgeyi,"
+   },
+   {
+    "para": "1",
+    "item": "b",
+    "type": "added",
+    "text": "Bağ ve Sayfiye Evi Alanları: Seyrek yoğunluklu alanlarda, müstakil tek bağımsız bölümlerden oluşan, en çok iki katlı ve yapılaşma şartları imar planı ve plan notunda belirlenmiş konut bölgelerini,"
+   },
+   {
+    "para": "1",
+    "item": "c",
+    "type": "added",
+    "text": "Bahçe Duvarı: Parsel sınırlarında, kendi sınırı içerisinde veya ortak duvar olarak korunma ve gizleme amacı ile yapılan bahçe sınırlayıcılarını,"
+   },
+   {
+    "para": "1",
+    "item": "ç",
+    "type": "added",
+    "text": "Büyükşehir Belediyesi: Kayseri Büyükşehir Belediyesini,"
+   },
+   {
+    "para": "1",
+    "item": "d",
+    "type": "added",
+    "text": "Depolama alanları: İmar planlarında her türlü açık ve kapalı depolama alanları, yükleme-boşaltma-nakliye tesisleri ile depolama tesislerine ayrılmış alanları,"
+   },
+   {
+    "para": "1",
+    "item": "e",
+    "type": "added",
+    "text": "İskele izin belgesi: İskele kurmayı gerektiren basit tamir ve tadilatlarda ilgili idareden alınması zorunlu izin belgesini,"
+   },
+   {
+    "para": "1",
+    "item": "f",
+    "type": "added",
+    "text": "İstinat duvarı: Yol ve bitişik arsa kotlarını da göz önünde bulundurarak, vaziyet planına işlenen, zemin çivili, ankrajlı, kazıklı, keson (derin) kuyulu ve kademeli ve benzeri şeklinde uygulamaları olan, farklı düzeydeki zeminlerde oluşan zemin etkilerini güvenlikle karşılamada, zemini tabii şev açısından daha dik tutmak amacı ile inşa edilen, düşey veya düşeye yakın duvarı,"
+   },
+   {
+    "para": "1",
+    "item": "g",
+    "type": "added",
+    "text": "Kanal kotu tutanağı Pis su ve temiz su tesisatının şehir şebeke suyu ve kanalizasyon ile bağlantısının nasıl kurulacağını belirten, KASKİ tarafından onaylanmış proje veya raporu,"
+   },
+   {
+    "para": "1",
+    "item": "ğ",
+    "type": "added",
+    "text": "Kentsel servis alanları: 1/10/2017 tarihinden önceki mevcut İmar planlarında kentin tanımlanmış yön ve bölgelerinde, bölgesel ihtiyacı karşılamak üzere belirlenmiş, büro, iş hanı, lokanta, çarşı, çok katlı mağaza, banka, otel, sinema, tiyatro gibi sosyal kültürel tesisler, yönetimle ilgili tesisler, ilgili kurumlardan uygun görüş alınmak kaydıyla özel/resmi eğitim, sağlık ve benzeri tesislerin yapılabildiği alanları,"
+   },
+   {
+    "para": "1",
+    "item": "h",
+    "type": "added",
+    "text": "Oto Yıkama Yerleri Akaryakıt ve/veya servis istasyonları ile fiilen sadece ticaret olarak kullanılan alanlarda, kentsel servis alanlarında, konut dışı kentsel çalışma alanlarında, sanayi ve küçük sanayi alanlarında KASKİ Genel Müdürlüğü’nden görüş alınarak yapılan oto yıkama yerlerini,"
+   },
+   {
+    "para": "1",
+    "item": "ı",
+    "type": "added",
+    "text": "Sosyal ve kültürel tesisler alanı: Toplumun kültürel faaliyetlerine yönelik hizmet vermek üzere kütüphane, halk eğitim merkezi, sergi salonu, sanat galerisi, müze, konser, konferans, kongre salonları, sinema, tiyatro ve opera gibi fonksiyonlar ile sosyal yaşamın niteliğini ve düzeyini artırmak amacı ile toplumun faydalanacağı kreş, kurs, yurt, çocuk yuvası, yetiştirme yurdu, yaşlı ve engelli bakımevi, rehabilitasyon merkezi, toplum merkezi, şefkat evleri gibi fonksiyonlarda hizmet vermek üzere ayrılan kamu veya özel mülkiyetteki alanlarını,"
+   },
+   {
+    "para": "1",
+    "item": "i",
+    "type": "added",
+    "text": "Süs havuzu: Derinliği 0.50 metreyi geçmeyen ve peyzaj öğesi olarak kullanılan havuzları,"
+   },
+   {
+    "para": "1",
+    "item": "j",
+    "type": "added",
+    "text": "Yeşil çatı: Binanın enerji performansını, hava kalitesini ve kent ekolojisini iyileştiren, yağmur suyunun yarattığı problemlere yenilikçi çözümler getiren, çim serilip, çiçeklerle yeşillendirilebilen, küçük bitkilerle donatılabilen çatıları,"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 5,
+  "label": "MADDE 5",
+  "title": "Genel ilkeler",
+  "page": 2,
+  "section": "İKİNCİ BÖLÜM - Genel İlkeler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Genel ilkelere yönelik olarak Planlı Alanlar İmar Yönetmeliğinin 5 inci maddesine uyulur.",
+    "page": 2,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 6,
+  "label": "MADDE 6",
+  "title": "Parsel büyüklükleri",
+  "page": 2,
+  "section": "ÜÇÜNCÜ BÖLÜM - Arsalara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "İmar planında gösterilen çeşitli bölgelerde imar planı ile getirilmiş farklı hükümler yoksa yapılacak ifrazlarda, elde edilecek yeni parsellerin asgari ölçüleri; arazi meyili, yol durumu, mevcut yapılar ve benzeri gibi mevkiin özellikleri ile bu parsellerde yapılması mümkün olan yapıların ölçüleri ve yöresel ihtiyaçları da göz önünde tutularak tespit olunur. Bu tespit sırasında ikinci, üçüncü ve dördüncü fıkralarda belirtilen şartlar ihlâl edilemez.",
+    "page": 2,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Parsel genişlikleri;",
+    "page": 2,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Konut ve ticaret bölgelerinde:",
+      "page": 2,
+      "status": "amended",
+      "revisions": [],
+      "items": [
+       {
+        "key": "1",
+        "text": "4 kata kadar (4 kat dâhil) inşaata müsait yerlerde: Bitişik nizamda: 6.00 metreden, Blok başlarında: Yan bahçe mesafesi 6.00 metreden, Ayrık nizamda: Yan bahçe mesafeleri toplamı + (6.00) metreden, az olamaz.",
+        "page": 2,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "6 kata kadar (6 kat dâhil) inşaata müsait yerlerde: Bitişik nizamda: 8.00 metreden, Blok başlarında: Yan bahçe mesafesi + 8.00 metreden, Ayrık nizamda: Yan bahçe mesafeleri toplamı + 8.00 metreden az olamaz.",
+        "page": 2,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "6 kata kadar (6 kat dâhil) inşaata müsait yerlerde: Bitişik nizamda: 8.00 metreden, Blok başlarında: Yan bahçe mesafesi + 8.00 metreden, Ayrık nizamda: Yan bahçe mesafeleri toplamı + 8.00 metreden az olamaz."
+         }
+        ]
+       },
+       {
+        "key": "3",
+        "text": "9 kata kadar (9 kat dâhil) inşaata müsait yerlerde: Bitişik nizamda: (9.00) metreden, Blok başlarında: Yan bahçe mesafeleri toplamı + (9.00) metreden, Ayrık nizamda: Yan bahçe mesafeleri toplamı + (9.00) metreden, az olamaz.",
+        "page": 2,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "4",
+        "text": "10 veya daha fazla katlı inşaata müsait yerlerde: Bitişik nizamda: (12.00) metreden, Blok başlarında: Yan bahçe mesafesi + (12.00) metreden, Ayrık nizamda: Yan bahçe mesafeleri toplamı + (12.00) metreden, az olamaz.",
+        "page": 2,
+        "status": "kept",
+        "revisions": []
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Yalnız 1 katlı dükkân yapılacak ticaret ve küçük sanayi bölgelerinde:",
+      "page": 3,
+      "status": "kept",
+      "revisions": [],
+      "items": [
+       {
+        "key": "1",
+        "text": "Bitişik nizamda: (5.00) metreden,",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "Blok başlarında: Yan bahçe mesafesi + (5.00) metreden,",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "3",
+        "text": "Ayrık nizamda: Yan bahçe mesafeleri toplamı + (5.00) metreden, az olamaz.",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       }
+      ]
+     },
+     {
+      "key": "c",
+      "text": "Sanayi bölgelerinde, 30.00 metreden az olamaz.",
+      "page": 3,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Akaryakıt istasyonlarında 40.00 metreden az olamaz.",
+      "page": 3,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Konut dışı kentsel çalışma alanlarında kentsel servis alanlarında 30.00 metreden az olamaz.",
+      "page": 3,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "kentsel servis alanlarında 30.00"
+       },
+       {
+        "type": "deleted",
+        "text": "40.00"
+       }
+      ]
+     },
+     {
+      "key": "e",
+      "text": "Bu fıkradaki ölçülerin tespitinde, köşe başına rastlayan parsellerde yol tarafındaki yan bahçe yerine, o yol için tayin edilmiş ön bahçe mesafesi alınır.",
+      "page": 3,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "3",
+    "text": "Parsel derinlikleri:",
+    "page": 3,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Konut ve ticaret bölgelerinde:",
+      "page": 3,
+      "status": "kept",
+      "revisions": [],
+      "items": [
+       {
+        "key": "1",
+        "text": "Ön bahçesiz nizamda: (13.00) metreden,",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "Ön bahçeli nizamda: Ön bahçe mesafesi + (13.00) metreden, az olamaz.",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Ticaret bölgelerinde (Yalnız 1 katlı dükkân yapılması halinde):",
+      "page": 3,
+      "status": "kept",
+      "revisions": [],
+      "items": [
+       {
+        "key": "1",
+        "text": "Ön bahçesiz nizamda: (5.00) metreden,",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "Ön bahçeli nizamda: Ön bahçe mesafesi + (5.00) metreden, az olamaz.",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       }
+      ]
+     },
+     {
+      "key": "c",
+      "text": "Küçük sanayi bölgelerinde:",
+      "page": 3,
+      "status": "kept",
+      "revisions": [],
+      "items": [
+       {
+        "key": "1",
+        "text": "Ön bahçesiz nizamda: (6.00) metreden,",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "Ön bahçeli nizamda: Ön bahçe mesafesi + (6.00) metreden, az olamaz.",
+        "page": 3,
+        "status": "kept",
+        "revisions": []
+       }
+      ]
+     },
+     {
+      "key": "ç",
+      "text": "Sanayi bölgelerinde, 30.00 metreden az olamaz.",
+      "page": 3,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Akaryakıt İstasyonlarında 40.00 metreden az olamaz.",
+      "page": 3,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "e",
+      "text": "Konut dışı kentsel çalışma alanlarında ve kentsel servis alanlarında 30.00 metreden az olamaz.",
+      "page": 3,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "ve kentsel servis alanlarında 30.00"
+       },
+       {
+        "type": "deleted",
+        "text": "40.00"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "no": "4",
+    "text": "Parsel alanları, konut dışı kentsel çalışmaları alanları ve kentsel servis alanlarında 1500 m2’den az olamaz.",
+    "page": 3,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "deleted",
+      "text": "nda"
+     },
+     {
+      "type": "added",
+      "text": "ve kentsel servis alanlarında"
+     },
+     {
+      "type": "deleted",
+      "text": "2000"
+     },
+     {
+      "type": "added",
+      "text": "1500"
+     }
+    ]
+   },
+   {
+    "no": "5",
+    "text": "Parsel büyüklükleri hakkındaki hükümlere uymayan arsalarda, yeni veya ilave yapı ruhsatı düzenlenemez. Ancak bu yönetmeliğin yürürlüğe girmesinden önce imar uygulaması sonucu oluşan ve/veya imar uygulaması görmüş ada içerisinde minimum parsel cephe ve derinliğinin sağlanmasının mümkün olmadığı durumlarda parsel cephe, derinlik ve alan şartlarına bakılmaz.",
+    "page": 3,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Ancak bu yönetmeliğin yürürlüğe girmesinden önce imar uygulaması sonucu oluşan ve/veya imar uygulaması görmüş ada içerisinde minimum parsel cephe ve derinliğinin sağlanmasının mümkün olmadığı durumlarda parsel cephe, derinlik ve alan şartlarına bakılmaz."
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "2",
+    "item": "a.2",
+    "type": "added",
+    "text": "6 kata kadar (6 kat dâhil) inşaata müsait yerlerde: Bitişik nizamda: 8.00 metreden, Blok başlarında: Yan bahçe mesafesi + 8.00 metreden, Ayrık nizamda: Yan bahçe mesafeleri toplamı + 8.00 metreden az olamaz."
+   },
+   {
+    "para": "2",
+    "item": "d",
+    "type": "added",
+    "text": "kentsel servis alanlarında 30.00"
+   },
+   {
+    "para": "2",
+    "item": "d",
+    "type": "deleted",
+    "text": "40.00"
+   },
+   {
+    "para": "3",
+    "item": "e",
+    "type": "added",
+    "text": "ve kentsel servis alanlarında 30.00"
+   },
+   {
+    "para": "3",
+    "item": "e",
+    "type": "deleted",
+    "text": "40.00"
+   },
+   {
+    "para": "4",
+    "type": "deleted",
+    "text": "nda"
+   },
+   {
+    "para": "4",
+    "type": "added",
+    "text": "ve kentsel servis alanlarında"
+   },
+   {
+    "para": "4",
+    "type": "deleted",
+    "text": "2000"
+   },
+   {
+    "para": "4",
+    "type": "added",
+    "text": "1500"
+   },
+   {
+    "para": "5",
+    "type": "added",
+    "text": "Ancak bu yönetmeliğin yürürlüğe girmesinden önce imar uygulaması sonucu oluşan ve/veya imar uygulaması görmüş ada içerisinde minimum parsel cephe ve derinliğinin sağlanmasının mümkün olmadığı durumlarda parsel cephe, derinlik ve alan şartlarına bakılmaz."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 7,
+  "label": "MADDE 7",
+  "title": "İfraz ve tevhit",
+  "page": 3,
+  "section": "ÜÇÜNCÜ BÖLÜM - Arsalara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Parselasyon planı bulunan yerlerde, daha sonra plan değişikliği veya revizyonu yapılması halinde bu planlar ile belirlenen; umumi hizmet alanına isabet eden taşınmazlar ile imar istikameti önünde kalan donatı alanları, kamu eline geçmeden tevhit ve ifraz yapılamaz.",
+    "page": 3,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Bir imar adasında, mevzuatına uygun binalar dikkate alınarak ve yeni inşa edilecek binaların şematik konumu çizilerek ada bazında etüt yapılıp, ada içindeki parsel dağılımının yapıların estetiği ve sokak siluetini bozmayacak şekilde olduğu ortaya konulmadan, ifraz ve tevhit işlemi yapılamaz.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Mevcut haliyle yapılaşmaya elverişli olmayan ve parsel büyüklükleri hakkındaki hükümlere uymayan parsellere ilişkin olarak, ilgili idarenin tebliğ tarihinden itibaren 3 ay içerisinde parsellerin maliklerinin kendi aralarında anlaşamadığı takdirde resen tevhit ve ifraz yoluyla işlem yapmaya ilgili idare yetkilidir.",
+    "page": 4,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "ve parsel büyüklükleri hakkındaki hükümlere uymayan"
+     }
+    ]
+   },
+   {
+    "no": "4",
+    "text": "İmar planı ile mahreç aldığı yolu kapanan ve imar adası ortasında kalan, yola cephesi bulunmayan parseller ifraz edilemez.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "İmar planı ile kapanan yollarda kalan, yola cephesi olmayan parsellere imar yoluna cephe sağlayacak şekilde arazi düzenlemesi yapılmadan kapanan yollar, ifraz ve tevhide konu edilemez veya ayrı bir parsel olarak değerlendirilemez.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Taşkın, heyelan ve kaya düşmesi gibi afet alanlarında bulunan sıhhi ve jeolojik mahzurları olan veya bunlar gibi tehlikeli durumlar arz etmesi yüzünden imar planlarına veya ilgili idarelerce hazırlanmış veya onaylanmış raporlara göre yapı yapılması yasaklanan alanlar ifraz edilemez, bu gibi yerlerde arazi takviyesine matuf tesisler harici yapı yapılamaz. Ancak,",
+    "tail": "ifraz edilebilir.",
+    "page": 4,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Sadece bir kısmı yapılaşmaya yasaklanan alanda kalan parsellerin yapılaşmaya uygun kısımları,",
+      "page": 4,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Bu fıkradaki nedenlerle ağaçlandırılacak alan olarak gösterilen alanlarda kalan parsellerin yasaklamaya tabi olmayan kısımları,",
+      "page": 4,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "İmar planlarında özel mülkiyet içinde kalıp tarım yapılacak alanların yasaklamaya tabi olmayan kısımları Tarım ve Orman il müdürlüğünün görüşü alınarak,",
+      "page": 4,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "deleted",
+        "text": "Gıda,"
+       },
+       {
+        "type": "deleted",
+        "text": "Hayvancılık"
+       },
+       {
+        "type": "added",
+        "text": "Orman"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "no": "7",
+    "text": "Kademe hattı belirlenen yerlerde imar planında aksine bir hüküm yoksa ifraz ve tevhit zorunlu değildir. Ancak kademe hattı belirlenen imar parsellerindeki ifraz ve tevhit talepleri kademe hattı dikkate alınarak gerçekleştirilir.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Çeşitli kamu ve hizmet tesislerinin yapılması için gereken kamulaştırmalar yüzünden bu hizmet ve tesisler için lüzumlu parçalara ayrılmasını sağlamak üzere yapılacak ifrazlar bu Yönetmelikteki ifraz şartlarına tabi değildir.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "9",
+    "text": "Aynı yapı nizamı ve kullanım kararına sahip parsellerin tevhit edilmeleri halinde uygulama imar planında; tevhit sonrası elde edilen parselin taban alanı ve katlar alanı, tevhit öncesi parsellerin ayrı ayrı hesaplanan taban alanları ve katlar alanları toplamını geçemez. Plan üzerinde ölçüsü belirlenmiş blok nizamında olan parsellerin tevhidi halinde, tevhit öncesi parsellerin blok ölçüsü ile belirlenmiş inşaat alanı hakları toplamı aşılamaz.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "10",
+    "text": "Yapı nizamı veya kullanım kararı birbirinden farklı parseller ile imar planında ifraz hattıyla birbirinden ayrılan parseller tevhit edilemez.",
+    "page": 4,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "deleted",
+      "text": "ve farklı yollardan cephe alan ara parseller"
+     }
+    ]
+   },
+   {
+    "no": "11",
+    "text": "İmar adasındaki aynı veya farklı yapı nizamı bulunan parsellerin bahçelerinin daha etkin kullanabilmesi amacıyla; ilgili parsel maliklerinin muvafakati alınmak, her bir parsel sınırı korunmak ve bu sınırlara göre planda verilen yapılaşma koşulları ayrı ayrı uygulanmak kaydıyla, tevhit koşulu olan kot ve cephe sınırlamalarına bakılmaksızın ve parseller tevhit edilmeksizin vaziyet planı idarece onaylanarak ve tapuda beyanlar hanesine şerh düşülerek açık veya tamamen gömülü olmak ve dilatasyonla ayrılmak kaydıyla kapalı, ortak otopark uygulaması yapılabilir.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "12",
+    "text": "Aynı yoldan cephe alan ve aralarında 3.50 metre ve daha fazla kot farkı bulunan imar parsellerinin tevhidi halinde parsellerin bitiştiği sınırda bu Yönetmeliğe göre kademe yapılması ve kat adedinin ve bina yüksekliğinin, her kademenin kendi içinde değerlendirilmesi zorunludur.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "13",
+    "text": "Maliklerinin talebi üzerine mevcut bitişik parsellerde, uygulamayı kolaylaştırmak ve birbirleri ile olan sınırlarının düzeltilmesine yönelik ifraz ve tevhit işlemlerinde, parsel sayısı değiştirilmemek kaydıyla, bu Yönetmelikte bahsedilen asgari ifraz şartları aranmaz.",
+    "page": 4,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "14",
+    "text": "Uygulama imar planı ile farklı kat adedi veya yükseklik getirilmiş imar parselleri tevhit edildiği takdirde tevhit edilen parsellere verilen yükseklik değerleri aşılamaz, tevhit edilen parsellerin kesiştiği sınırda plan kararına uygun kademe yapılır.",
+    "page": 5,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "3",
+    "type": "added",
+    "text": "ve parsel büyüklükleri hakkındaki hükümlere uymayan"
+   },
+   {
+    "para": "6",
+    "item": "c",
+    "type": "deleted",
+    "text": "Gıda,"
+   },
+   {
+    "para": "6",
+    "item": "c",
+    "type": "deleted",
+    "text": "Hayvancılık"
+   },
+   {
+    "para": "6",
+    "item": "c",
+    "type": "added",
+    "text": "Orman"
+   },
+   {
+    "para": "10",
+    "type": "deleted",
+    "text": "ve farklı yollardan cephe alan ara parseller"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 8,
+  "label": "MADDE 8",
+  "title": "Parsele ilişkin hükümler",
+  "page": 5,
+  "section": "ÜÇÜNCÜ BÖLÜM - Arsalara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Parselasyon planına göre müstakil yapı yapılmasına müsait tapuya tescilli imar parseli oluşması ve mülkiyet değişikliği olmaması halinde; yapılaşma için, parselasyon planının tamamının tapuya tescil şartı beklenmez.",
+    "page": 5,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Parsel büyüklükleri hakkındaki hükümlere uymayan arsalar mevzuat hükümlerine göre yapı yapılmasına müsait hale getirilinceye kadar veya bu mümkün olmadığı takdirde kamulaştırılıncaya kadar, bu parsellerdeki mevzuatına uygun yapılmış mevcut yapıların olduğu gibi kullanılmasına, tadilatına veya imar planına aykırı olmamak kaydıyla işlev değişikliğine izin verilir.",
+    "page": 5,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Tamamı umumi hizmetlere ayrılan yerlere rastlayan veya kalan parçası plan ve bu Yönetmelik hükümlerine göre yapı yapılmasına müsait olmayan arsalar, kamulaştırılıncaya kadar sahipleri tarafından olduğu gibi kullanılmaya devam olunur.",
+    "page": 5,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Komşu parsellerin mevzuatına uygun olarak yapılaşmış olması nedeni ile müstakil kalan ve asgari parsel büyüklüklerine uymayan parsellere; fen, sanat ve sağlık kuralları ile bu Yönetmeliğin diğer hükümlerine uygun yapı yapılmasına izin verilir.",
+    "page": 5,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "İmar planında yapı nizamı belirlenmeyen hallerde ayrık nizam uygulanır.",
+    "page": 5,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 9,
+  "label": "MADDE 9",
+  "title": "Yol genişliklerine göre bina kat adetleri",
+  "page": 5,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "1/10/2017 tarihten önceki mevcut uygulama imar planlarında kat adetleri veya bina yükseklikleri belirtilmemiş parsellerde;",
+    "page": 5,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "deleted",
+      "text": "Bu Yönetmeliğin yürürlüğe girdiği"
+     },
+     {
+      "type": "added",
+      "text": "1/10/2017"
+     }
+    ],
+    "items": [
+     {
+      "key": "a",
+      "text": "Bina yükseklikleri, 28 inci maddede katın bulunduğu konuma göre ayrı ayrı belirtilmiş olan azami kat yüksekliklerinin aşağıda belirtilen kat adetleri ile çarpımı ile bulunan toplam yüksekliği aşmamak üzere belirlenir:\nYol genişliği (m) | En çok kat adedi (bodrum hariç)\nYol Genişliği ≤ 7.00 | 2\n7.00 < Yol G. ≤ 10.00 | 3\n10.00 < Yol G. ≤ 12.00 | 4\n12.00 < Yol G. ≤ 15.00 | 5\n15.00 < Yol G. ≤ 20.00 | 6\n20.00 < Yol G. ≤ 25.00 | 8\n25.00 < Yol G. ≤ 35.00 | 10\n35.00 < Yol G. ≤ 50.00 | 14\n50.00 < Yol Genişliği | 15",
+      "page": 5,
+      "status": "kept",
+      "revisions": [
+       {
+        "type": "deleted",
+        "text": "18",
+        "in_table": true
+       },
+       {
+        "type": "added",
+        "text": "15",
+        "in_table": true
+       }
+      ],
+      "tables": [
+       {
+        "id": "9-1-a",
+        "caption": "Madde 9(1)(a): yol genişliğine göre en çok kat adedi (bodrum hariç). Amendment: last row 18 -> 15.",
+        "header": [
+         "Yol genişliği (m)",
+         "En çok kat adedi (bodrum hariç)"
+        ],
+        "rows": [
+         [
+          "Yol Genişliği ≤ 7.00",
+          "2"
+         ],
+         [
+          "7.00 < Yol G. ≤ 10.00",
+          "3"
+         ],
+         [
+          "10.00 < Yol G. ≤ 12.00",
+          "4"
+         ],
+         [
+          "12.00 < Yol G. ≤ 15.00",
+          "5"
+         ],
+         [
+          "15.00 < Yol G. ≤ 20.00",
+          "6"
+         ],
+         [
+          "20.00 < Yol G. ≤ 25.00",
+          "8"
+         ],
+         [
+          "25.00 < Yol G. ≤ 35.00",
+          "10"
+         ],
+         [
+          "35.00 < Yol G. ≤ 50.00",
+          "14"
+         ],
+         [
+          "50.00 < Yol Genişliği",
+          "15"
+         ]
+        ],
+        "source": "hand-curated in regulation/overrides.json, verified against PDF row text"
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Bu maddenin uygulanmasındaki yol genişlikleri, parselin ön cephesinde yer alan yolun planda belirtilen genişliği veya planda belirtilmemiş ise ön bahçe, yeşil alan, refüj, meydan, otopark, demiryolu, su kanalı gibi unsurları içermeyen yolun genişliği esas alınır.",
+      "page": 5,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Kat adetleri, binanın kot aldığı noktaya göre hesaplanır. Ancak artan kat yüksekliğinden faydalanılmak suretiyle binanın hiç bir cephesinde bodrum katlar hariç kat sayısı artırılamaz. İmar planlarında gösterilen bina yüksekliklerinin veya kat adetlerinin birbirlerine tahvillerinde veya neye tekabül ettiklerinin tespitinde bu esaslar ile binanın kot aldığı noktaya en fazla 1.2 metre eklenmek suretiyle belirlenen subasman kotu dikkate alınır.",
+      "page": 5,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "type": "deleted",
+    "text": "Bu Yönetmeliğin yürürlüğe girdiği"
+   },
+   {
+    "para": "1",
+    "type": "added",
+    "text": "1/10/2017"
+   },
+   {
+    "para": "1",
+    "item": "a",
+    "type": "deleted",
+    "text": "18",
+    "in_table": true
+   },
+   {
+    "para": "1",
+    "item": "a",
+    "type": "added",
+    "text": "15",
+    "in_table": true
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 10,
+  "label": "MADDE 10",
+  "title": "Binalara kot verilmesine ilişkin esaslar",
+  "page": 6,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "İmar planlarında aksine bir hüküm bulunmaması halinde yoldan kotlandırma esastır.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Kot alınan noktanın tespitinde sokak silueti dikkate alınır.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Bir parselde birden fazla bina yapılması durumunda, arazi yapısına ve yollara uyumlu kotlandırma yapmak için, ilgili idarenin imar birimince onaylanacak vaziyet planına göre her bina için kendisine yakın yoldan veya tabii zeminden kotlandırma yapılır.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Viyadük, köprü gibi parsele giriş çıkış yapılamayan yerlerden, parklardan ve parsele bitişik olmayan yollardan binalara kot verilemez.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Tabii zeminden kotlandırma ile kademelendirme işlemlerinde ada bazında değerlendirme yapılır.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 11,
+  "label": "MADDE 11",
+  "title": "Yoldan kotlandırma",
+  "page": 6,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Binalara parselin kot aldığı yol cephesinin bina köşeleri hizasındaki en yüksek tretuvar seviyesinden kot verilir.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Tretuvar seviyesi, kırmızı kota göre belirlenen yol seviyesinin 0.18 metre üstü olarak kabul edilir.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Kotlandırma yapılması için, yolun yapımının tamamlanmış olması veya yol projesinin onaylanarak kırmızı kot çalışmasının yapılması zorunludur.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Henüz oluşmamış yollarda kot talebi halinde bordür/tretuvar üst seviyesi, ilgili idare tarafından 10 iş günü içerisinde hazırlanacak projeye göre belirlenir.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Parselin kot aldığı yolun eğiminden dolayı zemin kat taban kotunun kot alınan noktaya göre en fazla 3.50 metre yükseldiği noktalarda binalarda kademe yapılması mecburidir. Her kademenin kendi hizasındaki en düşük bordür kotundan itibaren yüksekliği en çok 3.50 metre olmak zorundadır. Kademelendirme, kot aldığı noktaya göre olması gerekli saçak seviyesi dikkate alınarak üst katlarda da yapılır.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Kademelendirmede her kademe, cephe boyunca 4.50 metreden aşağı olamaz. Son kademenin 4.50 metreden az olması durumunda bir önceki kademe seviyesine uyulur. Ayrıca her kademedeki bina yüksekliği imar planı ile belirlenen saçak seviyesini geçemez.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Yoldan kotlandırılan binalarda yoldan düşük olan parsellerin arka köşe noktalarının en düşük yol kotundan 3.50 metreden daha fazla kot farkı olması durumunda bina derinliği boyunca beşinci ve altıncı fıkralardaki kademelendirme esaslarına göre kademelendirilir.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "İkili blok yapılacak parsellerde kotlandırma, iki parselin birleştiği noktadaki kaldırım üst kotundan yapılır.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "9",
+    "text": "% 20’den fazla eğime sahip yollarda; bitişik veya blok nizam uygulanacak yerlerde bina cepheleri toplamı 12.00 metreden düşük olan ara parsellerde bina kotları, bina köşe hizalarındaki en yüksek yol kotundan verilir.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "10",
+    "text": "40.00 metre ve altında olan bina cephe ve derinliklerinde, talep edilmesi halinde; bu maddedeki hükümlere göre yapılması gerekli olan kademe sayısı kadar bina üst katlarında, binanın kademe yapılması gerekli olan cephelerinden her bir kademe için bir alt kata göre en az 3.00 metre geriye çekilmek suretiyle de kademe uygulaması yapılabilir.",
+    "page": 6,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "11",
+    "text": "Ön bahçesi bulunmayıp zemin katında birden fazla ticari bağımsız bölüm bulunan ve cephe aldığı yol veya yolların eğiminin fazla olduğu binalarda, azami kat yüksekliğini geçmemek ve subasman kotu tanımına aykırı olmamak kaydıyla, engelli ulaşımını sağlamaya yönelik olarak bağımsız bölümlerin zemin kat döşemelerinin hizasındaki yol kotlarına göre farklı kotlarda düzenlenmesine ilgili idaresi yetkilidir.",
+    "page": 6,
+    "status": "added",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Ön bahçesi bulunmayıp zemin katında birden fazla ticari bağımsız bölüm bulunan ve cephe aldığı yol veya yolların eğiminin fazla olduğu binalarda, azami kat yüksekliğini geçmemek ve subasman kotu tanımına aykırı olmamak kaydıyla, engelli ulaşımını sağlamaya yönelik olarak bağımsız bölümlerin zemin kat döşemelerinin hizasındaki yol kotlarına göre farklı kotlarda düzenlenmesine ilgili idaresi yetkilidir."
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "11",
+    "type": "added",
+    "text": "Ön bahçesi bulunmayıp zemin katında birden fazla ticari bağımsız bölüm bulunan ve cephe aldığı yol veya yolların eğiminin fazla olduğu binalarda, azami kat yüksekliğini geçmemek ve subasman kotu tanımına aykırı olmamak kaydıyla, engelli ulaşımını sağlamaya yönelik olarak bağımsız bölümlerin zemin kat döşemelerinin hizasındaki yol kotlarına göre farklı kotlarda düzenlenmesine ilgili idaresi yetkilidir."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 12,
+  "label": "MADDE 12",
+  "title": "Tabii zeminden kotlandırma",
+  "page": 6,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Arazinin meyilli olması durumunda, parselin tabii zemini yoldan yüksek ve ön bahçe mesafesi 10.00 metre veya daha fazla veya parselin tabii zemini yoldan aşağıda ve ön bahçe mesafesi 10.00 metre veya daha fazla ise tabii zeminden kot verilir.Birden fazla yola cepheli olup ilgili idarenin ada bazında etüt yaparak belirleyeceği yoldan 10 metre veya daha fazla bahçe mesafesi bırakılması halinde, diğer cephelerde imar planında veya yönetmelikte belirtilen bahçe mesafelerine uyulmak ve o cephelerdeki komşu parsellerdeki bina yükseklikleri aşılmayacak şekilde kademe yapılmak kaydıyla tabii zeminden kotlandırma yapılabilir.",
+    "page": 6,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "deleted",
+      "text": "12.00"
+     },
+     {
+      "type": "added",
+      "text": "10.00"
+     },
+     {
+      "type": "added",
+      "text": "Birden fazla yola cepheli olup ilgili idarenin ada bazında etüt yaparak belirleyeceği yoldan 10 metre veya daha fazla bahçe mesafesi bırakılması halinde, diğer cephelerde imar planında veya yönetmelikte belirtilen bahçe mesafelerine uyulmak ve o cephelerdeki komşu parsellerdeki bina yükseklikleri aşılmayacak şekilde kademe yapılmak kaydıyla tabii zeminden kotlandırma yapılabilir."
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Bina köşe kotlarının aritmetik ortalamasının yola göre 3.00 metreden yüksek olması durumunda, tabii zemin kotu, ilgili idarenin imar birimince yapı adasının tamamının bu madde hükümleri çerçevesinde etüt edilmesi ile belirlenir.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Bir yola cepheli veya birden fazla yola cepheli olup, üzerinde birden fazla yapı yapılması mümkün olan parsellerde kot, her binanın köşe kotlarının aritmetik ortalaması alınarak bulunur. Ancak, yola nazaran 3.00 metreden yüksek olan parsellerde, tabii zemin kotu ilgili idarenin imar birimince yapı adasının tamamının kotlandırmaya ilişkin hükümleri çerçevesinde etüdü ve bunun ilgili idare encümenince kabulü ile yapılır.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Tabii zeminden kotlandırmada, ± 0.00 kotu binanın köşe kotlarının aritmetik ortalaması alınarak bulunur.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "type": "deleted",
+    "text": "12.00"
+   },
+   {
+    "para": "1",
+    "type": "added",
+    "text": "10.00"
+   },
+   {
+    "para": "1",
+    "type": "added",
+    "text": "Birden fazla yola cepheli olup ilgili idarenin ada bazında etüt yaparak belirleyeceği yoldan 10 metre veya daha fazla bahçe mesafesi bırakılması halinde, diğer cephelerde imar planında veya yönetmelikte belirtilen bahçe mesafelerine uyulmak ve o cephelerdeki komşu parsellerdeki bina yükseklikleri aşılmayacak şekilde kademe yapılmak kaydıyla tabii zeminden kotlandırma yapılabilir."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 13,
+  "label": "MADDE 13",
+  "title": "Köşe başı parsellerde kotlandırma",
+  "page": 7,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Köşe başı parsellerde;",
+    "page": 7,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Parselin cephe aldığı yollardan yüksek olanına göre kot verilir.",
+      "page": 7,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Bu binalarda 11 inci maddenin beşinci ve altıncı fıkralarındaki esaslara göre cepheleri ve derinlikleri boyunca kademelendirme yapılarak düşük kottaki yol için belirlenen bina yüksekliklerine uyulur.",
+      "page": 7,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 14,
+  "label": "MADDE 14",
+  "title": "İki yola bakan ara parsellerde kotlandırma",
+  "page": 7,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Parselin cepheli olduğu yollar arasında kot farkı bulunması halinde düşük kottaki yol ve yüksek kottaki yolun siluetleri açısından ilgili idaresince değerlendirilerek kotlandırma yapılır.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "İki yol arasındaki kot farkı 3.50 m.den az ise kot yüksek olan yoldan alınır, kademelendirme yapılmaz.",
+    "page": 7,
+    "status": "added",
+    "revisions": [
+     {
+      "type": "deleted",
+      "text": "2) Bu binalarda 11 inci maddenin beşinci ve altıncı fıkralarındaki esaslara göre cepheleri ve derinlikleri boyunca kademelendirme yapılır.",
+      "whole_row": true
+     },
+     {
+      "type": "added",
+      "text": "İki yol arasındaki kot farkı 3.50 m.den az ise kot yüksek olan yoldan alınır, kademelendirme yapılmaz."
+     }
+    ]
+   },
+   {
+    "no": "3",
+    "text": "İki yol arasındaki kot farkı 3.50 metreden (3.50 m. Dahil) ve parsel derinliği 12 metreden (12.00m. dahil) fazla olması durumunda bina hangi yola yakın ise o yoldan kotlandırma yapılır ve gereken kademelendirme yapılır.",
+    "page": 7,
+    "status": "added",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "İki yol arasındaki kot farkı 3.50 metreden (3.50 m. Dahil) ve parsel derinliği 12 metreden (12.00m. dahil) fazla olması durumunda bina hangi yola yakın ise o yoldan kotlandırma yapılır ve gereken kademelendirme yapılır."
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "2",
+    "type": "deleted",
+    "text": "2) Bu binalarda 11 inci maddenin beşinci ve altıncı fıkralarındaki esaslara göre cepheleri ve derinlikleri boyunca kademelendirme yapılır.",
+    "whole_row": true
+   },
+   {
+    "para": "2",
+    "type": "added",
+    "text": "İki yol arasındaki kot farkı 3.50 m.den az ise kot yüksek olan yoldan alınır, kademelendirme yapılmaz."
+   },
+   {
+    "para": "3",
+    "type": "added",
+    "text": "İki yol arasındaki kot farkı 3.50 metreden (3.50 m. Dahil) ve parsel derinliği 12 metreden (12.00m. dahil) fazla olması durumunda bina hangi yola yakın ise o yoldan kotlandırma yapılır ve gereken kademelendirme yapılır."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 15,
+  "label": "MADDE 15",
+  "title": "Bahçe tesviyelerine ilişkin esaslar",
+  "page": 7,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Tabii zemin veya tabii zemin kotuna göre düzenlenmiş tesviye zemin hiçbir şekilde bağımsız bölüm oluşturmak maksadıyla hafredilemez.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Yol cephelerinin otopark olarak düzenlenmesi halinde otopark alanları yol kotuna göre tesviye edilir.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Ön, yan ve arka bahçeler ile kademelerin, birbiri ile veya yol ile bağlantısını sağlayacak merdiven veya rampa düzenlenir.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Bahçe tesviyelerinde oluşacak kademelerde çevre binaların, parseldeki binanın ve bahçelerdeki yaşam alanlarının güvenliğini sağlayacak şekilde, teraslama, istinat duvarı ve benzeri uygulamalar mühendislik esaslarına göre projelendirilerek yapılır.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Bir parselde birden fazla yapının bulunduğu veya birden fazla parselin bütünleşik olarak projelendirildiği durumlarda, parsel sınırı ile bina cephesi arasında kalan kısımlar, ön cephe, arka cephe ve yan cephelerin tesviye hükümleri esas alınarak otopark giriş çıkışlarını sağlamak şartıyla kendi içerisinde kademelendirilerek tesviye edilebilir.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Bahçe tesviyelerinde engelliler için erişilebilirlik standartlarına uygun düzenlemelerin yapılması zorunludur.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Bahçe girişinden bina girişine kadarki güzergâhta yer alan eğimlerin %5’ten fazla olması durumunda öncelikle 30 uncu maddede yer alan ölçü ve özelliklerde rampa düzenlenir. Rampa yapılmasının mümkün olmadığı durumlarda erişilebilirlik mevzuat ve standartlarına uygun diğer tedbirler alınır.",
+    "page": 7,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Parselde birden fazla bina yapılması halinde, arazi tanzim şekli; plan notları ve bu maddedeki tesviyelerle ilgili hükümler doğrultusunda ilgili idare imar birimince tespit edilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 16,
+  "label": "MADDE 16",
+  "title": "Ön bahçelerin tesviyesi",
+  "page": 8,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Yoldan kot alan parsellerde;",
+    "page": 8,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "% 15’ten daha az eğimli bir yola cephesi bulunan parsellerin yol cephesinde, parsel sınırı ile bina cephesi arasında kalan kısımlar komşu parsel sınırına kadar yol eğimine göre kaldırım seviyesinde tesviye edilir.",
+      "page": 8,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "% 15'ten fazla eğimli bir yola cephesi bulunan parsellerde, parsel sınırı ile bina cephesi arasında kalan kısım, yaya kaldırımı ile uyumlu olmak ve kademeler arasında en çok 0.15 metre kot farkı olmak üzere tesviye edilir.",
+      "page": 8,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Bina yol cephe hatları ile yollar arasında kalan bahçeler yola doğru en fazla % 2 meyil verilerek tesviye edilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Köşe başı parsellerin yol cepheleri bina cephe hattı boyunca, komşu parsel sınırına kadar yaya kaldırımı eğimince tesviye edilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Otopark giriş eğimleri, istinat duvarı, korkuluk ve benzeri gerekli güvenlik tedbirleri alınmak ve ilk 3.00 metresi %7 eğimi geçmemek kaydıyla parsel sınırından itibaren başlatılabilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Otopark rampaları ön bahçe boyunca parsel sınırına 3 metreden fazla yaklaşmamak kaydıyla yola paralel yapılabilir.",
+    "page": 8,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "parsel sınırına 3 metreden fazla yaklaşmamak kaydıyla"
+     },
+     {
+      "type": "deleted",
+      "text": "yapılamaz"
+     },
+     {
+      "type": "added",
+      "text": "yapılabilir."
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "5",
+    "type": "added",
+    "text": "parsel sınırına 3 metreden fazla yaklaşmamak kaydıyla"
+   },
+   {
+    "para": "5",
+    "type": "deleted",
+    "text": "yapılamaz"
+   },
+   {
+    "para": "5",
+    "type": "added",
+    "text": "yapılabilir."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 17,
+  "label": "MADDE 17",
+  "title": "Yan bahçelerin tesviyesi",
+  "page": 8,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Arka bahçe tesviye kotunun ±0.00 kotundan düşük olduğu durumlarda; yan bahçelerde, ön ve arka bahçeler arasında uyum sağlayacak şekilde ve hiçbir biçimde arka bahçe tesviye kotunun altına inilmemek koşuluyla tesviye yapılabileceği gibi kademelendirme de yapılabilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Arka bahçe tesviye kotunun ±0.00 kotundan yüksek olduğu durumlarda; yan bahçelerde, ön ve arka bahçeler arasında uyum sağlayacak şekilde ve hiçbir biçimde ±0.00 kotunun altına inilmemek koşuluyla tesviye edilebileceği gibi kademelendirme de yapılabilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 18,
+  "label": "MADDE 18",
+  "title": "Arka bahçelerin tesviyesi",
+  "page": 8,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Tabii zemini ±0.00 kotunun üstündeki arka bahçe zemininin bu kota kadar kazılması esastır. Ancak, kayalık zeminlerde veya parsel arka sınırındaki ortalama tabii zeminin +2.00 kotundan yukarıda olması halinde, gerekli önlemler alınarak bina arka cephesinden itibaren 3.00 metrelik şeridin tesviyesi ile yetinilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Tabii zemin kotu ±0.00 kotunun altında kalan arka bahçelerde bina köşelerinden en düşük kottakinin seviyesine kadar kazı yapılabilir. Parselin en düşük arka köşe noktası ile binanın en düşük arka köşe noktası arasındaki kot farkının 1.00 metreden fazla olması durumunda, bina arka cephesinden 3.00 metreden itibaren kademelendirme yapılabilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Arka bahçelerde 2.00 metreden fazla olmamak ve (±0.00) kotunu geçmemek koşuluyla dolgu yapılabilir.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 19,
+  "label": "MADDE 19",
+  "title": "Parsel kullanım fonksiyonlarına göre yapılaşma koşulları",
+  "page": 8,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Parsel kullanım fonksiyonlarına göre yapılaşma koşullarına ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 19 uncu maddesi uygulanır.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 20,
+  "label": "MADDE 20",
+  "title": "Taban alanı",
+  "page": 8,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Taban alanına ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 20 nci maddesi uygulanır.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 21,
+  "label": "MADDE 21",
+  "title": "Katlar alanı",
+  "page": 8,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Katlar alanı; bodrum kat, asma kat, çatı arası piyesi ve açık/kapalı çıkmalar dâhil, kullanılabilen bütün katların, katlar alanına dâhil edilmeyen alanları çıktıktan sonraki alanları toplamıdır. Kullanılabilen alanlar deyiminden; konut, işyeri, eğlence ve dinlenme yerleri gibi oturmaya, çalışmaya, eğlenmeye, dinlenmeye veya ibadet etmeye ayrılan alanlar anlaşılır.",
+    "page": 8,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Tamamen toprağın altında kalması nedeniyle; 22 nci madde uyarınca emsal hesabına konu edilmeyen alanlar ile kat adedine konu edilmeyen katların hiç bir cephesi kazı ve tesviye yapılarak açığa çıkarılamaz.",
+    "page": 9,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Emsal hesabına dâhil edilmeyen alanlar, proje değişikliği ile imar planındaki veya bu Yönetmelikle belirlenen emsal değerini aşacak şekilde emsal hesabına konu alan haline getirilemez, müstakil bağımsız bölüm haline dönüştürülemez ve kat mülkiyeti tesis edilemez.",
+    "page": 9,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Uygulama imar planında emsal verilmeyen parsellerde katlar alanı, planla veya bu Yönetmelikle belirlenen; taban alanı katsayısı ile kat adedinin çarpılmasıyla hesaplanır.",
+    "page": 9,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 22,
+  "label": "MADDE 22",
+  "title": "Katlar alanı hesabına dâhil edilmeyen kullanımlar",
+  "page": 9,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "5 inci maddenin sekizinci fıkrasında belirtilen esaslar dâhilinde;",
+    "tail": "katlar alanına dâhil edilmez.",
+    "page": 9,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Emsal ve %30 hesabına dahil olmayan alanlar;",
+      "page": 9,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Emsal ve %30 hesabına dahil olmayan alanlar;"
+       }
+      ],
+      "items": [
+       {
+        "key": "1",
+        "text": "Binaların Yangından Korunması Hakkında Yönetmelik gereğince yapılması zorunlu olan, korunumlu ya da korunumsuz normal merdiven dışındaki yangın merdiveni ve korunumlu koridorun asgari ölçülerdeki alanı ile yangın güvenlik holünün 6 m² si,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "Son katın üzerindeki herhangi bir kullanıma konu edilmeyen ortak alan niteliğinde teras çatılar,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "3",
+        "text": "Yapının ihtiyacı için bahçede yapılan açık otoparklar,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "4",
+        "text": "Konferans, spor, sinema ve tiyatro salonları gibi özellik arz eden umumi yapılarda düzenlenmesi zorunlu olan boşluklar,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "5",
+        "text": "Alışveriş merkezlerinde yapılan atrium boşluklarının her katta asgari ölçülerdeki alanı,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "6",
+        "text": "Bağımsız bölüm olarak düzenlenmeyen veya bağımsız bölümün eklentisi niteliği taşımayan, yapının ana taşıyıcı sistemleriyle bütünleşik olmayan, bahçede peyzaj düzenlemesi niteliğinde yapılan pergola ve süs havuzlarının Planlı Alanlar İmar Yönetmeliği'nin 20’nci maddesinin 8’inci fıkrasının (b) bendinde belirtilen kullanımlarıyla birlikte bahçe alanının %20’sini geçmeyen kısımları,",
+        "page": 9,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Bağımsız bölüm olarak düzenlenmeyen veya bağımsız bölümün eklentisi niteliği taşımayan, yapının ana taşıyıcı sistemleriyle bütünleşik olmayan, bahçede peyzaj düzenlemesi niteliğinde yapılan pergola ve süs havuzlarının Planlı Alanlar İmar Yönetmeliği'nin 20’nci maddesinin 8’inci fıkrasının (b) bendinde belirtilen kullanımlarıyla birlikte bahçe alanının %20’sini geçmeyen kısımları,"
+         }
+        ]
+       },
+       {
+        "key": "7",
+        "text": "Katlar alanı kapsamında değerlendirilebilecek bir kullanımı olmayan giriş saçakları(markizler), bahçe ve istinat duvarları,",
+        "page": 9,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Katlar alanı kapsamında değerlendirilebilecek bir kullanımı olmayan giriş saçakları(markizler), bahçe ve istinat duvarları,"
+         }
+        ]
+       },
+       {
+        "key": "8",
+        "text": "Asma katlı zemin katın içinde yer alan asma kat hizasındaki boşluklar,",
+        "page": 9,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Asma katlı zemin katın içinde yer alan asma kat hizasındaki boşluklar,"
+         }
+        ]
+       },
+       {
+        "key": "9",
+        "text": "Bir ana kitle üzerinde yükselen bloklardan arta kalan kısımların (baza) üzerinde yer alan, gezilemeyen ve herhangi bir kullanıma konu olmayan, çatı veya çakıl gibi malzeme ile kaplı alanlar,",
+        "page": 9,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Bir ana kitle üzerinde yükselen bloklardan arta kalan kısımların (baza) üzerinde yer alan, gezilemeyen ve herhangi bir kullanıma konu olmayan, çatı veya çakıl gibi malzeme ile kaplı alanlar,"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Bodrum katlarda yapıldığı takdirde emsal ve %30 hesabına dahil olmayan alanlar;",
+      "page": 9,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Bodrum katlarda yapıldığı takdirde emsal ve %30 hesabına dahil olmayan alanlar;"
+       }
+      ],
+      "items": [
+       {
+        "key": "1",
+        "text": "Zorunlu otopark alanları,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "Sığınak, asansör boşlukları, merdivenler, bacalar, şaftlar, ışıklıklar, ısı ve tesisat alanları, yakıt ve su depoları, jeneratör ve enerji odası, kömürlüklerin ilgili mevzuat, standart ya da bu Yönetmeliğe göre hesap edilen asgari alanları,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "3",
+        "text": "Ortak alan niteliğindeki mescit ve müştemilatın konutlarda 150 m²’si, konut dışı yapılarda 300 m²’si,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "4",
+        "text": "Bütün cepheleri tamamen gömülü olmak ve ortak alan niteliğinde olmak kaydıyla; otopark alanları ve (c) bendinde belirtilen tamamen gömülü ortak alanlar,",
+        "page": 9,
+        "status": "amended",
+        "revisions": [
+         {
+          "type": "deleted",
+          "text": "22 nci maddede"
+         },
+         {
+          "type": "added",
+          "text": "(c) bendinde"
+         }
+        ]
+       },
+       {
+        "key": "5",
+        "text": "Ticari amaç içermeyen, ortak alan niteliğindeki çocuk oyun alanlarının ve çocuk bakım ünitelerinin toplam 100 m²’si,",
+        "page": 9,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "6",
+        "text": "Bağ ve Sayfiye Evi alanlarındaki müstakil konutların bina izdüşümünü (zemin terası hariç) aşmayan bodrum katlarında yapılan binanın ihtiyacına yönelik kömürlük, su deposu, yakıt deposu, jeneratör odasının ilgili mevzuat, standart ya da bu Yönetmeliğe göre hesap edilen asgari alanları,",
+        "page": 9,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Bağ ve Sayfiye Evi alanlarındaki müstakil konutların bina izdüşümünü (zemin terası hariç) aşmayan bodrum katlarında yapılan binanın ihtiyacına yönelik kömürlük, su deposu, yakıt deposu, jeneratör odasının ilgili mevzuat, standart ya da bu Yönetmeliğe göre hesap edilen asgari alanları,"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "key": "c",
+      "text": "%30 hesabı dahilinde emsal harici olan alanlar;",
+      "page": 10,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "%30 hesabı dahilinde emsal harici olan alanlar;"
+       }
+      ],
+      "items": [
+       {
+        "key": "1",
+        "text": "Tabii zemin veya tesviye edilmiş zemin seviyesindeki veya bu seviyenin altındaki avlular, iç bahçeler,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "6 m²’yi geçmeyen kontrol veya bekçi kulübeleri,",
+        "page": 10,
+        "status": "amended",
+        "revisions": [
+         {
+          "type": "deleted",
+          "text": "Çevre düzenlemesi ve güvenliği için yapılan bahçe duvarı, istinat duvarları,"
+         }
+        ]
+       },
+       {
+        "key": "3",
+        "text": "Asgari ölçülerdeki; bodrum kat haricinde diğer katlarda yer alan asansör boşlukları, ışıklıklar, çöp ve atık ayrıştırma bacaları, hava bacaları, şaftlar,",
+        "page": 10,
+        "status": "amended",
+        "revisions": [
+         {
+          "type": "deleted",
+          "text": "temele kadar inen"
+         },
+         {
+          "type": "added",
+          "text": "bodrum kat haricinde diğer katlarda yer alan"
+         }
+        ]
+       },
+       {
+        "key": "4",
+        "text": "Ana yapının dışında kalan; binaya ait arıtma tesisi ve trafolar, jeneratör, yağmur suyu toplama havuzu, evsel atık ve geri dönüşüm hazneleri, ısı merkezi,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "5",
+        "text": "Akaryakıt pompaları ve taşıyıcıları hariç olmak üzere kanopiler ve arkatlar,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "6",
+        "text": "Güneş panellerinin temel ve kaidesi haricindeki kısımları,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "7",
+        "text": "Üstü sökülür-takılır hafif malzeme ile kenarları rüzgâr kesici cam panellerle kapatılmış olsa dahi açık oturma yerleri,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "8",
+        "text": "Bu Yönetmelik uyarınca yapılması zorunlu olan kapıcı dairelerinin toplam 120 m2’si,",
+        "page": 10,
+        "status": "amended",
+        "revisions": [
+         {
+          "type": "deleted",
+          "text": "70"
+         },
+         {
+          "type": "added",
+          "text": "120"
+         }
+        ]
+       },
+       {
+        "key": "9",
+        "text": "Atrium ve galeri boşlukları,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "10",
+        "text": "Ortak alan niteliğindeki mescit ve müştemilat,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "11",
+        "text": "Alışveriş merkezlerinde ve 40’tan fazla bağımsız bölümü bulunan binaların normal katlarında, binanın ortak merdiveni ile bağlantılı, dışarıdan erişimi bulunmayan, toplamda 50 m²’yi geçmeyen, ticari kullanıma konu edilemeyen, ortak alan niteliğinde kütüphane odası,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "12",
+        "text": "Bodrum kat haricinde diğer katlarda yer alan bina için gerekli minimum sığınak alanı,",
+        "page": 10,
+        "status": "amended",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Bodrum kat haricinde diğer katlarda yer alan"
+         }
+        ]
+       },
+       {
+        "key": "13",
+        "text": "Bu maddenin birinci fıkrasının (a) ve (b) bentlerinde belirtilen otopark alanları dışındaki otopark alanları,",
+        "page": 10,
+        "status": "amended",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Bu maddenin birinci fıkrasının (a) ve (b) bentlerinde belirtilen otopark alanları dışındaki"
+         }
+        ]
+       },
+       {
+        "key": "14",
+        "text": "Yapı yüksekliği 60.50 metreden fazla olan binalar ile özelliği gereği tesisat katı oluşturulması zorunlu binalarda sadece tesisat için oluşturulan tesisat katları,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "15",
+        "text": "Bina veya tesise ait olan ısıtma, soğutma, tesisat alanı, su sarnıcı, havalandırma sistemleri ve enerji verimliliği sistemlerinin bulunduğu alanlar, arıtma tesisi, gri su toplama havuzu, yakıt ve su depoları, trafolar, jeneratör, ısı merkezi, enerji odası, kömürlük, eşanjör ve hidrofor bölümleri,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "16",
+        "text": "Bütün cepheleri tamamen toprağın altında kalan bodrum katlar ile kısmen açığa çıkan yol cephesi haricindeki bodrum katlarda yer alan, tek başına bağımsız bölüm oluşturmayan, bir bağımsız bölümün eklentisi olmayan, ticari amaç içermeyen, sadece binada oturanların kullanımına yönelik, toplamda emsal hesabına konu alanın % 5’ini ve 1000 m2’yi geçmeyen ortak alan niteliğindeki yönetim ve toplantı odaları ile spor ve sosyal mekânlar,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "17",
+        "text": "Bütün cepheleri tamamen toprağın altında kalan bodrum katlarda yer alan, tek başına bağımsız bölüm oluşturmayan, bağımsız bölüm net alanının %50’sini geçmeyen depo amaçlı eklentiler,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "18",
+        "text": "Bağımsız bölüm net alanının %20’sini geçmemek kaydıyla açık çıkma şartlarını taşıyan balkonlar, kat koridoru, kat ve ara sahanlıkları dâhil açık veya kapalı merdiven evi ile açık havuzlar,",
+        "page": 10,
+        "status": "amended",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "kat koridoru,"
+         }
+        ]
+       },
+       {
+        "key": "19",
+        "text": "Taşıyıcı sistemi kesme taş yığma bina olarak tasarlanan zemin dâhil 3 katı geçmeyen geleneksel mimari öğeler barındıran binalarda, tasarım gereği taşıyıcı yığma taş iç duvarların genişliği 12.50 cm’den fazla olan kısımları, taşıyıcı yığma taş dış duvarların genişliği 25 cm’den fazla olan kısımları, bu yapıların statik tasarım gereği düşey taşıyıcılar da bulunabilen ve bağımsız bölüm net alanının %20’sini geçmeyen balkonları, bu yapıların geleneksel mimari öğesi olan; bahçe ile irtibatı olup gerektiğinde basamak ile çıkılan, binanın girişi ile beraber ya da çıkma veya balkon altında yer alabilen, düşey taşıyıcılar ile desteklenen üst örtüye sahip olabilen taşlık, dış sofa veya eyvan alanları,",
+        "page": 10,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "20",
+        "text": "Eğitim, sağlık, sosyal ve kültürel tesislerin bodrum katlarında yer alan ticari amaç için kullanılmayan, ortak alan niteliğinde yapının ihtiyacına yönelik yemekhane, çamaşırhane, mutfak, revir, teknik servis hizmetleri, vb. gibi müştemilat alanları.",
+        "page": 11,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Eğitim, sağlık, sosyal ve kültürel tesislerin bodrum katlarında yer alan ticari amaç için kullanılmayan, ortak alan niteliğinde yapının ihtiyacına yönelik yemekhane, çamaşırhane, mutfak, revir, teknik servis hizmetleri, vb. gibi müştemilat alanları."
+         }
+        ]
+       },
+       {
+        "key": "21",
+        "text": "Zemin katta yer alan toplantı salonu, yönetim odası, bisiklet odası,",
+        "page": 11,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Zemin katta yer alan toplantı salonu, yönetim odası, bisiklet odası,"
+         }
+        ]
+       },
+       {
+        "key": "22",
+        "text": "Bağımsız bölüm olarak düzenlenmeyen veya bağımsız bölümün eklentisi niteliği taşımayan, yapının ana taşıyıcı sistemleri ile bütünleşik olmayan, bahçe alanının %20’sini geçmeyen; kameriye ve sundurma,",
+        "page": 11,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "23",
+        "text": "Mimari projesinde belirlenen kullanım alanları,",
+        "page": 11,
+        "status": "added",
+        "revisions": [
+         {
+          "type": "added",
+          "text": "Mimari projesinde belirlenen kullanım alanları,"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "item": "a",
+    "type": "added",
+    "text": "Emsal ve %30 hesabına dahil olmayan alanlar;"
+   },
+   {
+    "para": "1",
+    "item": "a.6",
+    "type": "added",
+    "text": "Bağımsız bölüm olarak düzenlenmeyen veya bağımsız bölümün eklentisi niteliği taşımayan, yapının ana taşıyıcı sistemleriyle bütünleşik olmayan, bahçede peyzaj düzenlemesi niteliğinde yapılan pergola ve süs havuzlarının Planlı Alanlar İmar Yönetmeliği'nin 20’nci maddesinin 8’inci fıkrasının (b) bendinde belirtilen kullanımlarıyla birlikte bahçe alanının %20’sini geçmeyen kısımları,"
+   },
+   {
+    "para": "1",
+    "item": "a.7",
+    "type": "added",
+    "text": "Katlar alanı kapsamında değerlendirilebilecek bir kullanımı olmayan giriş saçakları(markizler), bahçe ve istinat duvarları,"
+   },
+   {
+    "para": "1",
+    "item": "a.8",
+    "type": "added",
+    "text": "Asma katlı zemin katın içinde yer alan asma kat hizasındaki boşluklar,"
+   },
+   {
+    "para": "1",
+    "item": "a.9",
+    "type": "added",
+    "text": "Bir ana kitle üzerinde yükselen bloklardan arta kalan kısımların (baza) üzerinde yer alan, gezilemeyen ve herhangi bir kullanıma konu olmayan, çatı veya çakıl gibi malzeme ile kaplı alanlar,"
+   },
+   {
+    "para": "1",
+    "item": "b",
+    "type": "added",
+    "text": "Bodrum katlarda yapıldığı takdirde emsal ve %30 hesabına dahil olmayan alanlar;"
+   },
+   {
+    "para": "1",
+    "item": "b.4",
+    "type": "deleted",
+    "text": "22 nci maddede"
+   },
+   {
+    "para": "1",
+    "item": "b.4",
+    "type": "added",
+    "text": "(c) bendinde"
+   },
+   {
+    "para": "1",
+    "item": "b.6",
+    "type": "added",
+    "text": "Bağ ve Sayfiye Evi alanlarındaki müstakil konutların bina izdüşümünü (zemin terası hariç) aşmayan bodrum katlarında yapılan binanın ihtiyacına yönelik kömürlük, su deposu, yakıt deposu, jeneratör odasının ilgili mevzuat, standart ya da bu Yönetmeliğe göre hesap edilen asgari alanları,"
+   },
+   {
+    "para": "1",
+    "item": "c",
+    "type": "added",
+    "text": "%30 hesabı dahilinde emsal harici olan alanlar;"
+   },
+   {
+    "para": "1",
+    "item": "c.2",
+    "type": "deleted",
+    "text": "Çevre düzenlemesi ve güvenliği için yapılan bahçe duvarı, istinat duvarları,"
+   },
+   {
+    "para": "1",
+    "item": "c.3",
+    "type": "deleted",
+    "text": "temele kadar inen"
+   },
+   {
+    "para": "1",
+    "item": "c.3",
+    "type": "added",
+    "text": "bodrum kat haricinde diğer katlarda yer alan"
+   },
+   {
+    "para": "1",
+    "item": "c.8",
+    "type": "deleted",
+    "text": "70"
+   },
+   {
+    "para": "1",
+    "item": "c.8",
+    "type": "added",
+    "text": "120"
+   },
+   {
+    "para": "1",
+    "item": "c.12",
+    "type": "added",
+    "text": "Bodrum kat haricinde diğer katlarda yer alan"
+   },
+   {
+    "para": "1",
+    "item": "c.13",
+    "type": "added",
+    "text": "Bu maddenin birinci fıkrasının (a) ve (b) bentlerinde belirtilen otopark alanları dışındaki"
+   },
+   {
+    "para": "1",
+    "item": "c.18",
+    "type": "added",
+    "text": "kat koridoru,"
+   },
+   {
+    "para": "1",
+    "item": "c.20",
+    "type": "added",
+    "text": "Eğitim, sağlık, sosyal ve kültürel tesislerin bodrum katlarında yer alan ticari amaç için kullanılmayan, ortak alan niteliğinde yapının ihtiyacına yönelik yemekhane, çamaşırhane, mutfak, revir, teknik servis hizmetleri, vb. gibi müştemilat alanları."
+   },
+   {
+    "para": "1",
+    "item": "c.21",
+    "type": "added",
+    "text": "Zemin katta yer alan toplantı salonu, yönetim odası, bisiklet odası,"
+   },
+   {
+    "para": "1",
+    "item": "c.23",
+    "type": "added",
+    "text": "Mimari projesinde belirlenen kullanım alanları,"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 23,
+  "label": "MADDE 23",
+  "title": "Bahçe mesafeleri",
+  "page": 11,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Uygulama imar planında, aksine bir hüküm bulunmadığı durumlarda bahçe mesafeleri;",
+    "page": 11,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Ön bahçe ve yol kenarına rastlayan bahçe mesafeleri ile kamusal alanlara komşu olan bahçe mesafeleri en az 5.00 metredir.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Yan bahçe mesafesi en az 3.00 metredir.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Arka bahçe mesafesi en az 3.00 metredir.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Yan ve arka bahçe mesafeleri; tabii veya tesviye edilmiş zeminin üzerinde kalan bodrum katları da dâhil, dörtten fazla katlı binalarda 4 katın üzerindeki her kat için 0.50 metre artırılır. Bu hüküm parsellerin park alanına komşu cephelerinde uygulanmaz.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Yan ve arka bahçe mesafelerinin hesabında dikkate alınacak kat adedi o cephede kısmen veya tamamen tabii veya tesviye edilmiş zeminin altında kalan katlar hariç diğer katların toplam yüksekliğinin üçe bölünmesi ile bulunur. 2.50 metreyi aşan artık değerler 1 kat adedine tekabül eder.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "e",
+      "text": "Bina yüksekliği hesabında, arkasında kullanılan hacim oluşturulmamış istinat duvarları yükseklik hesabına dâhil edilmez.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "f",
+      "text": ") Bu Yönetmelikte yer alan kat adedine bağlı olarak yan ve arka bahçe mesafelerinin 0.50 metre arttırılmasına ilişkin hükümler yapıda bulunan her katta ayrı ayrı değerlendirme yapılarak da uygulanabilir.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "g",
+      "text": "Uygulama imar planında aksine bir açıklama getirilmediği takdirde, binanın tabii zemin veya tesviye edilmiş zemindeki en düşük kottaki görünen yüksekliği 60.50 metre veya daha fazla ise; ön, yan ve arka parsel sınırından en az 15.00 metre çekilmek durumundadır. 60.50 metre yükseklikten sonra artan her kat için ön, yan ve arka bahçe mesafelerine 0.50 metre ilave edilir.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ğ",
+      "text": "Çok yüksek yapı, az katlı bir ana kitle üzerinde yükseliyorsa, parsel sınırı ile ana kitlenin parsele en yakın noktası arasındaki mesafe 10.00 metreye kadar düşürülebilir. Ana kitle yüksekliği dâhil yapı yüksekliğinin 60.50 metre olması durumunda yükselen blok ile parsel sınırı arasındaki mesafe en az 15.00 metre olup 60.50 metre yükseklikten sonra artan her kat için bu mesafeye 0.50 metre ilave edilir. Bu maddede ifade edilen ana kitle; en fazla 5 katlı olup kat adedi binanın en düşük kottaki cephesi esas alınarak belirlenir. Bir parselde birden fazla 60.50 metre yükseklikte bina yapılması halinde binalar arasındaki mesafe, 20.00 metre olup, 60.50 metre yükseklikten sonra ilave her 3.00 metre yükseklik için bu mesafeye 0.50 metre ilave edilir. Bu fıkraya göre fazladan bırakılması gereken çekme mesafeleri bir veya birkaç kat birlikte etüt edilerek binada kademelenme yapılmak suretiyle de gerçekleştirilebilir.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "h",
+      "text": "Bir parselde az katlı ana bir kitle üzerinde birden fazla yükselen bloklar tertiplenmesi halinde, bloklar arasında en az yapının ana kitlesi üzerinde kalan bölümlerinin yüksekliklerine göre bu Yönetmelikte belirlenen iki bina arasındaki yan bahçelerin toplamı kadar mesafe bırakılmak zorundadır.",
+      "page": 11,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Tabii veya tesviye edilmiş zeminin altında kalmak ve parsel sınırları dışına taşmamak kaydıyla, ön bahçe statüsünde olmayan yan ve arka bahçe mesafelerinde su deposu, otopark ve mevzuatı gereğince zorunlu miktardaki sığınaklar yapılabilir. Ayrıca ön bahçelerde de tabii veya tesviye edilmiş zeminin altında; parsel sınırına 3.00 metreden fazla yaklaşmamak şartıyla ön bahçe mesafesinin yarısına kadar zorunlu otoparklar yapılabilir. Ancak sit alanları ve özel çevre koruma alanlarında, koruma amaçlı uygulama imar planı hükümlerine uyulur.",
+    "page": 11,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Ön bahçe mesafesi 7.00 metreye çıkarılmak kaydıyla, bina cephesinden itibaren 2.00 metre dışında kalan kısım ön bahçede açık otopark yapılabilir.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Ön, yan ve arka bahçelerde; kapalı mekân oluşturmayan ve tüm cepheleri açık, katlı olmayan, bağımsız bölüm veya bağımsız bölümün eklentisi niteliği taşımayan, tabii veya tesviye edilmiş zemin üzerine;",
+    "page": 12,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Kameriye,",
+      "page": 12,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Pergola,",
+      "page": 12,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Süs havuzu,",
+      "page": 12,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Çocuk bahçeleri,",
+      "page": 12,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Bina giriş köprüleri,",
+      "page": 12,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "e",
+      "text": "Oyun ve sportif amaçlı bahçe düzenlemeleri, yapılabilir.",
+      "page": 12,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "5",
+    "text": "Ön, yan ve arka bahçelerde güvenlik kulübesi yapılabilir.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Konut, konut+ticaret, turizm, eğitim, ibadet, sağlık ve spor parsellerinin bahçe mesafelerinde, binanın zemine oturduğu alanın dışında kalan alanın her 30.00 m2’si için ve akaryakıt parsellerinin toplam alanının her 100.00 m2 için bir ağaç dikilir. Parselin ağaç dikimine uygun olmaması halinde bu fıkrada belirtilen şarta göre hesaplanan sayıda ağaç, ilgili idarenin uygun göreceği, imar planlarında kamunun kullanımına ayrılmış bir alana dikilir.",
+    "page": 12,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "ve akaryakıt parsellerinin toplam alanının her 100.00 m2 için"
+     }
+    ]
+   },
+   {
+    "no": "7",
+    "text": "Mevzuat değişikliği veya yapıdaki kat veya alan artışları nedeniyle asansör yapılması zorunlu hale gelen mevcut yapılara ilişkin ilave veya tadilat ruhsatı taleplerinde; bina içinde yapılacak tadilatlarla asansör tesis edilememesi halinde, engellilerin de erişiminin sağlanabilmesi için ön, yan ve arka bahçe mesafeleri içinde parsel sınırına en az 1.50 metre mesafe bırakılmak kaydıyla asgari ölçülerde panoramik asansör veya ulaşılacak katın yüksekliğinin uygun olması halinde 634 sayılı Kanun uyarınca muvafakat alınarak mekanik kaldırma iletme platformu yapılabilir.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Eksik katlı yapı ruhsatı taleplerinde, uygulama imar planında belirlenen veya uygulama imar planında belirlenmemişse, bu Yönetmelikteki kat adedi veya bina yüksekliğine göre bu Yönetmelik ile belirlenen bahçe mesafelerine uyulur.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "6",
+    "type": "added",
+    "text": "ve akaryakıt parsellerinin toplam alanının her 100.00 m2 için"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 24,
+  "label": "MADDE 24",
+  "title": "Bir parselde birden fazla bina yapılması",
+  "page": 12,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Uygulama imar planında aksine bir hüküm yoksa bu Yönetmeliğin bahçe mesafeleri ile ilgili hükümlerine uyulması kaydı ile bir parsele, birden fazla bina yapılabilir.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Bir parselde birden fazla binanın projelendirilmesi halinde, binalar arası mesafe her binanın yüksekliğine göre yaklaşma mesafeleri ayrı ayrı tespit edilip toplanmak suretiyle bulunur.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Maliklerin talebi halinde, tapu idareleri aynı kullanım kararını ve yapı nizamını haiz imar parsellerini imar adası içinde tevhit ederek yeni elde edilen imar parselleri üzerinde yatay kat mülkiyeti veya kat irtifakı tesis ederler.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 25,
+  "label": "MADDE 25",
+  "title": "Eksik katlı bina yapılması",
+  "page": 12,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Planla veya bu Yönetmelikle belirlenen kat adedine veya bina yüksekliğine uygun olarak bahçe mesafesi bırakılmak ve ilgili idarenin uygun görmesi, üçüncü ve dördüncü fıkralarda belirtilen koşullar sağlanmaksızın ilave kat yapılamayacağının ilgilisine tebliğ edilmesi kaydıyla daha az katlı bina yapılabilir. Uygulama imar planlarında bu uygulamanın yapılmasına ilişkin hüküm olması halinde, ilgili idarenin uygun görmesi koşulu aranmaz.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Eksik katlı yapılan binalarda yapı ruhsatı, yapı kullanma izin belgesi ve enerji kimlik belgesi yapılan kısım için düzenlenir. Daha sonradan tamamlanmak istenmesi halinde, yürürlükteki plan ve mevzuat hükümlerine uygun olarak ilave ruhsat ve binanın tamamı için enerji kimlik belgesi düzenlenmesi zorunludur.",
+    "page": 12,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Eksik katlı binalara imar planına aykırı olmamak koşuluyla kat ilavesi yapılabilmesi için; temel ve statik çözümlerin, yangın tedbirlerinin, enerji verimliliğinin, plan ve bu Yönetmelikte gösterilen azami yüksekliğe uygun olması; otopark, sığınak, merdiven, asansör yeri, ışıklık ve diğer yapı elemanlarının da plan ve bu Yönetmelikte gösterilen azami yüksekliğe göre hesaplanması ve bırakılması zorunludur.",
+    "page": 13,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Eksik katlı inşa edilen binanın mevcut haliyle veya tadilat yapılarak yürürlükteki plana ve mevzuata uygunluğunun sağlanamaması halinde bina yıkılmadan kat ilavesi yapılmasına izin verilmez.",
+    "page": 13,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Eksik katlı binalara yapılacak ilavelerde fenni mesuliyet, temel ve statik hesapları, yangın tedbirleri ve enerji verimliliği konuları da dâhil mevcut yapı ve ilave yapılan kısımları kapsayan teknik rapor düzenlemek suretiyle yapı denetim kuruluşlarınca üstlenilir.",
+    "page": 13,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 26,
+  "label": "MADDE 26",
+  "title": "Yapılaşmada idarenin yükümlülükleri",
+  "page": 13,
+  "section": "DÖRDÜNCÜ BÖLÜM - Yapılaşmaya İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "İdareler; tasarrufu altındaki yol, meydan, otopark, park, yaya bölgesi, kaldırım gibi yerler ile bunlar üzerindeki kamu hizmetlerinin yürütülebilmesi için, TSE standartlarına ve ilgili mevzuatına göre;",
+    "tail": "yükümlüdür.",
+    "page": 13,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Bisiklet yolu, otopark, yönlendirme, sinyalizasyon, aydınlatma ve ağaçlandırma uygulamalarıyla ve kent mobilyalarıyla beraber kaldırım ve kavşak düzenlemelerini yapmak veya yaptırmakla,",
+      "page": 13,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Reklam ve bilgilendirme levha ile pano düzenlemelerini yapmak veya yaptırmakla,",
+      "page": 13,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Topluma açık yerlerde ihtiyaçların karşılanması amacıyla; büfe, mescit, para çekme makinesi, telefon kulübesi, tuvalet, çeşme ve benzeri tesislerin kurulmasına ilişkin iş ve işlemleri yürütmekle,",
+      "page": 13,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Belirli bir süre için düzenlenen sosyal ve kültürel etkinlikler için geçici olarak ihtiyaç duyulan altyapıyı ve geçici olarak talep edilen hafif ve sökülüp takılır malzemeden yapılan fuar, sergi, sahne ve çadır gibi üstyapının kurulması ve kaldırılması için gereken izinlerin verilmesine ilişkin iş ve işlemleri yürütmekle ve güvenlik tedbirlerinin alınmasını sağlamakla,",
+      "page": 13,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Birinci fıkrada belirtilenlerin ve her türlü altyapının yapımı ve kullanımı ile bakım ve onarımı sırasında yaya sirkülasyonunun engellenmemesi, engellilerin erişiminin, can ve mal güvenliğinin sağlanması zorunludur.",
+    "page": 13,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Bu madde kapsamında yürütülen çalışmalarda tescilli ve tarihi yapılar ile doğal dokunun korunması esas alınır.",
+    "page": 13,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 27,
+  "label": "MADDE 27",
+  "title": "Yapı ünite fonksiyonlarına göre yapılaşma koşulları",
+  "page": 13,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Yapıda aşağıdaki kullanımların bulunması zorunludur;",
+    "tail": "asgari ölçülerde yapılır.",
+    "page": 13,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "İlgili mevzuatında öngörülen ölçülerde enerji odası,",
+      "page": 13,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Merkezi ısıtma sistemli binalarda kazan dairesi veya kaskat sistemi veya teshin merkezi,",
+      "page": 13,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Katı yakıt kullanan sobalı binaların bodrum veya zemin katlarında veya bodrum katı bulunmayan binaların ortak alan niteliğini haiz olmak ve eklenti ihdas etmemek kaydıyla bahçelerinde her daire için en az 5.00 m2, en fazla 10.00 m2 odunluk, kömürlük veya depolama yeri,",
+      "page": 13,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Binaların Yangından Korunması Hakkında Yönetmelik, 25/8/1988 tarihli ve 19910 sayılı Resmî Gazete’de yayımlanan Sığınak Yönetmeliği, 22/2/2018 tarihli ve 30340 sayılı Resmî Gazete’de yayımlanan Otopark Yönetmeliği, 5/12/2008 tarihli ve 27075 sayılı Resmî Gazete’de yayımlanan Binalarda Enerji Performansı Yönetmeliği ve 18/3/2018 tarihli ve 30364 mükerrer sayılı Resmî Gazete’de yayımlanan Türkiye Bina Deprem Yönetmeliğinde binada zorunlu olarak bulunması gereken birimler,",
+      "page": 13,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 28,
+  "label": "MADDE 28",
+  "title": "Kat yükseklikleri",
+  "page": 14,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Kat yükseklikleri uygulama imar planında daha fazla belirlenmemiş ise döşeme üst kotundan döşeme üst kotuna olmak üzere en fazla;",
+    "page": 14,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Ticaret bölgelerinde; zemin katlarda 4.50 metre, asma katlı zemin katlarda 6.50 metre; diğer katlarda 4.00 metre,",
+      "page": 14,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "deleted",
+        "text": "5.50"
+       },
+       {
+        "type": "added",
+        "text": "6.50"
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Ticaretin de yapılabildiği karma alanlarda; zemin katlarda 4.50 metre, asma katlı zemin katlarda 6.50 metre; diğer katlar konut ise 3.60 metre konut harici ise 4.00 metre,",
+      "page": 14,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "deleted",
+        "text": "5.50"
+       },
+       {
+        "type": "added",
+        "text": "6.50"
+       }
+      ]
+     },
+     {
+      "key": "c",
+      "text": "Konut bölgelerinde zemin ve normal katlarda 3.60 metre,",
+      "page": 14,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Zemin katında ticaret yapılabilen konut bölgelerinde ise zemin katlarda 4.50 metre, asma katlı zemin katlarda 6.50 metre, diğer katlarda 3.60 metre,",
+      "page": 14,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "deleted",
+        "text": "5.50"
+       },
+       {
+        "type": "added",
+        "text": "6.50"
+       }
+      ]
+     },
+     {
+      "key": "d",
+      "text": "Konut bölgelerinde; geleneksel mimari öğeler barındıran ve taşıyıcı sistemi kesme taş yığma bina olarak tasarlanan zemin dâhil 3 katı geçmeyen binalarda zemin ve normal katlarda 4.50 metre, kabul edilerek uygulama yapılabilir.",
+      "page": 14,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Bu maddede belirtilen kat yükseklikleri dikkate alınmadan bina yüksekliği verilen planlarda bu bende göre değerlendirme yapılıp bina yüksekliği yeniden değerlendirilinceye kadar uygulamalar birinci fıkrada belirtilen kat yükseklikleri ile plandaki veya planda belirlenmemişse bu Yönetmelikle belirlenen kat adedinin çarpılması sonucu bulunan bina yüksekliğine göre gerçekleştirilebilir. Ancak bir adada bulunan parsellerin en az dörtte üçünün yürürlükteki planın kat adedine göre yapılaşmış olması halinde mevcut teşekkülün kat yükseklikleri dikkate alınır.",
+    "page": 14,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Tesisat katının yüksekliği normal kat yüksekliğini aşamaz. Özelliği gereği tesisat katı zorunluluğu olan 60.50 metreyi aşan binalarda tesisat katının 2.00 metresi bina yüksekliğinden ve yapının kat adedinden sayılmaz.",
+    "page": 14,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "İskân edilen katların iç yüksekliği, asma katlar hariç 2.60 metreden az olamaz. Ancak hava maniası olup planla kat adedi belirlenen parsellerde bu yükseklik 2.40 metreye düşürülebilir.",
+    "page": 14,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Yıkanma yeri, banyo, duş, lavabo yeri, tuvalet, kiler, merdiven altı, her türlü iç ve dış geçitler ve iskân edilmeyen bodrum katları ile müştemilât binalarında, iç yükseklik 2.20 metreye kadar düşürülebilir.",
+    "page": 14,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Garaj, kalorifer dairesi, odunluk, kömürlük, bodrum katlarda yer alan otoparklar ve benzeri özellik arz eden yerlerin yükseklikleri bu maddede yer alan hükümlere tabi olmayıp, hizmetin gerektirdiği şekilde 2.20 metrenin altında olmamak kaydıyla idaresince tespit ve tayin olunur.",
+    "page": 14,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Eğitim, sağlık, sanayi yapıları ile sinema, tiyatro ve konferans salonları, katlı otoparklar, düğün salonu, resmi kurum ve kuruşlara ait binalar ve spor salonları gibi özellik arz eden yapılarda iç yükseklikler, teknolojik ve mimari gereklere göre mimari estetik komisyon kararı ile belirlenir.",
+    "page": 14,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "item": "a",
+    "type": "deleted",
+    "text": "5.50"
+   },
+   {
+    "para": "1",
+    "item": "a",
+    "type": "added",
+    "text": "6.50"
+   },
+   {
+    "para": "1",
+    "item": "b",
+    "type": "deleted",
+    "text": "5.50"
+   },
+   {
+    "para": "1",
+    "item": "b",
+    "type": "added",
+    "text": "6.50"
+   },
+   {
+    "para": "1",
+    "item": "ç",
+    "type": "deleted",
+    "text": "5.50"
+   },
+   {
+    "para": "1",
+    "item": "ç",
+    "type": "added",
+    "text": "6.50"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 29,
+  "label": "MADDE 29",
+  "title": "Yapı piyesleri ve ölçüleri",
+  "page": 14,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Her müstakil konutta en az aşağıdaki piyesler bulunur:\nPiyes | Dar kenarı | Net alanı\n1 oturma odası | 3.00 metre | 12.0 m²\n1 yatak odası | 2.50 metre | 9.00 m²\n1 mutfak veya yemek pişirme yeri | 1.50 metre | 3.30 m²\n1 banyo veya yıkanma yeri | 1.50 metre | 3.00 m²\n1 tuvalet | 1.00 metre | 1.20 m²",
+    "page": 14,
+    "status": "kept",
+    "revisions": [],
+    "tables": [
+     {
+      "id": "29-1",
+      "caption": "Madde 29(1): her müstakil konutta en az bulunacak piyesler ve asgari ölçüleri",
+      "header": [
+       "Piyes",
+       "Dar kenarı",
+       "Net alanı"
+      ],
+      "rows": [
+       [
+        "1 oturma odası",
+        "3.00 metre",
+        "12.0 m²"
+       ],
+       [
+        "1 yatak odası",
+        "2.50 metre",
+        "9.00 m²"
+       ],
+       [
+        "1 mutfak veya yemek pişirme yeri",
+        "1.50 metre",
+        "3.30 m²"
+       ],
+       [
+        "1 banyo veya yıkanma yeri",
+        "1.50 metre",
+        "3.00 m²"
+       ],
+       [
+        "1 tuvalet",
+        "1.00 metre",
+        "1.20 m²"
+       ]
+      ],
+      "source": "hand-curated in regulation/overrides.json, verified against PDF row text"
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "3 veya daha az odalı konutlarda banyo/yıkanma yeri ile tuvalet aynı yerde düzenlenebilir.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Hol ve koridor genişlikleri 1.20 metreden az olamaz.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Mutfak nişi ve oda ile banyo ve tuvaletin aynı mekânda düzenlenmesi halinde her mekân için öngörülen en az alanların toplamı kadar alan düzenlenmek zorundadır.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Birinci fıkrada belirtilen bu piyesler ile koridor ölçüleri engellilerin de kullanımını sağlayacak standartlara ve erişilebilirlik mevzuatına uygun olmak zorundadır.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Mutfak, oda ve tuvalet/banyo havalandırmaları aynı boşluğa açılamaz. Ancak, banyo ve tuvalet havalandırmaları aynı boşluğa açılabilir.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Su depoları ve ıslak hacimlerin altında enerji odaları teşkil edilemez.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 30,
+  "label": "MADDE 30",
+  "title": "Bina girişleri ve rampaları",
+  "page": 15,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bina giriş koridoru genişliği, ana merdivene ve asansöre ulaşıncaya kadar dış kapı genişliğinden az olmamak koşuluyla umumi binalarda en az 2.20 metre, diğer binalarda ise en az 1.50 metredir.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Ön bahçe mesafesi 10.00 metre ve daha fazla olan parsellerde bordür üst seviyesinden en fazla 2.00 metre inilmek veya çıkılmak suretiyle ön bahçeden bina girişi yapılabilir.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Yoldan yüz almayan cephelerden, köprü veya giriş şeridi aksı hizasındaki bordür seviyesinden en fazla 2.00 metre inilmek veya çıkılmak suretiyle giriş yapılabilir.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Yoldan doğrudan giriş alan binalarda, girişin hizasındaki bordür taşı üst seviyesinin altında giriş yapılamaz.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Tabi zeminden kotlandırılan parseller birinci, ikinci, üçüncü ve dördüncü fıkralardaki şartlara tabii değildir. Girişin, tabi zemine uyumlu olarak düzenlenen merdiven ve rampalarla sağlanması gerekir.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Bölge kat nizamını bozacak şekilde tesviye yapılamaz.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Konut binalarının zemin katlarının dükkân veya mağaza olarak düzenlenmesi halinde dükkân ve mağaza girişlerinin sadece yol cephesinden yapılması gerekir.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Döşeme kaplamalarında kaymayı önleyen, tekerlekli sandalye ve koltuk değneği hareketlerini güçleştirmeyen, standardına uygun malzeme kullanılması zorunludur.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "9",
+    "text": "Binalarda ve girişlerinde engellilerin erişimine yönelik TS 9111 Standardına uyulması zorunludur.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "10",
+    "text": "Rampaların kenar korumaları, genişlikleri, sahanlıkları, korkuluk ile küpeşte ve kaplama malzemeleri engellilerin de dolaşımına olanak sağlayacak şekilde TS 9111 standardına uygun yapılmak zorundadır.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "11",
+    "text": "Bina girişlerinde engellilere yönelik ön bahçede parsel sınırına kadar giriş rampası veya merdivene bitişik dar kenarı en az 0.90 metre ve alanı en az 1.20 m² engelli asansörü yeri ya da mekanik kaldırma iletme platformu yapılır. Aile ve Sosyal Politikalar Bakanlığının görüşü alınmak suretiyle engellilerin kullanımı için farklı uygulama yapılabilir.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "12",
+    "text": "Bina girişinde ve bina içinde bulunan rampaların eğimleri aşağıdaki değerlere uygun olmak zorundadır:\nEn fazla yükseklik | En fazla eğim\n15 cm ve daha az | 1:12 (% 8)\n16-50 cm arası | 1:14 (% 7)\n51-100 cm arası | 1:16 (% 6)\n100 cm üzeri | 1:20 (% 5)",
+    "page": 15,
+    "status": "kept",
+    "revisions": [],
+    "tables": [
+     {
+      "id": "30-12",
+      "caption": "Madde 30(12): rampa eğimleri (en fazla yüksekliğe göre en fazla eğim)",
+      "header": [
+       "En fazla yükseklik",
+       "En fazla eğim"
+      ],
+      "rows": [
+       [
+        "15 cm ve daha az",
+        "1:12 (% 8)"
+       ],
+       [
+        "16-50 cm arası",
+        "1:14 (% 7)"
+       ],
+       [
+        "51-100 cm arası",
+        "1:16 (% 6)"
+       ],
+       [
+        "100 cm üzeri",
+        "1:20 (% 5)"
+       ]
+      ],
+      "source": "hand-curated in regulation/overrides.json, verified against PDF row text"
+     }
+    ]
+   },
+   {
+    "no": "13",
+    "text": "Rampalarda ve ara sahanlıklarda kesintisiz olarak 0.90 metre yükseklikte 1. düzey ve 0.70 metre yükseklikte 2. düzey, elle tutulduğunda kolay kavranabilecek şekilde 32-45 mm çapında küpeşte bulunmak zorundadır.",
+    "page": 15,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 31,
+  "label": "MADDE 31",
+  "title": "Merdivenler",
+  "page": 16,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Merdiven kolu ve sahanlıklar:",
+    "page": 16,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Ortak merdiven kolu ve sahanlık genişlikleri konut yapılarında Binaların Yangından Korunması Hakkında Yönetmelik hükümlerine göre hesap edilecek kaçış genişliğinden az olmamak üzere 1.20 metreden, diğer yapılarda 1.50 metreden, yapı inşaat alanı 100 m2’den küçük ticarethanelerde 1.20 metreden, konutlarda bağımsız bölüm içindeki merdivenler ise 1.00 metreden az olamaz. Çatıya ve bodrum katlarına ulaşan ortak merdivenler ile servis merdivenlerinde de bu ölçülere uyulur. Bu merdivenler ahşap olamaz.",
+      "page": 16,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "yapı inşaat alanı 100 m2’den küçük ticarethanelerde 1.20 metreden,"
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Merdiven evlerinin bina cephesinden, çatıdan veya ışıklıktan doğrudan ışık alması ve merdivenlerin çatıya ve bodrumlara ulaştırılması zorunludur.",
+      "page": 16,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Merdiven basamakları ve sahanlık ölçülerine dair TSE standartlarının bu maddede belirtilen ölçü ve miktarlardan küçük olması halinde bu madde hükümleri geçerlidir.",
+      "page": 16,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Merdivenlerin her iki tarafında da engellilerle ilgili TSE erişilebilirlik standartlarına uygun korkuluk ve küpeşte yapılması, ayrıca sahanlık ve merdiven döşemelerinde ve kaplamalarında da standartlara uyulması zorunludur.",
+      "page": 16,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Merdiven evinde ışık alması için bırakılan boşluğunun (merdiven kovasının) eni en az 0.30 metre olmalıdır.",
+      "page": 16,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Merdiven evinde ışık alması için bırakılan boşluğunun (merdiven kovasının) eni en az 0.30 metre olmalıdır."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Merdiven basamaklarının ölçüleri ve özellikleri:",
+    "page": 16,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Asansörü olmayan binalarda basamak yüksekliği 0.16 metreden, asansörlü binalarda 0.18 metreden ve dış merdivenlerde 0.15 metreden fazla olamaz.",
+      "page": 16,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "ve dış merdivenlerde 0.15 metreden"
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Basamak genişliği 2a+b= 60 ila 64 formülüne göre hesaplanır. Formüldeki a: yükseklik, b: genişliktir. Ancak bu genişlik 0.27 metreden az olamaz.",
+      "page": 16,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Balansmanlı (dengelenmiş) merdivenlerde basamak genişliği en dar kenarda 0.10 metre, basamak ortasında 0.27 metreden az olamaz.",
+      "page": 16,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Basamak uçları çıkıntısız (damlalıksız) olmak zorundadır.",
+      "page": 16,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "3",
+    "text": "Binalarda son kattaki bağımsız bölümlerle irtibatlı çatı arası piyeslerine çıkan iç merdivenlerde birinci ve ikinci fıkralardaki şartlar aranmaz. Ancak merdivenler ile ilgili olarak Binaların Yangından Korunması Hakkında Yönetmelik hükümleri geçerlidir.",
+    "page": 16,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Ancak merdivenler ile ilgili olarak Binaların Yangından Korunması Hakkında Yönetmelik hükümleri geçerlidir."
+     }
+    ]
+   },
+   {
+    "no": "4",
+    "text": "Bu Yönetmeliğin yürürlüğe girmesinden önce yürürlükte olan mevzuata uygun olarak yapılmış yapılara bu Yönetmelik hükümlerine göre kat ilavesi yapılması halinde mevcut merdiven ölçüleri ilave katlar için de aynen uygulanabilir.",
+    "page": 16,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Karma kullanımlı binalarda her kullanım için ayrı merdiven evi düzenlenmesi zorunludur. Bu kullanımların birbirine dönüştürülmesi durumunda yeni oluşan kullanım için bağımsız genel merdiven oluşturulmadan tadilata izin verilmez.",
+    "page": 16,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Yüksekliği 1.80 metreden az olan merdiven altları kapatılır.",
+    "page": 16,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "item": "a",
+    "type": "added",
+    "text": "yapı inşaat alanı 100 m2’den küçük ticarethanelerde 1.20 metreden,"
+   },
+   {
+    "para": "1",
+    "item": "d",
+    "type": "added",
+    "text": "Merdiven evinde ışık alması için bırakılan boşluğunun (merdiven kovasının) eni en az 0.30 metre olmalıdır."
+   },
+   {
+    "para": "2",
+    "item": "a",
+    "type": "added",
+    "text": "ve dış merdivenlerde 0.15 metreden"
+   },
+   {
+    "para": "3",
+    "type": "added",
+    "text": "Ancak merdivenler ile ilgili olarak Binaların Yangından Korunması Hakkında Yönetmelik hükümleri geçerlidir."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 32,
+  "label": "MADDE 32",
+  "title": "Işıklıklar ve hava bacaları",
+  "page": 16,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Her müstakil ev veya dairede, en az 1 oturma odası ile yatak odalarının doğrudan doğruya hariçten ışık ve hava almaları gereklidir. Bu şekilde ışık ve hava almalarına lüzum olmayan diğer odalarla mutfakların ışıklıktan, yıkanma yeri ve tuvaletlerin ışıklık veya hava bacasından faydalanmaları da mümkündür. Ancak tuvalet ve yıkanma yerleri ile odalar aynı ışıklığa açılamaz.",
+    "page": 16,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Işıklıkların;",
+    "tail": "az olamaz.",
+    "page": 16,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "1 ila 6 katlı binalarda dar kenarı 1.50 metreden ve alanı 4.50 m2’den,",
+      "page": 16,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "7 ve daha fazla katlı binalarda dar kenarı 2.00 metreden ve alanı 9.00 m2’den,",
+      "page": 16,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "3",
+    "text": "Her türlü binada hava bacalarının asgari ölçüsü 0.60x0.60 m2’dir. Bu alan herhangi bir yapı elemanı (baca, kiriş ve benzeri) ile daraltılamaz.",
+    "page": 16,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Hava bacaları, şönt baca tipi olarak düzenlenemez.",
+    "page": 16,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Asgari ölçüdeki bir ışıklık veya hava bacasından her katta en çok dört piyes faydalanabilir. Bu piyeslerin sayısının artması halinde, dörtten fazla her piyes için ışıklık veya hava bacası ölçüsü aynı oranda arttırılır. Ancak, birinci fıkrada belirtilen şekilde ışık ve hava alması gerekmeyen veya lüzumlu ışık ve havayı bu Yönetmelikte tarif edilen şekilde alması mümkün olan piyeslerden, herhangi bir ışıklık veya hava bacasına pencere açılması, bu ışıklık veya hava bacası ölçülerinin arttırılmasını gerektirmez.",
+    "page": 16,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Her binanın lüzumlu ışıklık veya hava bacası, kendi parseli üzerinde bulunur. Komşu bina ve parselin ışıklık veya hava bacasından faydalanmak suretiyle, bu elemanlarının yapılmasına ve ölçülerinin azaltılmasına izin verilmez.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Işıklık ve hava bacaları, bunlara ihtiyacı olan kattan itibaren başlatılabilir. Hava bacalarının ve ışıklıkların bitişik komşu parsele bakan kısımlarının duvar ile kapatılması mecburidir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Binaların bitişik olması gereken komşu tarafından boydan boya ışıklık yapılması halinde, civarın inşaat nizamına aykırı bir görünüm meydana getirmemek üzere, sokak cephesinde bina yüksekliğince kapatılması mecburidir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "9",
+    "text": "Binalarda banyo, tuvalet ve benzeri kullanım alanlarının havalandırma bacası ile veya mekanik havalandırma ile havalandırılması zorunludur.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "10",
+    "text": "Havalandırma bacalarından elektrik ve doğalgaz tesisatı geçirilemez.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 33,
+  "label": "MADDE 33",
+  "title": "Bacalar",
+  "page": 17,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Kaloriferli binaların konut olarak kullanılan bağımsız bölümlerinin oturma ve yatma hacimlerinin en az birinde ve sıcak su tesisatı bulunmayan banyo ve mutfaklarında, sobalı binalarda ise tuvalet ve koridor hariç tüm piyeslerde duman bacası yapılması zorunludur.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Kaloriferli umumi binaların her katında en az bir adet duman bacası yapılması gereklidir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Konut olarak kullanılan sobalı binaların ticari kullanımlı bağımsız bölümlerinde birer adet duman bacası yapılması zorunludur. Ancak tadilat projesi ile dükkanların bölünmesi durumunda İşyeri Açma ve Çalışma Ruhsatlarına İlişkin Yönetmelik'te belirtilen bacasız dükkan kullanımları dikkate alınarak onay vermeye ilgili idaresi yetkilidir.",
+    "page": 17,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Ancak tadilat projesi ile dükkanların bölünmesi durumunda İşyeri Açma ve Çalışma Ruhsatlarına İlişkin Yönetmelik'te belirtilen bacasız dükkan kullanımları dikkate alınarak onay vermeye ilgili idaresi yetkilidir."
+     }
+    ]
+   },
+   {
+    "no": "4",
+    "text": "Bacaların TSE standartlarına uygun olarak yapılması zorunludur.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Yapılarda bina yüksekliğine göre uygun ölçülerde şönt baca yapılabilir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Kapıcı dairesi zorunlu olan konut binalarında, evsel atıkların yerinde ayrıştırılmasını teminen ilgili standartlara uygun atık ayrıştırma bacası için yer ayrılır. Atık ayrıştırma bacası bağımsız bölümlerin kat sahanlıklarında en az bir adet yapılabileceği gibi her bağımsız bölüm içinde de yapılabilir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Atık ayrıştırma bacası tesis edilmesi mümkün olamayan mevcut binalarda bahçe mesafeleri içinde TAKS ve KAKS’a dâhil olmaksızın atık ayrıştırma bacası tesis edilebilir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Şofben, kombi cihazı ve bu gibi ısıtma araçları hayati tehlike arz edecek şekilde yerleştirilemez ve havalandırmadan uzak olan piyeslerle, banyo ve tuvaletlerde yer alamaz.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "9",
+    "text": "Sınırları ilgili idare tarafından belirlenecek doğalgaz uygulama bölgeleri içinde inşa edilecek, iskân edilebilir bodrum katlar dâhil 5 katlı binaların mutfaklarında, doğalgazla çalışan her cihaz için bir müstakil baca yapılır.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "10",
+    "text": "Bağımsız bölümlerin mutfaklarında en az bir adet aspiratör bacası yapılır. Bağımsız bölümlerde düzenlenen soba ve aspiratör bacaları, standartlara uygun olarak şönt baca şeklinde düzenlenebilir. 10 katın üzerindeki binalarda aynı baca sistemi yapılmakla birlikte hermetik cihaz kullanılır.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "11",
+    "text": "Kat kaloriferleri kazanı mutfak dışında özel bir bölmeye konulduğunda, bu mahallin en az 6 m3 hacminde olması, bina dış cephesinden havalandırılması ve bir müstakil bacasının bulunması gerekir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "12",
+    "text": "Isıtmada denge bacalı sistemde olmayan doğalgaz sobalarının kullanılması halinde, her sobanın bu maddede belirlenen esaslara göre düzenlenen ayrı bir bacaya bağlanması gerekir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "13",
+    "text": "Elektrik-haberleşme, mekanik, doğalgaz tesisatları için ortak tesisat bacası kullanılamaz.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "14",
+    "text": "Kalorifer daireleri ve bacalar ile ısıtma ve buhar tesisleri, Binalarda Enerji Performansı Yönetmeliği ve Binaların Yangından Korunması Hakkında Yönetmelik hükümlerine uygun olarak düzenlenir.",
+    "page": 17,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "15",
+    "text": "Zemin katta yapılan imalathane (unlu mamülleri, yeme-içme mekanları) niteliğindeki dükkanların bacaları bina ile bütünleşik ve bina hattı boyunca çatıya kadar devam etmesi zorunludur.",
+    "page": 18,
+    "status": "added",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Zemin katta yapılan imalathane (unlu mamülleri, yeme-içme mekanları) niteliğindeki dükkanların bacaları bina ile bütünleşik ve bina hattı boyunca çatıya kadar devam etmesi zorunludur."
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "3",
+    "type": "added",
+    "text": "Ancak tadilat projesi ile dükkanların bölünmesi durumunda İşyeri Açma ve Çalışma Ruhsatlarına İlişkin Yönetmelik'te belirtilen bacasız dükkan kullanımları dikkate alınarak onay vermeye ilgili idaresi yetkilidir."
+   },
+   {
+    "para": "15",
+    "type": "added",
+    "text": "Zemin katta yapılan imalathane (unlu mamülleri, yeme-içme mekanları) niteliğindeki dükkanların bacaları bina ile bütünleşik ve bina hattı boyunca çatıya kadar devam etmesi zorunludur."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 34,
+  "label": "MADDE 34",
+  "title": "Asansörler",
+  "page": 18,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Tek bağımsız bölümlü konutlar hariç uygulama imar planına göre kat adedi 3 olan binalarda asansör yeri bırakılması, 4 ve daha fazla olan binalarda ise asansör tesisi zorunludur. İskân edilen veya bağımsız bölüm bulunan bodrum katlar dâhil kat adedi 4 ve daha fazla olan binalarda asansör yapılması zorunludur. Daha az katlı yapılarda da asansör yapılabilir.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Tek asansörlü binalarda; asansör kabininin dar kenarı 1.20 metre ve alanı 1.80 m2’den, kapı net geçiş genişliği ise 0.90 metreden az olamaz. Asansör kapısının açıldığı sahanlıkların genişliği, asansör kapısı sürgülü ise en az 1.20 metre, asansör kapısı dışa açılan kapı ise en az 1.50 metre olmak zorundadır. Birden fazla asansör bulunan binalarda, asansör sayısının yarısı kadar asansörün bu fıkrada belirtilen ölçülerde yapılması şarttır. Tek sayıda asansör bulunması durumunda sayı bir alta yuvarlanır. TSE standartlarının bu fıkrada belirtilen ölçü ve miktarlardan küçük olması halinde; taban alanında yapılaşma hakkı 120 m2’nin altında olan parseller ile tek bağımsız bölümlü müstakil konut binalarında TSE standartlarına uyulmasına ilgili idaresi yetkilidir.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Mevcut binalarda yapılacak tadilatlarda, bu madde hükümlerinin ya da TSE standartlarının uygulanmasında idaresi yetkilidir.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Kullanılabilir katlar alanı tek katlı olan binalar hariç 800 m2'den veya kat adedi birden fazla olan umumi binalarda en az bir adet asansör yapılması zorunludur. Ayrıca; kat alanı 800 m2'den ve kat adedi 3'ten fazla olan umumi binalarda, uygulama imar planına göre 10 kat ve üzeri binalarda veya bina giriş katı üzerinde 20 den fazla bağımsız bölüm bulunan yapılarda ikinci fıkrada belirtilen asgari ölçülere uygun ve en az 2 adet olmak üzere binanın tipi, kullanım yoğunluğu ve ihtiyaçlarına göre belirlenecek sayıda asansör yapılması zorunludur. Bu asansörlerden en az bir tanesinin herhangi bir tehlike anında, arıza veya elektriklerin kesilmesi halinde zemin kata ulaşıp kapılarını açacak, yangına dayanıklı malzemeden yapılmış, kuyu içinde, duman sızdırmaz nitelikte, jeneratörden beslenecek şekilde tesis edilmesi gerekmektedir.",
+    "page": 18,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "deleted",
+      "text": "zemin kat"
+     },
+     {
+      "type": "added",
+      "text": "bina giriş katı"
+     },
+     {
+      "type": "deleted",
+      "text": "konut kullanımlı"
+     },
+     {
+      "type": "deleted",
+      "text": "kesintisiz bir güç kaynağından"
+     },
+     {
+      "type": "added",
+      "text": "jeneratörden"
+     }
+    ]
+   },
+   {
+    "no": "5",
+    "text": "10 kat ve üzeri binalarda asansörlerden en az bir tanesi yük, eşya ve sedye taşıma amacına uygun olarak dar kenarı 1.20 metre ve alanı 2.52 m2'den, kapı genişliği ise net 1.10 metreden az olmayacak şekilde yapılır.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Binalarda usulüne göre asansör yapılmış olması, bu Yönetmelikte belirtilen şekil ve ölçülerde merdiven yapılması şartını kaldırmaz.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Asansörün yapılması ve işletilmesi ile ilgili hususlarda; bu madde hükümleri de dikkate alınarak, 29/6/2016 tarihli ve 29757 sayılı Resmî Gazete’de yayımlanan Asansör Yönetmeliği (2014/33/AB) ve TSE standartları hükümlerine uyulur.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Asansör zorunluluğu bulunan binalarda asansörlerin, bodrum katlar dâhil tüm katlara hizmet vermesi zorunludur. Ancak bağımsız bölüm ya da iskân edilen alan bulunmayan bodrum katlara en az bir asansörün ulaştırılması zorunludur",
+    "page": 18,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "en az bir"
+     },
+     {
+      "type": "added",
+      "text": "dur"
+     },
+     {
+      "type": "deleted",
+      "text": "değildir ."
+     }
+    ]
+   },
+   {
+    "no": "9",
+    "text": "Asansörlere bina girişinden itibaren erişilebilirlik standartlarına uygun engelsiz erişim sağlanması zorunludur.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "10",
+    "text": "Asansörler, erişilebilirlik standartlarına uygun gerekli donanımlara sahip olmak zorundadır.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "11",
+    "text": "Özellik arz eden binalarda, binanın kat adedi, yapı inşaat alanı, kullanma şekli göz önünde tutularak asansör sayıları ile asgari ölçüleri ilgili idaresince artırılabilir.",
+    "page": 18,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "4",
+    "type": "deleted",
+    "text": "zemin kat"
+   },
+   {
+    "para": "4",
+    "type": "added",
+    "text": "bina giriş katı"
+   },
+   {
+    "para": "4",
+    "type": "deleted",
+    "text": "konut kullanımlı"
+   },
+   {
+    "para": "4",
+    "type": "deleted",
+    "text": "kesintisiz bir güç kaynağından"
+   },
+   {
+    "para": "4",
+    "type": "added",
+    "text": "jeneratörden"
+   },
+   {
+    "para": "8",
+    "type": "added",
+    "text": "en az bir"
+   },
+   {
+    "para": "8",
+    "type": "added",
+    "text": "dur"
+   },
+   {
+    "para": "8",
+    "type": "deleted",
+    "text": "değildir ."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 35,
+  "label": "MADDE 35",
+  "title": "Akaryakıt servis istasyonları",
+  "page": 18,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "İmar planlarında akaryakıt servis istasyonu olarak belirlenen alanlarda istasyonlar arası mesafe ve diğer kriterlerle ilgili mevzuata uyulması şartıyla; akaryakıt ve servis istasyonları ile Büyükşehir Belediyesinin uygun gördüğü alanlarda CNG otogaz istasyonları, LPG otogaz istasyonları, hidrojen üretim ve dolum istasyonları yapılabilir.",
+    "page": 18,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "ile Büyükşehir Belediyesinin uygun gördüğü alanlarda"
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Yapı yüksekliği 2 katı geçmemek şartıyla; istasyonların bünyelerinde kullanıcıların asgari ihtiyaçlarını karşılayacak oto-market, çay ocağı, tuvalet, mescit, büfe, oto elektrik, lastikçi, yıkama yağlama fonksiyonları yer alabilir.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Yakıt tankı ve borulama sistemlerinin bakım, tadilat veya onarımlarının, TSE standartları ve ilgili kurumların görüşü doğrultusunda yapılması zorunludur.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Elektrik enerjisi ile çalışan araçların şarj edilmeleri için, ilgili elektrik kurumunun, olumlu görüşü ile otoparklar, akaryakıt istasyonları veya diğer uygun yerlerde elektrikli araç şarj yeri yapılabilir.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Akaryakıt istasyonları, ilgili mevzuat hükümlerine ve ilgili standartlara uyularak yapılır.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "type": "added",
+    "text": "ile Büyükşehir Belediyesinin uygun gördüğü alanlarda"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 36,
+  "label": "MADDE 36",
+  "title": "Su depoları",
+  "page": 19,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bu Yönetmelikte belirtilen,",
+    "tail": "az olmamak üzere yapının kullanma amacı, günlük su ihtiyacı, seçilen yangın söndürme sistemi gibi kriterler ile ulusal ve uluslararası standartlara uyulmak ve gerekli drenaj ve yalıtım tedbirleri alınmak şartıyla hacmi belirlenen su deposu bulundurulması zorunludur.",
+    "page": 19,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Çok yüksek yapılarda 30 m3’ten,",
+      "page": 19,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Umumi binalar ve yüksek katlı yapılarda 15 m3’ten,",
+      "page": 19,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "10 bağımsız bölüme kadar konut binalarında 3 m3’ten,",
+      "page": 19,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Diğer binalarda 5 m3’ten,",
+      "page": 19,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Bağ ve Sayfiye Evi planlı alanlardaki müstakil konutlarda 1 m3’ten,",
+      "page": 19,
+      "status": "added",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "Bağ ve Sayfiye Evi planlı alanlardaki müstakil konutlarda 1 m3’ten,"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Konut binalarında 10 bağımsız bölümden sonraki artan her bağımsız bölüm için su deposu hacmi 0.50 m3 arttırılır.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Tüm binalarda su deposunun bulunduğu kat itibariyle cazibeli akımın mümkün olmadığı durumlarda hidrofor konulması zorunludur.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Su depoları ve hidrofor, gerekli drenaj ve yalıtım tedbirleri alınarak binanın bodrum ya da çatı katında tertiplenebileceği gibi, aynı koşulları taşımak şartıyla, bina alanı dışında ön, yan ve arka bahçelerde toprağa gömülü şekilde de yerleştirilebilir.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Su depoları, taşıyıcı sistemden bağımsız olarak betonarme, paslanmaz çelik veya sıhhi şartlara uygun benzeri malzemeden yapılır.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "item": "d",
+    "type": "added",
+    "text": "Bağ ve Sayfiye Evi planlı alanlardaki müstakil konutlarda 1 m3’ten,"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 37,
+  "label": "MADDE 37",
+  "title": "Fosseptikler",
+  "page": 19,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Genel olarak pis su kuyuları ile fosseptikler komşu hudutlarına 5.00 metreden fazla yaklaştırılmaz. Ancak bahçe mesafelerinin müsait olmaması halinde özellikle bitişik yapı nizamına tabi yerlerde fenni ve sıhhi mahzur bulunmadığı takdirde bu mesafeleri azaltmaya veya birkaç komşuya ait fosseptikleri bir arada veya bitiştirerek yaptırmaya belediye yetkilidir.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Binaların en düşük kanal bağlantı kotu altında kalan pis su deşarjları ise, deşarj pompalarının elektrik kesintisi durumunda çalışmayacağı göz önünde bulundurularak; boyutları binanın kullanış şekillerine göre muvakkat depolama imkânını veren ayrı bir rögarda toplanır ve motopomp sistemi kullanılarak kanalizasyon şebekesine verilir.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 38,
+  "label": "MADDE 38",
+  "title": "Korkuluklar",
+  "page": 19,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Binalarda; balkon, teras, galeri boşluğu, sahanlıkların boş kenarları 1'den fazla basamağı bulunan açık merdivenlerde ve rampalarda, istinat duvarı üstünde, 0,50 metreden daha aşağıda veya yukarıda teşekkül etmiş bahçelerde, 1.10 metreden düşük düzenlenmiş bahçe duvarlarında, bulunduğu katın taban döşemesinden itibaren kotu 0.90 metreden az olan pencere boşluklarında, döşeme kotundan itibaren en az 1.10 metre yüksekliğe kadar teknik gereklere ve standartlara uygun olarak korkuluk yapılması mecburidir.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Bina son kat açık teraslarında düzenlenen korkulukların ve parapetlerin 1.10 metresi bina yüksekliğinden sayılmaz.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Korkuluklar, kırılmaz veya kırıldığında dağılmayan malzemeden ve insan çarpması dâhil, tasarım yüklerini karşılayacak taşıyıcı malzeme ve montaj sistemleri ile yapılır.",
+    "page": 19,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Korkuluklar düşme, kayma, yuvarlanma gibi sebeplerle insanların can güvenliğini tehlikeye atacak boşluklar içermeyecek şekilde düzenlenir. Boşluklarda, yük altındaki deformasyonlar da dâhil, en fazla 0.10 metre çapında geçişe izin verilir.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 39,
+  "label": "MADDE 39",
+  "title": "Kapı ve pencereler",
+  "page": 20,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bütün yapılarda;",
+    "tail": "az olamaz. Balkon ve tuvalet kapıları 0.80 metreye düşürülebilir.",
+    "page": 20,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Kapı yükseklikleri 2.10 metreden,",
+      "page": 20,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Kapı net (temiz) genişlikleri bina giriş kapılarında 1.50 metreden, kapıların çift kanatlı olması halinde bir kanat 1.00 metreden,",
+      "page": 20,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Bağımsız bölüm giriş kapılarında 1.00 metreden, diğer mahallerin kapılarında 0.90 metreden,",
+      "page": 20,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Döner kapılar, belirtilen ölçülerde yapılacak normal kapıların yanında ilave olarak bulunabilir.",
+      "page": 20,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Kapılarda eşik yapılamaz. Eşik yapılması zorunlu hallerde engellilerin hareketini, yangın çıkışlarını ve benzeri eylemleri engellemeyecek önlemler alınır.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Pencerelerde Binalarda Enerji Performansı Yönetmeliğine ve TSE standartlarına uyulması zorunludur.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Bitişik ve blok nizama tabi binalarda komşu parsel sınırı üzerindeki bitişik duvarlarda pencere ve kapı açılamaz.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Asansörlü eşya taşımacılığı için, 3 kattan fazla 10 kattan az katlı binalarda her bir bağımsız bölümün en az bir balkonunun kapısının eni net 0.90 metreden düşük olamaz.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Bağımsız bölümün tuvalet, banyo ve benzeri ıslak hacimlerinde mekanik havalandırma yapılmadığı takdirde yapılacak havalandırma penceresinin ölçüsü net 0.30 metre x 0.30 metreden az olamaz.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Atriumlu, galeri boşluklu veya iç bahçeli tasarlanan binalarda, bu mekânlara bakan pencere veya camekânların camlarının kırıldığında dağılmayan özellikli olması zorunludur.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Bodrum katlardaki mekânların gün ışığından faydalandırılması ve havalandırılması amacı ile yapılan pencerelerde sel, taşkın ve su baskınlarına karşı tedbirlerin alınmış olması ve bunların zemin seviyesinden en az 0.10 metre yukarıdan başlaması zorunludur.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 40,
+  "label": "MADDE 40",
+  "title": "Çatılar",
+  "page": 20,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Çatıların, civarındaki cadde ve sokakların mimari karakterine, yapılacak binanın nitelik ve ihtiyacına uygun olması şarttır.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Çatı eğimleri, kullanılacak çatı malzemesi ile yörenin mimari özelliği ve iklim şartları dikkate alınarak ilgili idarenin tasvibi ile tayin edilir. Çatı eğimi içinde kalmak ve silüeti etkilememek kaydıyla çatı örtüsü olarak fotovoltaik paneller de kullanılabilir.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Çatı eğimi saçak ucundan hesaplanır. Çatılar parapet üzerine oturtulamaz.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Mahya yüksekliği 5.00 metreyi geçmemek kaydıyla; ayrık binalarda kırma, ikili blok binalarda bloğu ile müşterek kırma, iki taraftan da bitişik binalarda ise ön ve arka cepheye akıntılı beşik çatı kurulacağı varsayılarak belirlenir.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Merdiven evleri, ışıklıklar, hava bacaları, alın ve kalkan duvarları dördüncü fıkraya göre belirlenen çatı örtüsü düzlemlerini en fazla 0.60 metre aşabilir. Ayrıca zorunlu olan tesisatla ilgili hacimlerin, güneş enerjili su ısıtıcılarının ve çatı pencerelerinin çatı örtüsünü aşmasına ilgili idarece teknik gereklere göre uygun görülecek ölçü ve şekilde izin verilebilir. Asansörlü binalarda TSE standartlarına göre projelendirilecek asansör kulelerinin ve bu bölümlerle birlikte düzenlenen merdiven evlerinin en az ölçülerdeki bölümlerinin, çatı örtüsünü aşmasına da izin verilir.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Teras çatılarda 1.10 metre parapet yapılabilir. Teras çatının kullanıma açık olması durumunda 1.10 metre yüksekliğinde parapet veya korkuluk yapılması zorunludur.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Çatı aralarına bağımsız bölüm yapılmaz. Bu kısımlarda ancak su deposu, asansör kulesi, iklimlendirme ve kaskat sistemleri de içerebilen tesisat odası ve son kattaki bağımsız bölümlerle irtibatlı piyesler yapılabilir.",
+    "page": 20,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Çatı arasındaki mekânlarda, çatı eğimi içerisinde kalmak ve fonksiyonunu sağlamak şartıyla asgari yükseklik şartı aranmaz. Ancak, üst kat tavan döşemesi ile çatı örtüsü arasında kalan hacimler, uygulama imar planında aksine bir hüküm yoksa ilave kat döşemeleri yapılmak suretiyle bölünemezler.",
+    "page": 21,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "9",
+    "text": "Yangın güvenliğine ilişkin tedbirler alınmak şartıyla ve konutlar hariç olmak üzere binaların çatı araları; sergi salonu, toplantı salonu, yemekhane, spor salonu gibi fonksiyonlarda ortak alan olarak kullanılabilir.",
+    "page": 21,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "10",
+    "text": "Tescilli yapılar, anıtlar ve kamu yararlı yapılar ile dini yapıların çatı örtüleri ve bunların yapılacak ya da tamir ve tadil edilecek çatı örtüleri bu kayıtlara tabi değildir.",
+    "page": 21,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "11",
+    "text": "Belediyeler meclis kararıyla mahallin ve çevrenin özelliklerine göre yapılar arasında uyum sağlamak, güzel bir görünüm elde etmek amacı ile dış cephe boya ve kaplamaları ile çatının malzemesini ve rengini tayin etmeye yetkilidir. Bu yetki, bu Yönetmeliğin yürürlüğe girmesinden önce yapılmış olan yapılar için de kullanılabilir.",
+    "page": 21,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "12",
+    "text": "Çatıda birden fazla bağımsız bölüme ait birden fazla teras olması halinde birbirleri arasında en az 3.00 metre mesafe bırakılmak zorundadır. Ancak, bodrum hariç 2 katı geçmeyen binalarda çatıdaki değişik çözümlerin kabulünde ilgili idaresi yetkilidir.",
+    "page": 21,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "13",
+    "text": "Çatı arasının son kat bağımsız bölümü ile birlikte kullanılması amacıyla son kat tavan döşemesi kısmen veya tamamen yapılmayabilir.",
+    "page": 21,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "14",
+    "text": "Teras çatılarda çatı bahçesi olarak düzenleme yapılabilir. Bahçe düzenlemesi yapılabilmesi için gerekli olan 0.50 metre toprak dolgu, parapet yüksekliğine dâhil edilmez. Ortak alan olarak kullanılan teras çatılarda; bahçe düzenlemesi yapılması halinde merdiven evi yanında, bina sakinleri tarafından kullanılmak üzere, tuvalet, lavabo, çay ocağı, bahçe düzenlemesinde kullanılacak malzemeleri depolamak için merdiven evine bitişik, toplam teras alanının %10’unu ve 20 m²’yi geçmeyen ve en fazla 3.00 metre yüksekliğinde kapalı mekân oluşturulabilir. Kapalı mekân bina ön cephesine 3.00 metreden fazla yaklaşamaz. Ayrıca rezidans, otel, apart otel gibi konaklama tesislerinin teras çatılarında bina cephelerine 3.00 metreden fazla yaklaşmamak, en fazla 1.50 metre derinliğinde olmak ve parapet kotunu aşmamak koşuluyla açık havuz yapılabilir.",
+    "page": 21,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 41,
+  "label": "MADDE 41",
+  "title": "Çıkmalar",
+  "page": 21,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Binalarda taban alanı dışında kendi bahçe hudutları dışına taşmamak şartı ile binanın her cephesinde açık ve kapalı çıkma yapılabilir. Ancak:",
+    "page": 21,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Kapalı çıkmalar;",
+      "page": 21,
+      "status": "kept",
+      "revisions": [],
+      "items": [
+       {
+        "key": "1",
+        "text": "Parsellerin yol cephelerinde parsel sınırları içerisinde kalmak koşuluyla yapı yaklaşma sınırından itibaren en fazla 1.50 metre taşacak şekilde yapılabilir.",
+        "page": 21,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "Arka ve yan bahçe mesafelerine, parsel sınırlarına 3.00 metreden fazla yaklaşmamak kaydı ile 1.50 metre taşabilir.",
+        "page": 21,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "3",
+        "text": "Bina tabanı zeminde yapı yaklaşma sınırlarından daha içeri çekilerek bu fıkranın (a) bendinin (1) ve (2) numaralı alt bentlerindeki mesafelere tecavüz etmemek şartı ile istenilen ölçülerde yapılabilir.",
+        "page": 21,
+        "status": "kept",
+        "revisions": []
+       }
+      ]
+     },
+     {
+      "key": "b",
+      "text": "Açık çıkmalar;",
+      "page": 21,
+      "status": "kept",
+      "revisions": [],
+      "items": [
+       {
+        "key": "1",
+        "text": "Parsellerin yol cephelerinde parsel sınırları içerisinde kalmak koşuluyla yapı yaklaşma sınırından itibaren en fazla 1.50 metre taşacak şekilde yapılabilir.",
+        "page": 21,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "2",
+        "text": "Arka ve yan bahçe mesafelerine, parsel sınırlarına 3.00 metreden fazla yaklaşmamak kaydı ile 1.50 metre taşabilir.",
+        "page": 21,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "3",
+        "text": "Bina tabanı zeminde yapı yaklaşma sınırlarından daha içeri çekilerek bu fıkranın (b) bendinin (1) ve (2) numaralı alt bentlerindeki mesafelere tecavüz etmemek şartı ile istenilen ölçülerde yapılabilir.",
+        "page": 21,
+        "status": "kept",
+        "revisions": []
+       },
+       {
+        "key": "4",
+        "text": "Bitişik nizamda bitişik olduğu komşu sınırına 2.00 metreden fazla yaklaşamaz.",
+        "page": 21,
+        "status": "kept",
+        "revisions": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Açık ve kapalı çıkmaların tabii zeminden veya tesviye edilmiş zeminden çıkma altına kadar en yakın şakûli mesafesi en az 2.40 metre olmak zorundadır. Ön bahçe mesafesi 3 metre ve daha az olan parsellerde; ön bahçeye yapılacak çıkmalarda, yol kotu ile çıkma altı arasındaki düşey mesafe hiçbir yerde 2.40 metreden az olamaz.",
+    "page": 21,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Zemin katta kendi parsel hududu dışına taşmayan, hangi katta yapılırsa yapılsın ısı yalıtımı haricinde 0.20 metreyi geçmeyen, kullanım alanına dâhil edilmeyen motif çıkmalar yapılabilir. Bahçe içinde yapılacak üstü açık teras ve zemin kat giriş merdivenleri ile bina cephesinden itibaren genişliği 2.50 metreyi geçmemek, tretuar dışına taşmamak ve en alçak noktası tretuar kotundan en az 2.50 metre yükseklikte yapılacak giriş saçakları çıkma olarak değerlendirilmez. Motif çıkmalar, açık ve kapalı çıkma önüne yapılacak ise motif çıkma da dâhil olmak üzere çıkma genişliği birinci fıkranın (a) ve (b) bentlerinde açıklanan hükümlere göre belirlenir.",
+    "page": 22,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "ısı yalıtımı haricinde"
+     }
+    ]
+   },
+   {
+    "no": "4",
+    "text": "Bina cephelerinde, mimari projesinde cephe estetiği ve tasarımı göz önünde bulundurulmak ve detay projeleri verilmek, hafif malzemeden yapılmak, parsel sınırına taşmamak ve kapalı mekân oluşturmamak kaydıyla 0.50 metreye kadar güneş kırıcı yapılabilir.",
+    "page": 22,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "3",
+    "type": "added",
+    "text": "ısı yalıtımı haricinde"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 42,
+  "label": "MADDE 42",
+  "title": "Saçaklar",
+  "page": 22,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Uygulama imar planında belirlenmemiş ise 1.00 metreyi geçmeyen saçak yapılabilir. Saçakların şekli ve genişliği, yörenin mimari karakterine ve yapılacak yapıların özelliğine göre mimari estetik komisyonu kararı alınarak ilgili idarece de tayin edilebilir.",
+    "page": 22,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Saçaklar parsel sınırlarını aşamaz.",
+    "page": 22,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Binada çıkma yapılması halinde saçak genişliği çıkmadan itibaren 0.50 metreyi aşamaz.",
+    "page": 22,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 43,
+  "label": "MADDE 43",
+  "title": "Bahçe duvarları",
+  "page": 22,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bahçe duvarlarının yüksekliği; binaların yol tarafındaki cephe hatlarının önünde, yoldan kotlandırılan binalarda kaldırım üst kotundan itibaren 0.50 metreyi, yoldan yüksek olup tabi zeminden kotlandırılan binalarda ise parselin yol sınırındaki tabii zemin kotundan itibaren 0.50 metreyi, yol cepheleri gerisinde ise 1.5 metreyi geçemez. Ayrıca üzerlerine yükseklikleri 1.00 metreyi aşmayan parmaklık yapılabilir.",
+    "page": 22,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Eğimli yollarda/arazilerde bahçe duvarı üst kotunun tretuvardan en fazla 1.50 metre yükseldiği durumlarda duvar üstten kademelendirilir. Fazla meyilli ve tehlike arz eden yerlerde uygulanacak şekli takdire idare yetkilidir.",
+    "page": 22,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Devletin güvenlik ve emniyeti ile harekât ve savunma bakımından gizlilik veya önem arz eden bina ve tesisler ile okul, hastane, cezaevi, ibadet yerleri, elçilik, sefarethane, açık hava sineması ve benzerleri gibi özellik arz eden bina ve tesislerin bahçe duvarları ile sanayi bölgelerinde yapılacak bahçe duvarları bu madde hükmüne tabi değildir.",
+    "page": 22,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Bağ ve sayfiye parselleri ile tek bağımsız bölümlü konut (villa) alanlarında güvenlik ve mahremiyetin sağlanması için yola bakan cephelerine 2.00 metreye kadar duvar yapılabilir.",
+    "page": 22,
+    "status": "added",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Bağ ve sayfiye parselleri ile tek bağımsız bölümlü konut (villa) alanlarında güvenlik ve mahremiyetin sağlanması için yola bakan cephelerine 2.00 metreye kadar duvar yapılabilir."
+     }
+    ]
+   },
+   {
+    "no": "5",
+    "text": "Zemin veya bodrum katlarında dükkan yapılmasına müsaade edilen yapılarda, yola bakan bahçelerde bahçe duvarı veya yaya trafiğini tehlikeye düşürecek engeller yapılamaz.",
+    "page": 22,
+    "status": "added",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Zemin veya bodrum katlarında dükkan yapılmasına müsaade edilen yapılarda, yola bakan bahçelerde bahçe duvarı veya yaya trafiğini tehlikeye düşürecek engeller yapılamaz."
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "4",
+    "type": "added",
+    "text": "Bağ ve sayfiye parselleri ile tek bağımsız bölümlü konut (villa) alanlarında güvenlik ve mahremiyetin sağlanması için yola bakan cephelerine 2.00 metreye kadar duvar yapılabilir."
+   },
+   {
+    "para": "5",
+    "type": "added",
+    "text": "Zemin veya bodrum katlarında dükkan yapılmasına müsaade edilen yapılarda, yola bakan bahçelerde bahçe duvarı veya yaya trafiğini tehlikeye düşürecek engeller yapılamaz."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 44,
+  "label": "MADDE 44",
+  "title": "Kapıcı dairesi, bekçi odası ve kontrol kulübeleri",
+  "page": 22,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Kapıcı dairesi ve bekçi odası yapılacak binalar:",
+    "page": 22,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Konut kullanımlı bağımsız bölüm sayısı 40’tan fazla olan ve katı yakıt kullanan kaloriferli veya kalorifersiz binalar için bir adet kapıcı dairesi yapılması zorunludur. Birden fazla yapı bulunan ve toplam bağımsız bölüm sayısı 40’tan fazla olan parsellerde de bu hüküm uygulanır, ancak bağımsız bölüm sayısının 80’i aşması halinde ikinci bir kapıcı dairesi yapılır. Ayrıca, birden fazla yapının bulunduğu parsellerde 60’dan fazla bağımsız bölümü olan her bir bina için mutlaka ayrı bir kapıcı dairesi yapılır.",
+      "page": 22,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Katı yakıt haricindeki diğer ısıtma sistemleri kullanılan konut kullanımlı binalar için bağımsız bölüm sayısının 30 dan (30 dahil) fazla olması halinde bir, 150’den fazla olması halinde 2 kapıcı dairesi yapılması zorunludur. İlave her 150 daire için ek bir kapıcı dairesi yapılır. Ayrıca birden fazla yapının bulunduğu parsellerde her blok için ayrı bir kapıcı dairesi hesabı yapılabilir.",
+      "page": 22,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "deleted",
+        "text": "60’tan"
+       },
+       {
+        "type": "added",
+        "text": "30 dan (30 dahil)"
+       },
+       {
+        "type": "added",
+        "text": "Ayrıca birden fazla yapının bulunduğu parsellerde her blok için ayrı bir kapıcı dairesi hesabı yapılabilir."
+       }
+      ]
+     },
+     {
+      "key": "c",
+      "text": "Sıra evler düzeninde, ayrık, ikiz nizamda tek bağımsız bölümlü 1’den fazla müstakil konut binası bulunan parsellerde kapıcı dairesi yapılması mecburiyeti aranmaz.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Yapı inşaat alanı 2000 m2’den fazla olan işyeri ve büro olarak kullanılan binalarda bekçi odası yapılması şarttır.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Kapıcı dairelerinin ve bekçi odalarının ölçü ve nitelikleri:",
+    "page": 23,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Kapıcı daireleri, doğrudan ışık ve hava alabilecek şekilde düzenlenir.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Taşkın riski taşıyan alanlarda kalan binalarda düzenlenecek kapıcı dairelerinin kapı ve pencere boşluklarının alt seviyesi su taşkın seviyesinin en az 1.50 metre üzerinde olmak zorundadır.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Kapıcı dairelerinin toprağa dayalı ve iskân edilebilen bodrum katlarda yapılması halinde, oturma odası ve bir yatak odasının dış mekâna açılması bu mekânların taban döşemesinin üst seviyesinin tabii veya tesviye edilmiş zemine gömülü olmaması, kapı ve pencere açılmak suretiyle, doğal aydınlatma ve havalandırmasının sağlanması sel, taşkın ve su basmasına karşı önlem alınmış olması zorunludur. Kapıcı dairelerinin toprağa gömülü duvarlarında kuranglez yapmak suretiyle kapı ve pencere açılamayacağı gibi, bu duvarlarda pencere açılabilmesi için pencere denizliğinin tabii zeminden veya tesviye edilmiş zeminden en az 0,90 metre yukarıda konumlanması gerekir.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Bina içinde düzenlenen kapıcı daireleri, en az brüt 50 m2’dir. Kapıcı dairelerinde, her birisi en az 9 m2 ve dar kenarı en az 2.50 metre olmak üzere 2 yatak odası ve 12 m2’den az olmamak üzere 1 oturma odası, en az 3,3 m2 mutfak ve banyo veya duş yeri ve tuvalet bulunur.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Bina dışında tertiplenen kapıcı daireleri en fazla brüt 40 m2 olmak zorundadır. Bu fıkranın (ç) bendinde yer alan ölçüleri sağlayacak şekilde 1 yatak odası, 1 oturma odası, mutfak ve banyo veya duş yeri ve tuvalet bulundurulur.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "3",
+    "text": "Bekçi odası en az 4 m2 büyüklüğünde, doğrudan ışık ve hava alabilecek şekilde düzenlenir. Bekçi odasında en az 1.5 m2’lik bir tuvalet yer alır.",
+    "page": 23,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Kontrol kulübeleri:",
+    "page": 23,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Üzerinde birden fazla yapı yapılması mümkün ve yüzölçümü en az 1000 m2 olan parsellerde, istenmesi halinde, trafik emniyeti bakımından tehlike arz etmemek ve hiçbir şartta parsel sınırını aşmamak kaydıyla bahçe mesafeleri içinde kontrol kulübesi yapılabilir.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Kontrol kulübesi 9 m2’yi geçemez.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Kontrol kulübesinin yüksekliği tabii veya tesviye edilmiş zeminden itibaren en fazla 4.00 metredir.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Kontrol kulübesi ile esas bina arasındaki mesafe 2.00 metreden az olamaz.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Devletin güvenliği bakımından özellik arz eden parsellerde bu fıkrada belirtilen ölçülere uyulma şartı aranmaz.",
+      "page": 23,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "item": "b",
+    "type": "deleted",
+    "text": "60’tan"
+   },
+   {
+    "para": "1",
+    "item": "b",
+    "type": "added",
+    "text": "30 dan (30 dahil)"
+   },
+   {
+    "para": "1",
+    "item": "b",
+    "type": "added",
+    "text": "Ayrıca birden fazla yapının bulunduğu parsellerde her blok için ayrı bir kapıcı dairesi hesabı yapılabilir."
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 45,
+  "label": "MADDE 45",
+  "title": "Portikler",
+  "page": 23,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Portikli yapıların yapılacağı cadde ve sokaklar uygulama imar planı kararı ile belirlenir.",
+    "page": 23,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Genel olarak portik bırakılması gereken yerlerde, portik yüksekliği 3.50 metre, derinliği ise 4.00 metredir. Ancak, civarın teşekkül tarzı ve mevkiin özellikleri dolayısıyla bu miktarlar ilgili idarece değiştirilebilir.",
+    "page": 23,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Portiğe ve doğrudan yola açılan bina giriş kapıları dışa açıldığında, gizlenecek kadar bina giriş holüne doğru çekilir.",
+    "page": 23,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 46,
+  "label": "MADDE 46",
+  "title": "Fırınlar",
+  "page": 23,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "14/7/2005 tarihli ve 2005/9207 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan İşyeri Açma ve Çalışma Ruhsatlarına İlişkin Yönetmelik hükümleri saklı kalmak üzere fırınlar; sanayi, küçük sanayi, organize sanayi, konut dışı çalışma alanları ile ticaret bölgelerinde yapılabilir. Katkılı pide, kebap, simit fırınları ve geleneksel tandır ocakları, zemin katı işyeri olarak kullanılabilen binalarda yapılabilir.",
+    "page": 23,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Fırınların tanziminde;",
+    "page": 23,
+    "status": "amended",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Mevcut binalarda ekmek fırını hariç fırın ve tandır yapılması durumunda, 634 sayılı Kanun hükümlerine uyulur.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Ekmek fırınları ayrık nizam yapılaşma bölgelerinde ve müstakil olarak binanın bütününün tek bağımsız bölüm olarak fırın tahsis edilmesi şartları ile yapılır.",
+      "page": 24,
+      "status": "amended",
+      "revisions": [
+       {
+        "type": "added",
+        "text": "binanın bütününün tek bağımsız bölüm olarak fırın tahsis edilmesi şartları ile"
+       }
+      ]
+     },
+     {
+      "key": "c",
+      "text": "Projesinde sınıfı belirtilmek zorundadır.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Duvar ve döşemelerinde ısı ve ses yalıtımı uygulanır. Binanın taşıyıcı sisteminin ve fırınla ilgisi olmayan diğer bağımsız bölümlerin ısı değişiminden olumsuz etkilenmemesi için proje müelliflerince veya bu konunun uzmanı teknik elemanlarca hazırlanan rapora göre gerekli tedbir alınır.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Mekanik tesisat projelerinde, kanalizasyon bağlantısına, her türlü böcek ve kemirgen girişini önlemek için çekvalf konulur.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "e",
+      "text": "Baca ölçülerinin hesaplanması, bacaların bina iç duvarlarında tesis edilmesi ve filtre takılması şartı aranır.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "f",
+      "text": "Trafik açısından ilgili birimin görüşünün alınması gerekir.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "g",
+      "text": "Tesisin ihtiyacı olan otopark kendi parselinde karşılanır.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ğ",
+      "text": "TSE standartlarına uyulur.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "h",
+      "text": "Binaların Yangından Korunması Hakkında Yönetmelik hükümleri uyarınca gerekli tedbirler alınır.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "3",
+    "text": "İkinci fıkra hükümlerine uyulmaması durumunda ruhsat düzenlenemez.",
+    "page": 24,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "2",
+    "item": "b",
+    "type": "added",
+    "text": "binanın bütününün tek bağımsız bölüm olarak fırın tahsis edilmesi şartları ile"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 47,
+  "label": "MADDE 47",
+  "title": "Pasajlar ve alışveriş merkezleri",
+  "page": 24,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Ticaret bölgelerinde yapılacak pasajların:",
+    "tail": "gereklidir.",
+    "page": 24,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Taban döşemesi üzerinden tavan alana kadar olan yüksekliğinin 3.50 metreden, uzunluğunun 30.00 metreden az olmaması,",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Her biri 1.50 metreden dar olmayan en az 2 giriş-çıkış kapısı ile yeteri kadar havalandırma bacası veya tertibatını haiz bulunması, pasaj giriş ve çıkışlarının erişilebilir olması,",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Birden fazla katlı olmaları halinde her bir kat arasında bu Yönetmelikte belirtilen şartlara uygun merdiven olması ve erişilebilirlik standartlarına uygun düzenlemelerin yapılması,",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Bir kısmı veya diğer katları başka maksatlar için kullanılan binalar içerisinde bulunmaları halinde, diğer esas giriş merdiven, asansör ve geçit gibi tesislerle, bu tesislere ayrılan yerlerin pasaj dışında ve müstakil olarak tertiplenmesi,",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Kapasiteye bağlı olarak ilgili idaresince uygun görülen büyüklük ve miktarda çocuk oyun alanı, bay ve bayan tuvaletler, bebek bakım alanları, ilk yardım alanı ve çarşı bütününde 30 m2’den küçük olmamak üzere ihtiyacı karşılayacak büyüklükte mescit ayrılır.",
+      "page": 24,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "Alışveriş merkezlerinde; 26/2/2016 tarihli ve 29636 sayılı Resmî Gazete’de yayımlanan Alışveriş Merkezleri Hakkında Yönetmelik hükümlerine uyulur.",
+    "page": 24,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 48,
+  "label": "MADDE 48",
+  "title": "Tuvaletler",
+  "page": 24,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Yarısı kadınlar, yarısı erkekler için olmak üzere; iş hanı, büro, alışveriş merkezi, çarşı, pasaj ve mağaza gibi binalar ile otel ve benzerleri binalarda her 25 kişi için, en az birer adet, resmî binalar ile sinema, tiyatro gibi umumî binalarda ise her 50 kişi için en az birer adet tuvalet yapılması zorunludur. Bu yapılarda engellilerin erişiminin sağlanmasına yönelik tedbirler alınarak en az 1 kadın, 1 erkek olmak üzere engellilerin kullanımına ve erişilebilirlik standardına uygun tuvalet ayrılır.",
+    "page": 24,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "İbadet yerleri, şehirlerarası yollarda yer alan dinlenme tesisleri, meydan ve park gibi yerlerde yapılacak umumî tuvaletlerin en az yarısının, diğer yapılarda ise en az üçte birinin alaturka tuvalet taşlı olması sağlanır.",
+    "page": 24,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Tuvaletlerde yeterli sayıda pisuar ve lavabo bulundurulur. Resmi binalar, işyeri, büro, fabrika gibi yerlerde çalışan sayısı, mağaza, alışveriş merkezi, çarşı, pasaj gibi yerlerde tahmini müşteri sayısı, lokanta, sinema, tiyatro gibi yerlerde oturma sayısı, otel ve benzeri konaklama tesislerinde yatak sayısı ve bu hesaplamalara dâhil olarak ziyaretçi sayıları ve diğer farklı özellikler dikkate alınarak yeterli tuvalet ayrılır.",
+    "page": 24,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Birden fazla kullanımı haiz binalarda her kullanım için bu maddedeki kriterlere göre ayrı ayrı değerlendirme yapılır. Uluslararası kurallara tabi yapılarda bu Yönetmelikte belirtilenden az olmamak kaydıyla uluslararası kuralların gerektirdiği sayıda tuvalet yapılması zorunludur.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Umumî binalarda çalışan, müşteri ve ziyaretçi gibi tüm kullanıcıların ihtiyaçlarının karşılanması amacıyla kapasite hesabına göre belirlenen büyüklük ve sayıda erişilebilirlik standardına uygun engelli tuvaleti yapılır.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 49,
+  "label": "MADDE 49",
+  "title": "Çay ocakları",
+  "page": 25,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Büro, iş hanı, alışveriş merkezi, pasaj gibi ticari binalarla, sanayi tesislerinde; kullanma alanı en az 3 m² olmak, 0.45 x 0.45 metre ebadında hava bacasıyla havalandırılmak, bir ateş bacasıyla irtibatlandırılmak kaydıyla çay ocakları bağımsız bölüm olarak düzenlenebilir.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Çay ocaklarının nizamı ışıklıktan veya doğrudan ışık ve hava alması halinde hava bacasına gerek yoktur.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 50,
+  "label": "MADDE 50",
+  "title": "Yığma, ahşap ve kâgir yapılarda aranan şartlar",
+  "page": 25,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Binalar, güncel teknik mevzuat ile fen ve sanat kurallarına uygun olarak;",
+    "tail": "tasarlanarak inşa edilmek zorundadır.",
+    "page": 25,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Binayı etkiyebilecek bileşik etkilere karşı yeterli dayanıma sahip olacak ve etkileri güvenli bir şekilde zemine aktarabilecek ve aynı zamanda civar yapılara herhangi bir zarar vermeyecek şekilde,",
+      "page": 25,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Temel zemininde oluşabilecek oturma, kabarma, büzülme ve donma sebebiyle yapı stabilitesi bozulmayacak biçimde,",
+      "page": 25,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 51,
+  "label": "MADDE 51",
+  "title": "Bodrumlar",
+  "page": 25,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Katı yakıt kullanan sobalı binaların bodrum veya zemin katlarında veya teknik olarak bodrum kat tesis edilememesi durumunda yüksekliği 2.20 metreyi geçmemek üzere bahçelerinde; ortak alan niteliğini haiz olmak ve eklenti ihdas etmemek kaydıyla her bağımsız bölüm için en az 5 m2, en fazla 10 m2 odunluk, kömürlük veya depolama yeri ayrılması zorunludur.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "2",
+    "text": "Bodrum kapısı tamamen tretuvar üzerinde kalan fazla meyilli yollar dışında yapılacak ön bahçesiz binalarda, yol cephesinde bodrum girişi yapılamaz.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Toprağa dayalı bodrum katlarda bulunan konutlarda oturma odası ve bir yatak odasının; taban döşemesinin üst seviyesinin tabii veya tesviye edilmiş zemine gömülü olmaması, doğal aydınlatma ve havalandırmasının pencere açılmak suretiyle sağlanması, sel, taşkın ve su baskınlarına karşı tedbirlerin alınmış olması zorunludur. Bu bağımsız bölümlerin kısmen veya tamamen tabii ve tesviye edilmiş zemin altında kalan duvarlarında pencere açılamaz.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "4",
+    "text": "Ticari alanlarda yapılan binaların ticari amaçla kullanılan bodrum katlarında döşemenin zemine gömülü olmama şartı aranmaz. Bu tür binalarda suni havalandırmanın sağlanması ile engellilerin dolaşımına olanak sağlayan erişilebilirlik standartlarına uygun rampa, yürüyen bant ve bunlar gibi önlemler alınır.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "5",
+    "text": "Konut alanında kalmakla birlikte, ilgili idare meclisince yol boyu ticaret kararı alınan yol güzergâhlarında zemin katta, halkın günlük ihtiyaçlarını karşılamaya dönük olarak ticaret yapılabilir. Bu kullanımların bodrum katlarında içten bağlantılı piyesleri olabilir. Bu piyesler binanın ortak alanları ve müştemilatlarıyla irtibatlandırılamaz. Ancak, köşe başı veya köşe başından başka iki yola cephesi olan parsellerde yapılacak binaların yola cephesi bulunan bodrum katlarına ticari kullanımlı bağımsız bölüm yapılabilir. Bu bölümlerin üst ve alt kattaki mekânlarla içten bağlantısı sağlanabilir. Ticari kullanımların altında konut yapılamaz.",
+    "page": 25,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "6",
+    "text": "Toprağa dayalı tüm bodrum katlarda, dış etkilere karşı ısı ve su yalıtımı yapılması zorunludur.",
+    "page": 26,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "7",
+    "text": "Bina etrafında mütemadi kuranglez tesis edilemez. Kuranglezlerden giriş çıkış yapılamaz. Ancak, yol cephesinde bulunmayan kuranglezlerinden kaçış amacıyla çıkış tertiplenebilir. Kuranglezlerde sel, taşkın ve su baskınlarına karşı tedbirlerin alınmış olması zorunludur.",
+    "page": 26,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "8",
+    "text": "Arazi eğiminden faydalanmak amacıyla veya mimari nedenlerle, binalar bloğunun, bir binanın veya bağımsız bir dairenin; belirlenen bina yüksekliğini aşmamak, belirli piyesler için tespit olunan asgari kat yüksekliklerine veya bu Yönetmeliğin diğer hükümlerine aykırı olmamak şartı ile çeşitli katlarda ve/veya farklı taban ve/veya tavan seviyelerinde düzenlenmesi mümkündür. Ayrıca, zemin katların binanın kot aldığı yol cephesi üzerinde bulunmayan piyesleri ile yol cephesinde yer alan piyeslerinin yol cephesinde kalmayan ve piyes derinliğinin yarısını aşmayan bir kısım alanları, zemin kat kotundan farklı kotta düzenlenebilir.",
+    "page": 26,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 52,
+  "label": "MADDE 52",
+  "title": "Müştemilatlar",
+  "page": 26,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Binaların müştemilat kısımları, mümkün ise binanın bodrumunda, aksi halde zemin katta ve bahçede tertiplenir.",
+    "page": 26,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "zemin katta ve"
+     }
+    ]
+   },
+   {
+    "no": "2",
+    "text": "4 tarafı yol ile çevrili istisnai parseller dışında esas binaların yol tarafındaki cephe hatlarına tecavüz eden müştemilat binası yapılamaz. Bu gibi istisnai parsellerde müştemilat binalarının yapılacağı yeri tayine idare yetkilidir.",
+    "page": 26,
+    "status": "kept",
+    "revisions": []
+   },
+   {
+    "no": "3",
+    "text": "Müştemilat binalarının:",
+    "page": 26,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Dar kenarı 4.00 metreden, en yüksek noktasının tabii zeminden yüksekliği 2.50 metreden fazla olamaz.",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Binaya bitişik oldukları takdirde, komşu parsel sınırına, aksi halde binaya ve ayrıca komşu parsel sınırına uzaklıkları bu Yönetmelikle veya planla belirlenen miktarlardan az olamaz.",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Yapı cinsleri ahşap olamaz.",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Parsel durumu müsait olduğu takdirde esas binanın inşasından önce de yapılması mümkündür.",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Kapıcı dairesi, garaj, odunluk, kömürlük, depo, mutfak, çamaşırhane ve benzeri hizmetler için olup, maksadı dışında kullanılamaz.",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   },
+   {
+    "no": "4",
+    "text": "Müştemilatlar mimari projede ve vaziyet planında gösterilir. Bahçede yapılmasının zorunlu olduğu hallerde; bu Yönetmelikte veya planında belirtilen şartlara ve çekme mesafelerine uyularak yapılır.",
+    "page": 26,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "type": "added",
+    "text": "zemin katta ve"
+   }
+  ],
+  "status": "amended"
+ },
+ {
+  "article": 53,
+  "label": "MADDE 53",
+  "title": "Paratonerler",
+  "page": 26,
+  "section": "BEŞİNCİ BÖLÜM - Yapılara İlişkin Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "İçinde patlayıcı madde bulundurulan yerlerle, sivri ve yüksek bina ve tesislere Binaların Yangından Korunması Hakkında Yönetmelik gereği, TSE Standartlarına uygun paratoner konması mecburidir.",
+    "page": 26,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 54,
+  "label": "MADDE 54",
+  "title": "Projeler ve yapı izin belgelerine ilişkin hususlar",
+  "page": 26,
+  "section": "ALTINCI BÖLÜM - Projeler ve Yapı İzin Belgeleri",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Projeler ve yapı izin belgelerine ilişkin hususlarda;",
+    "tail": "uygulanır.",
+    "page": 26,
+    "status": "kept",
+    "revisions": [],
+    "items": [
+     {
+      "key": "a",
+      "text": "Yapı ruhsatına ilişkin genel hükümlere ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 54 üncü maddesi,",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "b",
+      "text": "Yapı ruhsatı işlemlerine ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 55 inci maddesi,",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "c",
+      "text": "Kamu alanlarında yapılacak yapılarda ruhsata ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 56 ncı maddesi,",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ç",
+      "text": "Yapı projelerine ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 57 nci maddesi,",
+      "page": 26,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "d",
+      "text": "Esaslı tadilata ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 58 inci maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "e",
+      "text": "Yapı ruhsatı gerekmeyen inşai faaliyetlere ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 59 uncu maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "f",
+      "text": "İstinat duvarlarına ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 60 ıncı maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "g",
+      "text": "Muvakkat yapıya ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 61 inci maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ğ",
+      "text": "Elektronik haberleşme istasyonlarına ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 62 nci maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "h",
+      "text": "Şantiye binaları hakkında Planlı Alanlar İmar Yönetmeliğinin 63 üncü maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "ı",
+      "text": "Yapı kullanma iznine ilişkin olarak Planlı Alanlar İmar Yönetmeliğinin 64 üncü maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "i",
+      "text": "Yapı kullanma izinlerinde başvuru sahibinden bilgi ve belge istenmesine ilişkin esaslar hakkında Planlı Alanlar İmar Yönetmeliğinin 65 inci maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     },
+     {
+      "key": "j",
+      "text": "Mimari estetik komisyonları hakkında Planlı Alanlar İmar Yönetmeliğinin 66 ncı maddesi,",
+      "page": 27,
+      "status": "kept",
+      "revisions": []
+     }
+    ]
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 55,
+  "label": "MADDE 55",
+  "title": "Bakanlığın denetim yetkisi",
+  "page": 27,
+  "section": "YEDİNCİ BÖLÜM - Denetime Dair Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bakanlığın denetim yetkisine ilişkin hususlarda Planlı Alanlar İmar Yönetmeliğinin 67 nci maddesine uyulur.",
+    "page": 27,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 56,
+  "label": "MADDE 56",
+  "title": "Fenni mesuliyet",
+  "page": 27,
+  "section": "YEDİNCİ BÖLÜM - Denetime Dair Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Fenni mesuliyet hizmetlerine ilişkin hususlarda Planlı Alanlar İmar Yönetmeliğinin 68 inci maddesine uyulur.",
+    "page": 27,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 57,
+  "label": "MADDE 57",
+  "title": "Yönetmeliğin uygulanmasına ilişkin esaslar",
+  "page": 27,
+  "section": "SEKİZİNCİ BÖLÜM - Yönetmeliğin Uygulanmasına İlişkin Esaslar",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Yönetmeliğin uygulanmasına ilişkin esaslar hakkında Planlı Alanlar İmar Yönetmeliğinin 69 uncu maddesine uyulur",
+    "page": 27,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "status": "kept"
+ },
+ {
+  "article": 1001,
+  "label": "GEÇİCİ MADDE 1",
+  "title": "Bakanlık denetçilerinin yetkilendirilmesi ve özellikleri",
+  "page": 27,
+  "section": "DOKUZUNCU BÖLÜM - Çeşitli ve Son Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bakanlık denetçilerinin yetkilendirilmesi ve özellikleri hakkında Planlı Alanlar İmar Yönetmeliğinin geçici 1 inci maddesine uyulur.",
+    "page": 27,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "kind": "temporary",
+  "status": "kept"
+ },
+ {
+  "article": 1002,
+  "label": "GEÇİCİ MADDE 2",
+  "title": "Mevcut teşekkül",
+  "page": 27,
+  "section": "DOKUZUNCU BÖLÜM - Çeşitli ve Son Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Mevcut teşekkül hakkında Planlı Alanlar İmar Yönetmeliğinin geçici 2 nci maddesine uyulur.",
+    "page": 27,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "kind": "temporary",
+  "status": "kept"
+ },
+ {
+  "article": 1003,
+  "label": "GEÇİCİ MADDE 3",
+  "title": "Mevcut yapı ruhsatı başvuruları",
+  "page": 27,
+  "section": "DOKUZUNCU BÖLÜM - Çeşitli ve Son Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Mevcut yapı ruhsatı başvuruları hakkında Planlı Alanlar İmar Yönetmeliğinin geçici 3 üncü maddesine uyulur.",
+    "page": 27,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "kind": "temporary",
+  "status": "kept"
+ },
+ {
+  "article": 1004,
+  "label": "GEÇİCİ MADDE 4",
+  "title": "Mevcut haberleşme istasyonları",
+  "page": 27,
+  "section": "DOKUZUNCU BÖLÜM - Çeşitli ve Son Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Mevcut haberleşme istasyonları hakkında Planlı Alanlar İmar Yönetmeliğinin geçici 4 üncü maddesine uyulur.",
+    "page": 27,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "kind": "temporary",
+  "status": "kept"
+ },
+ {
+  "article": 58,
+  "label": "MADDE ..",
+  "title": "Yürürlük",
+  "page": 28,
+  "section": "DOKUZUNCU BÖLÜM - Çeşitli ve Son Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bu Yönetmelik yayımı tarihinde yürürlüğe girer.",
+    "page": 28,
+    "status": "kept",
+    "revisions": []
+   }
+  ],
+  "revisions": [],
+  "unnumbered": true,
+  "status": "kept"
+ },
+ {
+  "article": 59,
+  "label": "MADDE ..",
+  "title": "Yürütme",
+  "page": 28,
+  "section": "DOKUZUNCU BÖLÜM - Çeşitli ve Son Hükümler",
+  "paragraphs": [
+   {
+    "no": "1",
+    "text": "Bu Yönetmelik hükümlerini Kayseri Büyükşehir Belediye Başkanı yürütür. Ekleri için tıklayınız",
+    "page": 28,
+    "status": "amended",
+    "revisions": [
+     {
+      "type": "added",
+      "text": "Kayseri Büyükşehir"
+     },
+     {
+      "type": "added",
+      "text": "Ekleri için tıklayınız"
+     }
+    ]
+   }
+  ],
+  "revisions": [
+   {
+    "para": "1",
+    "type": "added",
+    "text": "Kayseri Büyükşehir"
+   },
+   {
+    "para": "1",
+    "type": "added",
+    "text": "Ekleri için tıklayınız"
+   }
+  ],
+  "unnumbered": true,
+  "status": "amended"
+ }
+]

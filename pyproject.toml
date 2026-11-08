@@ -1,0 +1,12 @@
+[project]
+name = "bimcheck"
+version = "0.1.0"
+description = "Regulation compliance checker for IFC/DWG building models"
+requires-python = ">=3.10"
+dependencies = ["ifcopenshell", "ezdxf", "shapely", "numpy", "fastapi", "uvicorn[standard]", "python-multipart", "pymupdf"]
+[project.optional-dependencies]
+dev = ["pytest", "httpx"]
+[tool.setuptools.packages.find]
+include = ["bimcheck*"]
+[tool.pytest.ini_options]
+testpaths = ["tests", "bimcheck"]

@@ -1,0 +1,926 @@
+{
+ "schema_version": "1",
+ "source": {
+  "kind": "ifc",
+  "file": "house.ifc",
+  "ifc_schema": "IFC4",
+  "application": "fixture",
+  "length_unit": "METRE",
+  "length_unit_scale_to_m": 1.0
+ },
+ "project": {
+  "name": "Box house",
+  "site_name": null,
+  "building_name": null
+ },
+ "storeys": [
+  {
+   "id": "STOREY0000000000000000",
+   "name": "Ground floor",
+   "index": 0,
+   "elevation": 0.0,
+   "height": 3.0,
+   "is_underground": false
+  },
+  {
+   "id": "STOREY1111111111111111",
+   "name": "First floor",
+   "index": 1,
+   "elevation": 3.0,
+   "height": null,
+   "is_underground": false
+  }
+ ],
+ "elements": [
+  {
+   "guid": "FIXTURE000000000000001",
+   "express_id": 100,
+   "ifc_class": "IfcSlab",
+   "kind": "slab",
+   "name": "Ground slab",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     0,
+     0,
+     -0.2
+    ],
+    "max": [
+     10,
+     8,
+     0
+    ]
+   },
+   "anchor": [
+    5.0,
+    4.0,
+    -0.1
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  },
+  {
+   "guid": "FIXTURE000000000000002",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Wall S 0",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     10,
+     0.25,
+     2.8
+    ]
+   },
+   "anchor": [
+    5.0,
+    0.125,
+    1.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000003",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Wall N 0",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     0,
+     7.75,
+     0
+    ],
+    "max": [
+     10,
+     8,
+     2.8
+    ]
+   },
+   "anchor": [
+    5.0,
+    7.875,
+    1.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000004",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Wall W 0",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     0,
+     0.25,
+     0
+    ],
+    "max": [
+     0.25,
+     7.75,
+     2.8
+    ]
+   },
+   "anchor": [
+    0.125,
+    4.0,
+    1.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000005",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Wall E 0",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     9.75,
+     0.25,
+     0
+    ],
+    "max": [
+     10,
+     7.75,
+     2.8
+    ]
+   },
+   "anchor": [
+    9.875,
+    4.0,
+    1.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000006",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Partition 0",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     6,
+     0.25,
+     0
+    ],
+    "max": [
+     6.15,
+     7.75,
+     2.8
+    ]
+   },
+   "anchor": [
+    6.075,
+    4.0,
+    1.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000007",
+   "express_id": 100,
+   "ifc_class": "IfcSlab",
+   "kind": "slab",
+   "name": "Floor 1 slab",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     0,
+     0,
+     2.8
+    ],
+    "max": [
+     10,
+     8,
+     3.0
+    ]
+   },
+   "anchor": [
+    5.0,
+    4.0,
+    2.9
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  },
+  {
+   "guid": "FIXTURE000000000000008",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Wall S 1",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     0,
+     0,
+     3.0
+    ],
+    "max": [
+     10,
+     0.25,
+     5.8
+    ]
+   },
+   "anchor": [
+    5.0,
+    0.125,
+    4.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000009",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Wall N 1",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     0,
+     7.75,
+     3.0
+    ],
+    "max": [
+     10,
+     8,
+     5.8
+    ]
+   },
+   "anchor": [
+    5.0,
+    7.875,
+    4.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000010",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Wall W 1",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     0,
+     0.25,
+     3.0
+    ],
+    "max": [
+     0.25,
+     7.75,
+     5.8
+    ]
+   },
+   "anchor": [
+    0.125,
+    4.0,
+    4.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000011",
+   "express_id": 100,
+   "ifc_class": "IfcWall",
+   "kind": "wall",
+   "name": "Wall E 1",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     9.75,
+     0.25,
+     3.0
+    ],
+    "max": [
+     10,
+     7.75,
+     5.8
+    ]
+   },
+   "anchor": [
+    9.875,
+    4.0,
+    4.4
+   ],
+   "props": {
+    "IsExternal": true
+   },
+   "measures": {
+    "thickness": 0.25,
+    "is_external": true
+   },
+   "provenance": {
+    "thickness": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000012",
+   "express_id": 100,
+   "ifc_class": "IfcCovering",
+   "kind": "covering",
+   "name": "Ceiling 0",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     0.25,
+     0.25,
+     2.6
+    ],
+    "max": [
+     9.75,
+     7.75,
+     2.8
+    ]
+   },
+   "anchor": [
+    5.0,
+    4.0,
+    2.7
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  },
+  {
+   "guid": "FIXTURE000000000000013",
+   "express_id": 100,
+   "ifc_class": "IfcCovering",
+   "kind": "covering",
+   "name": "Ceiling 1",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     0.25,
+     0.25,
+     5.6
+    ],
+    "max": [
+     9.75,
+     7.75,
+     5.8
+    ]
+   },
+   "anchor": [
+    5.0,
+    4.0,
+    5.699999999999999
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  },
+  {
+   "guid": "FIXTURE000000000000014",
+   "express_id": 100,
+   "ifc_class": "IfcRoof",
+   "kind": "roof",
+   "name": "Roof",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     -0.4,
+     -0.4,
+     5.8
+    ],
+    "max": [
+     10.4,
+     8.4,
+     6.2
+    ]
+   },
+   "anchor": [
+    5.0,
+    4.0,
+    6.0
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  },
+  {
+   "guid": "FIXTURE000000000000015",
+   "express_id": 100,
+   "ifc_class": "IfcDoor",
+   "kind": "door",
+   "name": "Entrance door",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     2,
+     -0.05,
+     0
+    ],
+    "max": [
+     2.9,
+     0.3,
+     2.1
+    ]
+   },
+   "anchor": [
+    2.45,
+    0.125,
+    1.05
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {
+    "width": 0.9,
+    "height": 2.1,
+    "is_external": true
+   },
+   "provenance": {
+    "width": "geometry",
+    "height": "geometry",
+    "is_external": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000016",
+   "express_id": 100,
+   "ifc_class": "IfcWindow",
+   "kind": "window",
+   "name": "Window living",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     4,
+     -0.05,
+     0.9
+    ],
+    "max": [
+     5.5,
+     0.3,
+     2.1
+    ]
+   },
+   "anchor": [
+    4.75,
+    0.125,
+    1.5
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {
+    "width": 1.5,
+    "height": 1.2,
+    "sill_height": 0.9
+   },
+   "provenance": {
+    "width": "geometry",
+    "height": "geometry",
+    "sill_height": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000017",
+   "express_id": 100,
+   "ifc_class": "IfcWindow",
+   "kind": "window",
+   "name": "Window bedroom",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     3,
+     -0.05,
+     3.9
+    ],
+    "max": [
+     4.2,
+     0.3,
+     5.0
+    ]
+   },
+   "anchor": [
+    3.6,
+    0.125,
+    4.45
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {
+    "width": 1.5,
+    "height": 1.2,
+    "sill_height": 0.9
+   },
+   "provenance": {
+    "width": "geometry",
+    "height": "geometry",
+    "sill_height": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000018",
+   "express_id": 100,
+   "ifc_class": "IfcSlab",
+   "kind": "slab",
+   "name": "Balcony",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     6,
+     -2,
+     2.8
+    ],
+    "max": [
+     9,
+     0,
+     3.0
+    ]
+   },
+   "anchor": [
+    7.5,
+    -1.0,
+    2.9
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  },
+  {
+   "guid": "FIXTURE000000000000019",
+   "express_id": 100,
+   "ifc_class": "IfcRailing",
+   "kind": "railing",
+   "name": "Balcony railing",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     6,
+     -2,
+     3.0
+    ],
+    "max": [
+     9,
+     -1.95,
+     4.0
+    ]
+   },
+   "anchor": [
+    7.5,
+    -1.975,
+    3.5
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  },
+  {
+   "guid": "FIXTURE000000000000020",
+   "express_id": 100,
+   "ifc_class": "IfcBuildingElementProxy",
+   "kind": "other",
+   "name": "Chimney",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     8.2,
+     6.4,
+     5.8
+    ],
+    "max": [
+     9,
+     7.2,
+     7.4
+    ]
+   },
+   "anchor": [
+    8.6,
+    6.800000000000001,
+    6.6
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  },
+  {
+   "guid": "FIXTURE000000000000021",
+   "express_id": 100,
+   "ifc_class": "IfcSpace",
+   "kind": "space",
+   "name": "Living room",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     0.25,
+     0.25,
+     0
+    ],
+    "max": [
+     6,
+     7.75,
+     2.6
+    ]
+   },
+   "anchor": [
+    3.125,
+    4.0,
+    1.3
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {
+    "net_floor_area": 43.12,
+    "height": 2.6,
+    "usage": "living_room",
+    "min_width": 5.75,
+    "has_exterior_window": true
+   },
+   "provenance": {
+    "net_floor_area": "geometry",
+    "height": "geometry",
+    "usage": "geometry",
+    "min_width": "geometry",
+    "has_exterior_window": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000022",
+   "express_id": 100,
+   "ifc_class": "IfcSpace",
+   "kind": "space",
+   "name": "Bedroom 1",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     6.15,
+     0.25,
+     0
+    ],
+    "max": [
+     9.75,
+     7.75,
+     2.45
+    ]
+   },
+   "anchor": [
+    7.95,
+    4.0,
+    1.225
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {
+    "net_floor_area": 27.0,
+    "height": 2.45,
+    "usage": "bedroom",
+    "min_width": 3.5999999999999996,
+    "has_exterior_window": true
+   },
+   "provenance": {
+    "net_floor_area": "geometry",
+    "height": "geometry",
+    "usage": "geometry",
+    "min_width": "geometry",
+    "has_exterior_window": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000023",
+   "express_id": 100,
+   "ifc_class": "IfcSpace",
+   "kind": "space",
+   "name": "Bedroom 2",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY1111111111111111",
+   "bbox": {
+    "min": [
+     0.25,
+     0.25,
+     3.0
+    ],
+    "max": [
+     9.75,
+     7.75,
+     5.6
+    ]
+   },
+   "anchor": [
+    5.0,
+    4.0,
+    4.3
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {
+    "net_floor_area": 71.25,
+    "height": 2.5999999999999996,
+    "usage": "bedroom",
+    "min_width": 7.5,
+    "has_exterior_window": true
+   },
+   "provenance": {
+    "net_floor_area": "geometry",
+    "height": "geometry",
+    "usage": "geometry",
+    "min_width": "geometry",
+    "has_exterior_window": "geometry"
+   }
+  },
+  {
+   "guid": "FIXTURE000000000000024",
+   "express_id": 100,
+   "ifc_class": "IfcStair",
+   "kind": "stair",
+   "name": "Stair",
+   "long_name": null,
+   "object_type": null,
+   "storey_id": "STOREY0000000000000000",
+   "bbox": {
+    "min": [
+     6.3,
+     5.0,
+     0
+    ],
+    "max": [
+     7.5,
+     7.6,
+     2.8
+    ]
+   },
+   "anchor": [
+    6.9,
+    6.3,
+    1.4
+   ],
+   "props": {
+    "IsExternal": false
+   },
+   "measures": {},
+   "provenance": {}
+  }
+ ],
+ "summary": {
+  "counts": {
+   "space": 3,
+   "wall": 10,
+   "door": 1
+  },
+  "warnings": []
+ }
+}

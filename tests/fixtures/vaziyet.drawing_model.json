@@ -1,0 +1,715 @@
+{
+ "schema_version": "1",
+ "source": {
+  "kind": "dwg",
+  "file": "vaziyet-3d.dwg",
+  "dwg_version": "AC1024",
+  "units": "cm",
+  "unit_scale_to_m": 0.01,
+  "unit_source": "header",
+  "entity_count": 1012,
+  "extra": {
+   "unit_evidence": {
+    "header_insunits": 5,
+    "n_dimensions": 0,
+    "extent_drawing_units": 9461.94
+   },
+   "type_counts": {
+    "LWPOLYLINE": 11,
+    "LINE": 76,
+    "3DSOLID": 904,
+    "3DFACE": 21
+   }
+  }
+ },
+ "layers": [
+  {
+   "name": "0",
+   "entity_count": 32,
+   "role": "unknown",
+   "role_confidence": 0.1,
+   "role_source": "geometry"
+  },
+  {
+   "name": "DEFPOINTS",
+   "entity_count": 0,
+   "role": "ignored",
+   "role_confidence": 0.95,
+   "role_source": "name"
+  },
+  {
+   "name": "kolon",
+   "entity_count": 2,
+   "role": "column",
+   "role_confidence": 0.85,
+   "role_source": "name"
+  },
+  {
+   "name": "bordür 3d",
+   "entity_count": 8,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "kaldırım tası 3d",
+   "entity_count": 4,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "yol 3d",
+   "entity_count": 4,
+   "role": "unknown",
+   "role_confidence": 0.1,
+   "role_source": "geometry"
+  },
+  {
+   "name": "tretuvar 3d",
+   "entity_count": 2,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "bahce duvarı 3d",
+   "entity_count": 1,
+   "role": "wall",
+   "role_confidence": 0.85,
+   "role_source": "name"
+  },
+  {
+   "name": "kupeste 3d",
+   "entity_count": 1,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "cim 3d",
+   "entity_count": 1,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "bina kilitli parke",
+   "entity_count": 4,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "kuranglez 3d",
+   "entity_count": 42,
+   "role": "unknown",
+   "role_confidence": 0.1,
+   "role_source": "geometry"
+  },
+  {
+   "name": "temperli cam 3d",
+   "entity_count": 2,
+   "role": "window",
+   "role_confidence": 0.8,
+   "role_source": "name"
+  },
+  {
+   "name": "kuranglez menfez 3d",
+   "entity_count": 2,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3D DUVAR",
+   "entity_count": 13,
+   "role": "wall",
+   "role_confidence": 0.85,
+   "role_source": "name"
+  },
+  {
+   "name": "3D DUVAR2",
+   "entity_count": 36,
+   "role": "wall",
+   "role_confidence": 0.85,
+   "role_source": "name"
+  },
+  {
+   "name": "3D DOĞRAMA",
+   "entity_count": 136,
+   "role": "window",
+   "role_confidence": 0.8,
+   "role_source": "name"
+  },
+  {
+   "name": "3D CAM",
+   "entity_count": 207,
+   "role": "window",
+   "role_confidence": 0.8,
+   "role_source": "name"
+  },
+  {
+   "name": "3D DENİZLİK",
+   "entity_count": 138,
+   "role": "annotation",
+   "role_confidence": 0.3,
+   "role_source": "name"
+  },
+  {
+   "name": "3D KORKULUK",
+   "entity_count": 126,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3D KORKULUK CAM",
+   "entity_count": 29,
+   "role": "window",
+   "role_confidence": 0.8,
+   "role_source": "name"
+  },
+  {
+   "name": "3D DUVAR3",
+   "entity_count": 21,
+   "role": "wall",
+   "role_confidence": 0.85,
+   "role_source": "name"
+  },
+  {
+   "name": "3D KOLON",
+   "entity_count": 16,
+   "role": "column",
+   "role_confidence": 0.85,
+   "role_source": "name"
+  },
+  {
+   "name": "3D BALKON KİRİŞ",
+   "entity_count": 56,
+   "role": "annotation",
+   "role_confidence": 0.3,
+   "role_source": "name"
+  },
+  {
+   "name": "3D DÖŞEME",
+   "entity_count": 30,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3D DÜKKAN DÖŞEME",
+   "entity_count": 1,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3d cephe kaplama",
+   "entity_count": 32,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3d cephe ahşap",
+   "entity_count": 4,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3d ön cephe detay",
+   "entity_count": 9,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3d cephe çizgi",
+   "entity_count": 14,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3d çatı",
+   "entity_count": 10,
+   "role": "annotation",
+   "role_confidence": 0.3,
+   "role_source": "name"
+  },
+  {
+   "name": "3d cephe yan detay",
+   "entity_count": 0,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3d giriş markizi",
+   "entity_count": 8,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  },
+  {
+   "name": "3d giriş markiz dçşeme",
+   "entity_count": 0,
+   "role": "unknown",
+   "role_confidence": 0.0,
+   "role_source": "name"
+  }
+ ],
+ "views": [
+  {
+   "id": "v1",
+   "kind": "unknown",
+   "name": null,
+   "level_hint": null,
+   "elevation": null,
+   "bbox": [
+    7.781,
+    7.323,
+    124.832,
+    123.741
+   ],
+   "extra": {
+    "bbox_raw": [
+     778.084,
+     732.325,
+     12483.25,
+     12374.116
+    ],
+    "scale_factor": 1.0,
+    "scale_source": "assumed",
+    "scale_denominator": null,
+    "parent": null,
+    "source": "frame",
+    "metric_frame": "metres = raw * unit_scale_to_m * scale_factor"
+   }
+  }
+ ],
+ "parcel": null,
+ "footprint": null,
+ "rooms": [],
+ "walls": [],
+ "doors": [],
+ "windows": [],
+ "stairs": [],
+ "dimensions": [],
+ "levels": [],
+ "texts": [],
+ "warnings": [
+  "parcel: no layer with role 'parcel'",
+  "footprint: no ground-floor plan view identified",
+  "rooms: none extracted (no room-name labels paired with enclosed wall polygons)",
+  "904 3DSOLID and 21 3DFACE entities cannot be read (ACIS data not decoded by LibreDWG); only 2D linework/polylines were analysed",
+  "parcel/footprint/rooms not derivable: file holds site 3D solids (roads, kerbs, walls, roof) and only a few 2D polylines; closed polylines listed in extra.closed_polylines"
+ ],
+ "extra": {
+  "site_footprint": null,
+  "header_extents_m": {
+   "min": [
+    -10.82,
+    6.08,
+    0.0
+   ],
+   "max": [
+    124.83,
+    140.06,
+    28.07
+   ],
+   "note": "$EXTMIN/$EXTMAX include 3D solids; z-span approximates total building height"
+  },
+  "closed_polylines": [
+   {
+    "layer": "kuranglez 3d",
+    "area": 2.28,
+    "polygon": [
+     [
+      56.575,
+      38.074
+     ],
+     [
+      55.625,
+      38.074
+     ],
+     [
+      55.625,
+      40.474
+     ],
+     [
+      56.575,
+      40.474
+     ]
+    ]
+   },
+   {
+    "layer": "kuranglez 3d",
+    "area": 1.8,
+    "polygon": [
+     [
+      62.725,
+      34.024
+     ],
+     [
+      64.525,
+      34.024
+     ],
+     [
+      64.525,
+      35.024
+     ],
+     [
+      62.725,
+      35.024
+     ]
+    ]
+   },
+   {
+    "layer": "kuranglez 3d",
+    "area": 1.53,
+    "polygon": [
+     [
+      62.775,
+      34.074
+     ],
+     [
+      64.475,
+      34.074
+     ],
+     [
+      64.475,
+      34.974
+     ],
+     [
+      62.775,
+      34.974
+     ]
+    ]
+   },
+   {
+    "layer": "kuranglez 3d",
+    "area": 1.96,
+    "polygon": [
+     [
+      56.525,
+      38.124
+     ],
+     [
+      55.675,
+      38.124
+     ],
+     [
+      55.675,
+      40.424
+     ],
+     [
+      56.525,
+      40.424
+     ]
+    ]
+   },
+   {
+    "layer": "kolon",
+    "area": 280.84,
+    "polygon": [
+     [
+      57.225,
+      48.924
+     ],
+     [
+      67.625,
+      48.924
+     ],
+     [
+      67.625,
+      47.774
+     ],
+     [
+      70.125,
+      47.774
+     ],
+     [
+      70.125,
+      48.924
+     ],
+     [
+      77.775,
+      48.924
+     ],
+     [
+      77.775,
+      42.524
+     ],
+     [
+      78.425,
+      42.524
+     ],
+     [
+      78.425,
+      35.974
+     ],
+     [
+      72.275,
+      35.974
+     ],
+     [
+      72.275,
+      35.024
+     ],
+     [
+      62.725,
+      35.024
+     ],
+     [
+      62.725,
+      35.974
+     ],
+     [
+      56.575,
+      35.974
+     ],
+     [
+      56.575,
+      42.524
+     ],
+     [
+      57.225,
+      42.524
+     ]
+    ]
+   },
+   {
+    "layer": "kolon",
+    "area": 359.21,
+    "polygon": [
+     [
+      56.225,
+      49.924
+     ],
+     [
+      68.625,
+      49.924
+     ],
+     [
+      68.625,
+      49.924
+     ],
+     [
+      69.125,
+      49.924
+     ],
+     [
+      69.125,
+      49.924
+     ],
+     [
+      78.775,
+      49.924
+     ],
+     [
+      78.775,
+      43.524
+     ],
+     [
+      79.425,
+      43.524
+     ],
+     [
+      79.425,
+      34.974
+     ],
+     [
+      73.275,
+      34.974
+     ],
+     [
+      73.275,
+      34.024
+     ],
+     [
+      61.725,
+      34.024
+     ],
+     [
+      61.725,
+      34.974
+     ],
+     [
+      55.575,
+      34.974
+     ],
+     [
+      55.575,
+      43.524
+     ],
+     [
+      56.225,
+      43.524
+     ]
+    ]
+   },
+   {
+    "layer": "yol 3d",
+    "area": 7.67,
+    "polygon": [
+     [
+      83.946,
+      18.94
+     ],
+     [
+      83.768,
+      6.085
+     ],
+     [
+      83.668,
+      6.085
+     ],
+     [
+      83.844,
+      18.84
+     ],
+     [
+      20.002,
+      19.14
+     ],
+     [
+      20.002,
+      19.24
+     ]
+    ]
+   },
+   {
+    "layer": "yol 3d",
+    "area": 0.65,
+    "polygon": [
+     [
+      83.726,
+      29.535
+     ],
+     [
+      83.725,
+      54.987
+     ],
+     [
+      83.725,
+      55.187
+     ],
+     [
+      83.775,
+      55.237
+     ],
+     [
+      83.775,
+      54.937
+     ]
+    ]
+   },
+   {
+    "layer": "0",
+    "area": 13626.91,
+    "polygon": [
+     [
+      124.832,
+      7.323
+     ],
+     [
+      7.781,
+      7.323
+     ],
+     [
+      7.781,
+      123.741
+     ],
+     [
+      124.832,
+      123.741
+     ]
+    ]
+   },
+   {
+    "layer": "yol 3d",
+    "area": 0.65,
+    "polygon": [
+     [
+      83.725,
+      54.987
+     ],
+     [
+      83.725,
+      55.187
+     ],
+     [
+      83.775,
+      55.237
+     ],
+     [
+      83.775,
+      54.937
+     ],
+     [
+      83.726,
+      29.535
+     ]
+    ]
+   },
+   {
+    "layer": "bina kilitli parke",
+    "area": 200.83,
+    "polygon": [
+     [
+      83.625,
+      54.936
+     ],
+     [
+      70.149,
+      54.856
+     ],
+     [
+      70.178,
+      49.924
+     ],
+     [
+      78.775,
+      49.924
+     ],
+     [
+      78.775,
+      43.524
+     ],
+     [
+      79.425,
+      43.524
+     ],
+     [
+      79.425,
+      34.974
+     ],
+     [
+      73.275,
+      34.974
+     ],
+     [
+      73.275,
+      34.024
+     ],
+     [
+      70.273,
+      34.024
+     ],
+     [
+      70.298,
+      29.85
+     ],
+     [
+      83.626,
+      29.637
+     ]
+    ]
+   }
+  ]
+ }
+}

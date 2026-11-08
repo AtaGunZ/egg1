@@ -1,0 +1,75 @@
+{
+  "_doc": [
+    "Hand-curated overrides for bimcheck.regulation.extract (documented in rules/AUTHORING.md).",
+    "tables: PDF tables whose cell geometry cannot be recovered reliably from text spans. 'start'/'end' are prefixes",
+    "  of the first/last PDF row of the table zone (zone rows are removed from the paragraph prose and replaced by the",
+    "  curated table). Every number in the curated table is verified against the PDF zone text at extraction time;",
+    "  mismatches are reported in regulation/extract_report.json -> warnings.",
+    "tails: closing sentences that belong to the whole paragraph (e.g. 'az olamaz.') although they follow the items;",
+    "  they are exported in paragraph['tail'] instead of being glued to the last item."
+  ],
+  "tables": [
+    {
+      "id": "9-1-a",
+      "article": 9,
+      "start": "İmar Planına göre",
+      "end": "50.00 < Yol Genişliği",
+      "caption": "Madde 9(1)(a): yol genişliğine göre en çok kat adedi (bodrum hariç). Amendment: last row 18 -> 15.",
+      "header": ["Yol genişliği (m)", "En çok kat adedi (bodrum hariç)"],
+      "rows": [
+        ["Yol Genişliği ≤ 7.00", "2"],
+        ["7.00 < Yol G. ≤ 10.00", "3"],
+        ["10.00 < Yol G. ≤ 12.00", "4"],
+        ["12.00 < Yol G. ≤ 15.00", "5"],
+        ["15.00 < Yol G. ≤ 20.00", "6"],
+        ["20.00 < Yol G. ≤ 25.00", "8"],
+        ["25.00 < Yol G. ≤ 35.00", "10"],
+        ["35.00 < Yol G. ≤ 50.00", "14"],
+        ["50.00 < Yol Genişliği", "15"]
+      ]
+    },
+    {
+      "id": "29-1",
+      "article": 29,
+      "start": "Piyes",
+      "end": "1 tuvalet",
+      "caption": "Madde 29(1): her müstakil konutta en az bulunacak piyesler ve asgari ölçüleri",
+      "header": ["Piyes", "Dar kenarı", "Net alanı"],
+      "rows": [
+        ["1 oturma odası", "3.00 metre", "12.0 m²"],
+        ["1 yatak odası", "2.50 metre", "9.00 m²"],
+        ["1 mutfak veya yemek pişirme yeri", "1.50 metre", "3.30 m²"],
+        ["1 banyo veya yıkanma yeri", "1.50 metre", "3.00 m²"],
+        ["1 tuvalet", "1.00 metre", "1.20 m²"]
+      ]
+    },
+    {
+      "id": "30-12",
+      "article": 30,
+      "start": "En fazla",
+      "end": "100 cm üzeri",
+      "caption": "Madde 30(12): rampa eğimleri (en fazla yüksekliğe göre en fazla eğim)",
+      "header": ["En fazla yükseklik", "En fazla eğim"],
+      "rows": [
+        ["15 cm ve daha az", "1:12 (% 8)"],
+        ["16-50 cm arası", "1:14 (% 7)"],
+        ["51-100 cm arası", "1:16 (% 6)"],
+        ["100 cm üzeri", "1:20 (% 5)"]
+      ]
+    }
+  ],
+  "tails": [
+    {"article": 4, "paragraph": "1", "startswith": "ifade eder."},
+    {"article": 7, "paragraph": "6", "startswith": "ifraz edilebilir."},
+    {"article": 12, "paragraph": "4", "startswith": "yapılabilir."},
+    {"article": 22, "paragraph": "1", "startswith": "katlar alanına dâhil edilmez."},
+    {"article": 26, "paragraph": "1", "startswith": "yükümlüdür."},
+    {"article": 27, "paragraph": "1", "startswith": "asgari ölçülerde yapılır."},
+    {"article": 32, "paragraph": "2", "startswith": "az olamaz."},
+    {"article": 36, "paragraph": "1", "startswith": "az olmamak üzere"},
+    {"article": 39, "paragraph": "1", "startswith": "az olamaz. Balkon ve tuvalet kapıları"},
+    {"article": 47, "paragraph": "1", "startswith": "gereklidir."},
+    {"article": 50, "paragraph": "1", "startswith": "tasarlanarak inşa edilmek"},
+    {"article": 54, "paragraph": "1", "startswith": "uygulanır."}
+  ]
+}

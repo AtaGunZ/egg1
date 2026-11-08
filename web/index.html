@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BIMCheck</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%234aa3ff'/%3E%3Cpath d='M8 17l5 5 11-12' stroke='%23fff' stroke-width='3.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+</head>
+<body>
+<div id="progressbar" hidden><div></div></div>
+
+<header id="topbar">
+  <a class="brand" href="#/" title="All projects"><svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#4aa3ff"/><path d="M8 17l5 5 11-12" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>BIMCheck</span></a>
+  <div class="proj" id="projectBox" hidden>
+    <span class="sep">/</span>
+    <button id="projectName" class="linkish" title="Click to rename project"></button>
+    <span id="fileTags" class="filetags"></span>
+  </div>
+  <div class="spacer"></div>
+  <div id="topActions" hidden>
+    <label class="btn" title="Upload an IFC model (re-upload to see the live re-check)">
+      <svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z M12 12l8-4.5 M12 12v9 M12 12L4 7.5"/></svg> IFC model<input type="file" id="fileModel" accept=".ifc" hidden></label>
+    <label class="btn" title="Upload a DWG or DXF drawing (parcel, plans)">
+      <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z M4 10h16 M10 4v16"/></svg> DWG / DXF<input type="file" id="fileDrawing" accept=".dwg,.dxf" hidden></label>
+    <div class="menu">
+      <button class="btn" id="btnReport" aria-haspopup="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z M14 3v5h5 M9 13h7 M9 17h7"/></svg> Report ▾</button>
+      <div class="menu-pop" id="reportMenu" hidden>
+        <a data-fmt="html" target="_blank">HTML (printable)</a>
+        <a data-fmt="csv">CSV</a>
+        <a data-fmt="json">JSON</a>
+        <a data-fmt="bcf">BCF 2.1 (issues + viewpoints)</a>
+      </div>
+    </div>
+    <button class="btn" id="btnSettings" title="Project context and rule thresholds (S)"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3 M12 19v3 M2 12h3 M19 12h3 M4.9 4.9l2.1 2.1 M17 17l2.1 2.1 M4.9 19.1L7 17 M17 7l2.1-2.1"/></svg> Settings</button>
+    <button class="btn icon" id="btnHelp" title="Keyboard shortcuts (?)">?</button>
+  </div>
+  <div class="status" id="statusBox" title="Live connection">
+    <span class="dot" id="statusDot"></span><span id="statusText">offline</span>
+  </div>
+</header>
+
+<!-- HOME / EMPTY STATE -->
+<section id="home" hidden>
+  <div class="home-inner">
+    <h1>Regulation check for BIM models</h1>
+    <p class="lead">Drop an IFC model (Revit / ArchiCAD) and optionally a DWG drawing. BIMCheck measures the model, checks it against the Kayseri zoning regulation and lets you review each finding in 3D.</p>
+    <div class="cards">
+      <div class="card" id="dropCard">
+        <h3>Start a project</h3>
+        <p class="muted">Drag &amp; drop <b>.ifc</b>, <b>.dwg</b> or <b>.dxf</b> files anywhere, or</p>
+        <div class="row">
+          <label class="btn primary">Choose IFC model<input type="file" id="homeModel" accept=".ifc" hidden></label>
+          <label class="btn">Choose DWG / DXF<input type="file" id="homeDrawing" accept=".dwg,.dxf" hidden></label>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Samples</h3>
+        <p class="muted">Ready-made projects from the repository (<code>samples/</code>).</p>
+        <div class="col" id="sampleButtons"></div>
+      </div>
+    </div>
+    <h2>Recent projects</h2>
+    <div id="projectList" class="plist"><span class="muted">none yet</span></div>
+  </div>
+</section>
+
+<!-- WORKSPACE -->
+<main id="layout" hidden>
+  <section id="stage">
+    <div id="stage-tabs" role="tablist">
+      <button role="tab" id="tab3d" class="tab active" aria-selected="true">3D model</button>
+      <button role="tab" id="tab2d" class="tab" aria-selected="false">Drawing (2D)</button>
+      <div class="spacer"></div>
+      <span class="hint" id="stageHint"></span>
+    </div>
+    <div id="view3d" class="view">
+      <canvas id="gl" tabindex="0" aria-label="3D view"></canvas>
+      <div id="labels"></div>
+
+      <div id="tools" class="panel floating">
+        <div class="panel-head"><b>View</b><button class="linkish" id="toolsCollapse" title="Collapse">–</button></div>
+        <div class="panel-body" id="toolsBody">
+          <details open><summary>Storeys</summary>
+            <div class="seg" id="storeyMode" role="group" aria-label="Storey isolation mode">
+              <button data-m="single" class="on" title="Show only the chosen storey">Only</button>
+              <button data-m="below" title="Chosen storey and everything below">Up to</button>
+              <button data-m="above" title="Chosen storey and everything above">From</button>
+            </div>
+            <div id="storeyList" class="chips"></div>
+          </details>
+          <details open><summary>Section cut</summary>
+            <label class="check"><input type="checkbox" id="secOn"> Horizontal cut</label>
+            <input type="range" id="secSlider" min="0" max="1" step="0.01" value="1" disabled aria-label="Section height">
+            <div class="row between"><span id="secVal" class="muted">off</span><button class="linkish" id="secPlan" title="Cut 1.2 m above the selected storey (plan view)">plan cut</button></div>
+          </details>
+          <details open><summary>Element classes</summary>
+            <div id="classList" class="classlist"></div>
+          </details>
+          <details open><summary>Display</summary>
+            <label class="check"><input type="checkbox" id="optXray"> Ghost / X-ray everything else</label>
+            <label class="check"><input type="checkbox" id="optEdges" checked> Edge lines</label>
+            <label class="check"><input type="checkbox" id="optGrid" checked> Ground grid</label>
+            <label class="check" title="When a finding is selected, hide ceilings, roof and slabs above the offender"><input type="checkbox" id="optAutoHide" checked> Auto-hide ceilings above finding</label>
+          </details>
+        </div>
+      </div>
+
+      <div id="cubeWrap" aria-label="View cube"><div id="cube"></div></div>
+
+      <div id="vbar" class="toolbar">
+        <button data-act="fit" title="Fit to model / selected finding (F)">Fit</button>
+        <span class="vsep"></span>
+        <button data-view="top">Top</button><button data-view="front">Front</button><button data-view="back">Back</button><button data-view="left">Left</button><button data-view="right">Right</button><button data-view="iso">Iso</button>
+        <span class="vsep"></span>
+        <button data-act="hideSel" title="Hide the picked element(s) (H)">Hide</button>
+        <button data-act="isolateSel" title="Show only the picked element(s) (I)">Isolate</button>
+        <button data-act="showAll" title="Reset visibility, storeys, section (R)">Show all</button>
+      </div>
+
+      <div id="popover" class="panel popover" hidden></div>
+      <div id="overlay" class="overlay" hidden><div class="overlay-card"><div class="spinner"></div><div id="overlayMsg">Working…</div><div class="bar" id="overlayBar" hidden><div></div></div><div class="muted small" id="overlaySub"></div></div></div>
+      <div id="emptyView" class="overlay empty" hidden>
+        <div class="overlay-card">
+          <h3>No 3D model yet</h3>
+          <p class="muted">Upload an IFC model to see the building here.<br>Drag &amp; drop works too.</p>
+          <div class="row center"><label class="btn primary">Upload IFC<input type="file" id="emptyModel" accept=".ifc" hidden></label></div>
+          <div class="col" id="emptySamples"></div>
+        </div>
+      </div>
+    </div>
+    <div id="view2d" class="view" hidden></div>
+  </section>
+
+  <div id="vsplit" class="splitter v" title="Drag to resize"></div>
+
+  <aside id="side">
+    <div id="findingsPane">
+      <div class="pane-head">
+        <div class="counts" id="counts"></div>
+        <div class="row">
+          <button class="btn small" id="btnNextUndecided" title="Next undecided review (U)">Next undecided ▸</button>
+          <button class="btn small icon" id="btnRecheck" title="Run all checks again">⟳</button>
+        </div>
+      </div>
+      <div class="filters" id="filters">
+        <input type="search" id="fSearch" placeholder="Search findings…" aria-label="Search findings">
+        <div class="row wrap">
+          <label class="fchip v"><input type="checkbox" id="fViolation" checked><span>Violations</span></label>
+          <label class="fchip r"><input type="checkbox" id="fReview" checked><span>Review</span></label>
+          <label class="fchip p"><input type="checkbox" id="fPass"><span>Pass</span></label>
+          <select id="fDecided" aria-label="Decision filter"><option value="">any decision</option><option value="undecided">undecided</option><option value="decided">decided</option></select>
+        </div>
+        <div class="row">
+          <select id="fCategory" aria-label="Category"><option value="">all categories</option></select>
+          <select id="fArticle" aria-label="Article"><option value="">all articles</option></select>
+          <select id="fStorey" aria-label="Storey"><option value="">all storeys</option></select>
+        </div>
+      </div>
+      <ul id="findingList" class="flist" role="listbox" aria-label="Findings"></ul>
+    </div>
+    <div id="hsplit" class="splitter h" title="Drag to resize"></div>
+    <div id="reviewPane"><div class="muted pad" id="reviewEmpty">Select a finding to review it. Use <kbd>↑</kbd><kbd>↓</kbd> to move, <kbd>A</kbd> accept, <kbd>W</kbd> waive, <kbd>C</kbd> compliant, <kbd>N</kbd> needs info.</div></div>
+  </aside>
+</main>
+
+<!-- SETTINGS DRAWER -->
+<div id="drawerBack" hidden></div>
+<aside id="drawer" hidden aria-label="Project settings">
+  <div class="drawer-head"><b>Project settings</b><span class="spacer"></span><button class="btn small" id="drawerClose">Close ✕</button></div>
+  <div class="drawer-tabs"><button class="tab active" data-tab="ctx">Project context</button><button class="tab" data-tab="rules">Rules &amp; thresholds</button></div>
+  <div id="drawerBody"></div>
+</aside>
+
+<!-- MODAL (article viewer, help) -->
+<div id="modalBack" hidden><div id="modal" role="dialog" aria-modal="true"><div class="modal-head"><b id="modalTitle"></b><span class="spacer"></span><button class="btn small" id="modalClose">Close ✕</button></div><div id="modalBody"></div></div></div>
+
+<div id="toasts" aria-live="polite"></div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

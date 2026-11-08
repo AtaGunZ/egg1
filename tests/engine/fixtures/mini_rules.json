@@ -1,0 +1,517 @@
+{
+ "schema_version": "1",
+ "regulation": {
+  "id": "mini"
+ },
+ "rules": [
+  {
+   "id": "KBB-28-4",
+   "article": 28,
+   "paragraph": "4",
+   "item": null,
+   "title_tr": "Ic yukseklik",
+   "title_en": "Ic yukseklik",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "heights",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "min",
+    "target": {
+     "kind": "space",
+     "usage_in": [
+      "living_room",
+      "bedroom"
+     ],
+     "usage_not_in": null,
+     "where": null
+    },
+    "measure": "height",
+    "op": ">=",
+    "limit": 2.6,
+    "unit": "m",
+    "tolerance": 0.005,
+    "exceptions": [
+     "Hava maniasi olan parsellerde 2.40 m"
+    ]
+   }
+  },
+  {
+   "id": "KBB-29-3",
+   "article": 29,
+   "paragraph": "3",
+   "item": null,
+   "title_tr": "Hol ve koridor",
+   "title_en": "Hol ve koridor",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "rooms",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "min",
+    "target": {
+     "kind": "space",
+     "usage_in": [
+      "corridor",
+      "hall"
+     ]
+    },
+    "measure": "min_width",
+    "limit": 1.2,
+    "unit": "m",
+    "tolerance": 0.005
+   }
+  },
+  {
+   "id": "KBB-28-1",
+   "article": 28,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Kat yuksekligi",
+   "title_en": "Kat yuksekligi",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "heights",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "storey_height_max",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-29-1",
+   "article": 29,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Piyesler",
+   "title_en": "Piyesler",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "rooms",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "room_min_dims_area",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-30-1",
+   "article": 30,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Giris koridoru",
+   "title_en": "Giris koridoru",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "circulation",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "entrance_corridor_width",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-31-1",
+   "article": 31,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Merdiven genisligi",
+   "title_en": "Merdiven genisligi",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "stairs",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "stair_width",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-31-2a",
+   "article": 31,
+   "paragraph": "2",
+   "item": null,
+   "title_tr": "Basamak yuksekligi",
+   "title_en": "Basamak yuksekligi",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "stairs",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "stair_riser_vs_elevator",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-31-2b",
+   "article": 31,
+   "paragraph": "2",
+   "item": null,
+   "title_tr": "Basamak formulu",
+   "title_en": "Basamak formulu",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "stairs",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "stair_tread_formula",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-32-1",
+   "article": 32,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Dis isik",
+   "title_en": "Dis isik",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "rooms",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "living_room_exterior_light",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-34-1",
+   "article": 34,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Asansor",
+   "title_en": "Asansor",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "services",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "elevator_required",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-38-1",
+   "article": 38,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Korkuluk",
+   "title_en": "Korkuluk",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "safety",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "window_sill_guard",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-39-1",
+   "article": 39,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Kapi",
+   "title_en": "Kapi",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "openings",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "door_dimensions",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-23-1",
+   "article": 23,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Bahce mesafeleri",
+   "title_en": "Bahce mesafeleri",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "setbacks",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "parcel_setbacks",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-21-1",
+   "article": 21,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "TAKS/KAKS",
+   "title_en": "TAKS/KAKS",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "zoning",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "taks_kaks",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-25-1",
+   "article": 25,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Kat adedi",
+   "title_en": "Kat adedi",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "zoning",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "max_storeys",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-06-2",
+   "article": 6,
+   "paragraph": "2",
+   "item": null,
+   "title_tr": "Parsel olculeri",
+   "title_en": "Parsel olculeri",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "zoning",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "parcel_dimensions",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-99-1",
+   "article": 99,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Olmayan",
+   "title_en": "Olmayan",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "other",
+   "automation": "auto",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": "does_not_exist",
+    "unit": "m"
+   }
+  },
+  {
+   "id": "KBB-27-1",
+   "article": 27,
+   "paragraph": "1",
+   "item": null,
+   "title_tr": "Manual",
+   "title_en": "Manual",
+   "text_tr": "metin",
+   "page": 1,
+   "category": "other",
+   "automation": "manual",
+   "requires": [
+    "building_model"
+   ],
+   "severity": "error",
+   "applies_when": {
+    "building_use": null,
+    "min_storeys": null,
+    "max_storeys": null,
+    "storey_kind": null
+   },
+   "check": {
+    "type": "custom",
+    "custom_id": null
+   }
+  }
+ ]
+}

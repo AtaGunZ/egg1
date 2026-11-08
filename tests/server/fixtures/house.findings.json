@@ -1,0 +1,345 @@
+{
+ "schema_version": "1",
+ "summary": {
+  "violation": 3,
+  "review": 2,
+  "pass": 1,
+  "not_applicable": 0,
+  "rules_evaluated": 6,
+  "rules_skipped_manual": 30,
+  "errors": []
+ },
+ "findings": [
+  {
+   "id": "KBB-28-4:FIXTURE000000000000022",
+   "rule_id": "KBB-28-4",
+   "article": 28,
+   "paragraph": "4",
+   "title_tr": "Iskan edilen katlarin ic yuksekligi",
+   "title_en": "Clear height of occupied storeys",
+   "category": "heights",
+   "status": "violation",
+   "severity": "error",
+   "message_en": "Bedroom 'Bedroom 1' is 2.45 m high; minimum is 2.60 m",
+   "message_tr": "Bedroom 'Bedroom 1' is 2.45 m high; minimum is 2.60 m",
+   "measured": {
+    "value": 2.45,
+    "unit": "m",
+    "provenance": "geometry"
+   },
+   "required": {
+    "op": ">=",
+    "value": 2.6,
+    "unit": "m"
+   },
+   "review_reason": null,
+   "review_hint": null,
+   "element_guids": [
+    "FIXTURE000000000000022"
+   ],
+   "storey_id": "STOREY0000000000000000",
+   "storey_name": "Ground floor",
+   "highlight": [
+    {
+     "guid": "FIXTURE000000000000022",
+     "role": "offending"
+    },
+    {
+     "guid": "FIXTURE000000000000012",
+     "role": "context"
+    }
+   ],
+   "anchor": [
+    7.9,
+    4,
+    1.2
+   ],
+   "dimensions": [
+    {
+     "p1": [
+      8,
+      4,
+      0
+     ],
+     "p2": [
+      8,
+      4,
+      2.45
+     ],
+     "label": "2.45 m",
+     "kind": "clearance"
+    }
+   ],
+   "regulation_excerpt": "Konut yapilarinda iskan edilen katlarda ic yukseklik en az 2.60 m olmalidir.",
+   "source": "building_model",
+   "view_id": null
+  },
+  {
+   "id": "KBB-31-2:FIXTURE000000000000015",
+   "rule_id": "KBB-31-2",
+   "article": 31,
+   "paragraph": "2",
+   "title_tr": "Kapi genisligi",
+   "title_en": "Entrance door width",
+   "category": "openings",
+   "status": "violation",
+   "severity": "error",
+   "message_en": "Entrance door is 0.90 m wide; minimum is 1.10 m",
+   "message_tr": "Entrance door is 0.90 m wide; minimum is 1.10 m",
+   "measured": {
+    "value": 0.9,
+    "unit": "m",
+    "provenance": "property"
+   },
+   "required": {
+    "op": ">=",
+    "value": 1.1,
+    "unit": "m"
+   },
+   "review_reason": null,
+   "review_hint": null,
+   "element_guids": [
+    "FIXTURE000000000000015"
+   ],
+   "storey_id": "STOREY0000000000000000",
+   "storey_name": "Ground floor",
+   "highlight": [
+    {
+     "guid": "FIXTURE000000000000015",
+     "role": "offending"
+    }
+   ],
+   "anchor": [
+    2.45,
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "p1": [
+      2,
+      -0.1,
+      1.05
+     ],
+     "p2": [
+      2.9,
+      -0.1,
+      1.05
+     ],
+     "label": "0.90 m",
+     "kind": "linear"
+    }
+   ],
+   "regulation_excerpt": "Madde 31 fikra 2: ...",
+   "source": "building_model",
+   "view_id": null
+  },
+  {
+   "id": "KBB-30-1:FIXTURE000000000000021",
+   "rule_id": "KBB-30-1",
+   "article": 30,
+   "paragraph": "1",
+   "title_tr": "Pencere alani",
+   "title_en": "Window area vs floor area",
+   "category": "openings",
+   "status": "review",
+   "severity": "warning",
+   "message_en": "Window area of 'Living room' could not be measured",
+   "message_tr": "Window area of 'Living room' could not be measured",
+   "measured": null,
+   "required": {
+    "op": ">=",
+    "value": 0.125,
+    "unit": "ratio"
+   },
+   "review_reason": "missing_measure",
+   "review_hint": "Check that windows are modelled with quantities",
+   "element_guids": [
+    "FIXTURE000000000000021"
+   ],
+   "storey_id": "STOREY0000000000000000",
+   "storey_name": "Ground floor",
+   "highlight": [
+    {
+     "guid": "FIXTURE000000000000021",
+     "role": "offending"
+    },
+    {
+     "guid": "FIXTURE000000000000016",
+     "role": "context"
+    }
+   ],
+   "anchor": [
+    3,
+    4,
+    1.2
+   ],
+   "dimensions": [],
+   "regulation_excerpt": "Madde 30 fikra 1: ...",
+   "source": "building_model",
+   "view_id": null
+  },
+  {
+   "id": "KBB-45-1:FIXTURE000000000000018",
+   "rule_id": "KBB-45-1",
+   "article": 45,
+   "paragraph": "1",
+   "title_tr": "Balkon cikmasi",
+   "title_en": "Balcony projection",
+   "category": "setbacks",
+   "status": "review",
+   "severity": "warning",
+   "message_en": "Balcony projects 2.00 m; judgement needed on parcel setback",
+   "message_tr": "Balcony projects 2.00 m; judgement needed on parcel setback",
+   "measured": {
+    "value": 2.0,
+    "unit": "m",
+    "provenance": "geometry"
+   },
+   "required": {
+    "op": "<=",
+    "value": 1.5,
+    "unit": "m"
+   },
+   "review_reason": "legal_judgement",
+   "review_hint": "Check plan notes of the parcel",
+   "element_guids": [
+    "FIXTURE000000000000018"
+   ],
+   "storey_id": "STOREY1111111111111111",
+   "storey_name": "First floor",
+   "highlight": [
+    {
+     "guid": "FIXTURE000000000000018",
+     "role": "offending"
+    },
+    {
+     "guid": "FIXTURE000000000000019",
+     "role": "context"
+    }
+   ],
+   "anchor": [
+    7.5,
+    -1,
+    3.5
+   ],
+   "dimensions": [
+    {
+     "p1": [
+      6,
+      0,
+      3.5
+     ],
+     "p2": [
+      6,
+      -2,
+      3.5
+     ],
+     "label": "2.00 m",
+     "kind": "linear"
+    }
+   ],
+   "regulation_excerpt": "Madde 45 fikra 1: ...",
+   "source": "building_model",
+   "view_id": null
+  },
+  {
+   "id": "KBB-28-4:FIXTURE000000000000021",
+   "rule_id": "KBB-28-4",
+   "article": 28,
+   "paragraph": "4",
+   "title_tr": "Iskan edilen katlarin ic yuksekligi",
+   "title_en": "Clear height of occupied storeys",
+   "category": "heights",
+   "status": "pass",
+   "severity": "info",
+   "message_en": "Living room is 2.60 m high",
+   "message_tr": "Living room is 2.60 m high",
+   "measured": {
+    "value": 2.6,
+    "unit": "m",
+    "provenance": "geometry"
+   },
+   "required": {
+    "op": ">=",
+    "value": 2.6,
+    "unit": "m"
+   },
+   "review_reason": null,
+   "review_hint": null,
+   "element_guids": [
+    "FIXTURE000000000000021"
+   ],
+   "storey_id": "STOREY0000000000000000",
+   "storey_name": "Ground floor",
+   "highlight": [
+    {
+     "guid": "FIXTURE000000000000021",
+     "role": "offending"
+    }
+   ],
+   "anchor": [
+    3,
+    4,
+    1.3
+   ],
+   "dimensions": [],
+   "regulation_excerpt": "Madde 28 fikra 4: ...",
+   "source": "building_model",
+   "view_id": null
+  },
+  {
+   "id": "KBB-23-1:parcel",
+   "rule_id": "KBB-23-1",
+   "article": 23,
+   "paragraph": "1",
+   "title_tr": "On bahce mesafesi",
+   "title_en": "Front garden setback",
+   "category": "setbacks",
+   "status": "violation",
+   "severity": "error",
+   "message_en": "Front setback is 4.00 m; minimum is 5.00 m",
+   "message_tr": "Front setback is 4.00 m; minimum is 5.00 m",
+   "measured": {
+    "value": 4.0,
+    "unit": "m",
+    "provenance": "geometry"
+   },
+   "required": {
+    "op": ">=",
+    "value": 5.0,
+    "unit": "m"
+   },
+   "review_reason": null,
+   "review_hint": null,
+   "element_guids": [],
+   "storey_id": null,
+   "storey_name": null,
+   "highlight": [],
+   "anchor": [
+    5,
+    -3,
+    0
+   ],
+   "dimensions": [
+    {
+     "p1": [
+      5,
+      0,
+      0
+     ],
+     "p2": [
+      5,
+      -4,
+      0
+     ],
+     "label": "4.00 m",
+     "kind": "linear"
+    }
+   ],
+   "regulation_excerpt": "Madde 23 fikra 1: ...",
+   "source": "drawing_model",
+   "view_id": "v1"
+  }
+ ]
+}

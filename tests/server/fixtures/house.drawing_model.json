@@ -1,0 +1,174 @@
+{
+ "schema_version": "1",
+ "source": {
+  "kind": "dxf",
+  "file": "plan.dxf",
+  "units": "m",
+  "unit_scale_to_m": 1.0,
+  "unit_source": "header",
+  "entity_count": 10
+ },
+ "layers": [
+  {
+   "name": "duvar",
+   "entity_count": 4,
+   "role": "wall",
+   "role_confidence": 0.9,
+   "role_source": "name"
+  }
+ ],
+ "views": [
+  {
+   "id": "v1",
+   "kind": "floor_plan",
+   "name": "ZEMIN KAT PLANI",
+   "level_hint": 0,
+   "elevation": null,
+   "bbox": [
+    -10,
+    -10,
+    30,
+    30
+   ]
+  }
+ ],
+ "parcel": {
+  "polygon": [
+   [
+    -5,
+    -6
+   ],
+   [
+    15,
+    -6
+   ],
+   [
+    15,
+    14
+   ],
+   [
+    -5,
+    14
+   ]
+  ],
+  "area": 400.0,
+  "layer": "arsa",
+  "view_id": "v1",
+  "source": "polyline"
+ },
+ "footprint": {
+  "polygon": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    8
+   ],
+   [
+    0,
+    8
+   ]
+  ],
+  "area": 80.0,
+  "view_id": "v1",
+  "confidence": 0.8
+ },
+ "rooms": [
+  {
+   "id": "r1",
+   "view_id": "v1",
+   "name": "SALON",
+   "usage": "living_room",
+   "polygon": [
+    [
+     0.25,
+     0.25
+    ],
+    [
+     6,
+     0.25
+    ],
+    [
+     6,
+     7.75
+    ],
+    [
+     0.25,
+     7.75
+    ]
+   ],
+   "area": 43.1,
+   "labelled_area": null,
+   "min_width": 5.75,
+   "label_point": [
+    3,
+    4
+   ],
+   "confidence": 0.8
+  }
+ ],
+ "walls": [
+  {
+   "view_id": "v1",
+   "layer": "duvar",
+   "polyline": [
+    [
+     0,
+     0
+    ],
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     8
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "thickness": 0.25
+  }
+ ],
+ "doors": [
+  {
+   "view_id": "v1",
+   "position": [
+    2.45,
+    0
+   ],
+   "width": 0.9,
+   "height": null,
+   "layer": "kapi"
+  }
+ ],
+ "windows": [
+  {
+   "view_id": "v1",
+   "position": [
+    4.75,
+    0
+   ],
+   "width": 1.5,
+   "height": null,
+   "layer": "pencere"
+  }
+ ],
+ "stairs": [],
+ "dimensions": [],
+ "levels": [],
+ "texts": [],
+ "warnings": []
+}

@@ -1,0 +1,9 @@
+node_modules/
+data/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.claude/
+# municipality-supplied drawings: third-party data, keep out of the repo unless cleared for sharing
+samples/*.dwg

@@ -38,6 +38,43 @@ SAMPLE_LABELS = {
 OPEN = ("violation", "review")
 
 
+
+def _render_pdf_page(pdf: Path, page_no: int, text: str, out: Path, zoom: float = 2.0) -> None:
+    """Render one PDF page to PNG; highlight the block of `text` (start/end snippets located with search_for)."""
+    import pymupdf
+    doc = pymupdf.open(str(pdf))
+    try:
+        if not 1 <= page_no <= len(doc):
+            raise HTTPException(404, f"page {page_no} out of range")
+        pg = doc[page_no - 1]
+        words = (text or "").split()
+        rects = []
+        def find(snippet_words, from_y=None):
+            """First hit of the longest findable snippet (6..3 words) at/after from_y."""
+            for n in (6, 5, 4, 3):
+                if len(snippet_words) >= n:
+                    q = " ".join(snippet_words[:n]) if from_y is None else " ".join(snippet_words[-n:])
+                    found = [r for r in pg.search_for(q) if from_y is None or r.y1 >= from_y]
+                    if found:
+                        return found[0]
+            return None
+
+        head = find(words) if len(words) >= 3 else None
+        if head is not None:
+            tail = find(words, from_y=head.y0) or head
+            rects.append(pymupdf.Rect(pg.rect.x0 + 30, head.y0 - 2, pg.rect.x1 - 30, max(head.y1, tail.y1) + 2))
+        for r in rects:
+            annot = pg.add_rect_annot(r)
+            annot.set_colors(stroke=(1, 0.75, 0), fill=(1, 0.9, 0.2))
+            annot.set_opacity(0.28)
+            annot.set_border(width=1.5)
+            annot.update(opacity=0.28)
+        pix = pg.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), annots=True)
+        pix.save(str(out))
+    finally:
+        doc.close()
+
+
 class NoCacheStatic(StaticFiles):
     async def get_response(self, path, scope):
         resp = await super().get_response(path, scope)
@@ -549,6 +586,33 @@ def create_app(data_dir: str | Path | None = None, backend: Backend | None = Non
     @app.get("/api/regulation/articles")
     async def get_articles():
         return [{"article": a.get("article"), "title": a.get("title"), "page": a.get("page")} for a in backend.articles()]
+
+    @app.get("/api/regulation/pdf")
+    async def get_regulation_pdf():
+        pdf = REPO_ROOT / "regulation" / "kayseri-imar-yonetmeligi-2022-lejantli.pdf"
+        if not pdf.exists():
+            raise HTTPException(404, "regulation PDF not found")
+        return FileResponse(pdf, media_type="application/pdf", headers={"Content-Disposition": 'inline; filename="regulation.pdf"'})
+
+    @app.get("/api/regulation/page/{page}.png")
+    async def get_regulation_page(page: int, rule: str | None = None):
+        """The real PDF page rendered as an image, with the text of `rule` highlighted (screenshot of the source)."""
+        pdf = REPO_ROOT / "regulation" / "kayseri-imar-yonetmeligi-2022-lejantli.pdf"
+        if not pdf.exists():
+            raise HTTPException(404, "regulation PDF not found")
+        key = re.sub(r"[^A-Za-z0-9_.-]", "_", rule or "plain")
+        cache = REPO_ROOT / "data" / "cache" / "regpages"
+        out = cache / f"p{page}-{key}-v2.png"
+        if not out.exists():
+            text = ""
+            if rule:
+                for r in backend.rules().get("rules", []):
+                    if r.get("id") == rule:
+                        text = r.get("text_tr") or ""
+                        break
+            cache.mkdir(parents=True, exist_ok=True)
+            await asyncio.get_running_loop().run_in_executor(None, _render_pdf_page, pdf, page, text, out)
+        return FileResponse(out, media_type="image/png")
 
     @app.get("/api/regulation/articles/{n}")
     async def get_article(n: int):

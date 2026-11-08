@@ -99,7 +99,7 @@ function ensureUI() {
   viewer.onChange = kind => { if (kind === 'appearance') tools.sync(); if (kind === 'appearance' || kind === 'section') updateHint(); };
   viewer.onPick = onPick;
   review = new Review({
-    onSelect: onSelectFinding, saveDecision, openArticle, recheck: () => runRecheck(),
+    onSelect: onSelectFinding, saveDecision, openArticle, openRule, recheck: () => runRecheck(),
     elementInfo: guid => { const e = viewer.element(guid); return e ? { name: e.name || e.ifc_class, kind: e.kind } : (viewer.record(guid) ? { name: viewer.record(guid).name, kind: viewer.record(guid).kind } : null); },
     flyToElement: guid => { setTab('3d'); viewer.flyToGuids([guid]); },
     showDrawing: f => { setTab('2d'); drawing.show(f); },
@@ -373,6 +373,63 @@ async function openArticle(n, para) {
     openModal(`${a.label || 'Article ' + n} — ${a.title || ''}${a.page ? ` (p. ${a.page})` : ''}`, nodes.filter(Boolean));
     $('#modalBody .para.hit')?.scrollIntoView({ block: 'center' });
   } catch (e) { openModal(`Article ${n}`, el('div.hintbox', { text: 'Article text not available: ' + e.message })); }
+}
+
+// "Show relevant rule": the rule that produced a finding (limit, applicability, exceptions) + the full article with the paragraph highlighted
+let rulesCache = null;
+const AUTOMATION = { auto: 'Checked automatically', semi: 'Pre-screened by the tool, a human confirms edge cases', manual: 'Needs a human (not provable from a model)' };
+async function openRule(f) {
+  openModal(`${f.rule_id}`, el('div.muted', { text: 'Loading…' }));
+  let rule = null, art = null;
+  try {
+    rulesCache = rulesCache || await api.rules();
+    rule = (rulesCache.rules || []).find(r => r.id === f.rule_id) || null;
+  } catch (e) { /* the article below may still load */ }
+  try { art = await api.article(f.article); } catch (e) { /* ignore */ }
+  const nodes = [];
+  if (rule) {
+    const c = rule.check || {};
+    const limit = c.limit != null ? `${c.op || ''} ${c.limit}${c.limit_max != null ? ' … ' + c.limit_max : ''} ${c.unit || ''}`.trim() : null;
+    nodes.push(el('div.rulecard', {},
+      el('div.chips-row', {}, el('span.tag', { text: rule.id }), el('span.tag', { text: rule.category || '' }), el('span.tag', { text: 'severity: ' + (rule.severity || '–') }),
+        el('span.badge.' + (rule.automation === 'manual' ? 'review' : 'pass'), { text: rule.automation })),
+      el('h3', { text: rule.title_en || rule.title_tr }),
+      rule.title_tr && rule.title_tr !== rule.title_en ? el('div.muted.small', { text: rule.title_tr }) : null,
+      el('table.ruletbl', {}, ...[
+        ['How it is checked', AUTOMATION[rule.automation] || rule.automation],
+        ['Requirement', limit ? `${c.measure || ''} ${limit}` : (c.type === 'custom' ? 'Custom check: ' + (c.custom_id || '') : (c.type || '–'))],
+        ['Applies to', c.target ? [c.target.kind, c.target.usage_in ? '(' + c.target.usage_in.join(', ') + ')' : ''].join(' ') : '–'],
+        ['Needs', (rule.requires || []).join(', ') || '–'],
+        rule.revision ? ['Amended in 2022', rule.revision.note || rule.revision.status] : null,
+      ].filter(Boolean).map(([k, v]) => el('tr', {}, el('th', { text: k }), el('td', { text: v })))),
+      (c.exceptions || []).length ? el('div.hintbox', {}, el('b', { text: 'Exceptions: ' }), el('ul', {}, ...c.exceptions.map(x => el('li', { text: x })))) : null,
+      rule.notes ? el('div.muted.small', { text: rule.notes }) : null,
+      el('h4', { text: 'Text of this rule (current, amendments applied)' }),
+      el('blockquote.ruletext', { text: rule.text_tr || '' }),
+    ));
+  } else nodes.push(el('div.hintbox', { text: `Rule ${f.rule_id} is not in the catalogue.` }));
+  const page = (rule && rule.page) || (art && art.page);
+  if (page) {
+    const src = `/api/regulation/page/${page}.png?rule=${encodeURIComponent(f.rule_id)}`;
+    nodes.push(el('h4', { text: `Original regulation, page ${page} (the rule is highlighted)` }));
+    nodes.push(el('div.row', { style: { margin: '4px 0 8px' } },
+      el('a.btn.small', { href: `/api/regulation/pdf#page=${page}`, target: '_blank', rel: 'noopener', text: 'Open the PDF at this page ↗' }),
+      el('a.btn.small', { href: src, target: '_blank', rel: 'noopener', text: 'Open page image ↗' })));
+    nodes.push(el('div.pdfpage', {}, el('img', { src, alt: `Regulation page ${page}`, loading: 'lazy' })));
+    nodes.push(el('div.muted.small', { text: 'Red text = added by the 2022 amendment, grey strike-through = deleted. The tool uses the current (red + black) text.' }));
+  }
+  if (art) {
+    const det = el('details.excerpt', {}, el('summary', { text: `Whole article as text: ${art.label || 'MADDE ' + f.article} ${art.title || ''}` }));
+    for (const p of art.paragraphs || []) {
+      const hit = String(p.no) === String(f.paragraph);
+      det.append(el('div.para' + (hit ? '.hit' : ''), {},
+        el('b', { text: p.no ? `(${p.no}) ` : '' }), p.text || '',
+        p.items?.length ? el('ul', {}, ...p.items.map(it => el('li', {}, el('b', { text: `${it.key}) ` }), it.text))) : null,
+        p.tail ? el('div', { text: p.tail }) : null));
+    }
+    nodes.push(det);
+  }
+  openModal(`${f.rule_id}: Madde ${f.article}${f.paragraph ? '(' + f.paragraph + ')' : ''}`, nodes);
 }
 
 function showHelp() {

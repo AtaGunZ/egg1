@@ -185,7 +185,8 @@ export class Review {
       el('div', {}, el('h2', { text: f.title_en || f.title_tr || f.rule_id }), f.title_tr && f.title_tr !== f.title_en ? el('div.tr', { text: f.title_tr }) : null),
       el('div.chips-row', {},
         el('span.badge.' + f.status, { text: f.status }),
-        el('button.artchip', { title: 'Open the regulation article', on: { click: () => this.d.openArticle?.(f.article, f.paragraph) }, text: `${art} · ${f.rule_id}` }),
+        el('button.rulebtn', { title: 'Show the rule, its limit, exceptions and the full article text', on: { click: () => (this.d.openRule || this.d.openArticle)?.(f) }, text: `📖 Show relevant rule · ${art}` }),
+        el('span.tag', { text: f.rule_id }),
         f.category ? el('span.tag', { text: f.category }) : null, f.severity ? el('span.tag', { text: f.severity }) : null,
         f.storey_name ? el('span.tag', { text: f.storey_name }) : null, el('span.tag', { text: (f.source || '').replace('_', ' ') })),
       el('div.msg', { text: f.message_en || f.message_tr || '' }),
@@ -194,7 +195,7 @@ export class Review {
         el('div', {}, el('div.k', { text: 'Measured' }), el('div.v.' + (mv ? cls : 'na'), {}, mv || 'not available', m && m.provenance ? el('span.prov.' + m.provenance, { text: m.provenance, title: `Value taken from: ${m.provenance}` }) : null)),
         el('div', {}, el('div.k', { text: 'Required' }), el('div.v', {}, rv || '–'))),
       (f.review_reason || f.review_hint) ? el('div.hintbox', {}, el('b', { text: 'Needs a human: ' }), REASONS[f.review_reason] || f.review_reason || '', f.review_hint ? el('div', { text: f.review_hint, style: { marginTop: '4px' } }) : null) : null,
-      excerpt ? el('details.excerpt', {}, el('summary', { text: `Regulation text — ${art}` }), el('p', { text: excerpt }), el('button.btn.small', { text: 'Open article ↗', on: { click: () => this.d.openArticle?.(f.article, f.paragraph) } })) : null,
+      excerpt ? el('details.excerpt', {}, el('summary', { text: `Regulation text — ${art}` }), el('p', { text: excerpt }), el('button.btn.small', { text: 'Open full rule ↗', on: { click: () => this.d.openRule?.(f) } })) : null,
       hl.length ? el('div', {}, el('h4', { text: `Elements (${hl.length})` }), el('div.els', {}, ...hl.slice(0, 40).map(h => {
         const info = this.d.elementInfo?.(h.guid) || {};
         return el('button.el', { title: h.guid, on: { click: () => this.d.flyToElement?.(h.guid) } }, el('span.role.' + h.role), el('span.nm', { text: info.name || h.guid }), el('small', { text: info.kind || '' }));
